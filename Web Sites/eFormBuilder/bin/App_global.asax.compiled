@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="8" virtualPath="/eFormBuilder/global.asax" hash="4a92739e" filehash="32279f6a6a2a" flags="150000" assembly="App_global.asax" type="ASP.global_asax">
+    <filedeps>
+        <filedep name="/eFormBuilder/global.asax" />
+    </filedeps>
+</preserve>

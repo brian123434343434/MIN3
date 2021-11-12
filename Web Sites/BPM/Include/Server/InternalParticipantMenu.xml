@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu >
+	<menuItem text="Cambiar Contraseña" id="1"  toolTip="Cambiar Contraseña" url="../Common/ChangePassword.aspx" target="" imageUrl="" separatorImage="~/Images/Template/menuSeparator.gif" selectable="false" enabled="true"/>
+	<menuItem text="Salir del sistema" id="2"  toolTip="Salir del sistema" url="../Errors/Logout.aspx" target="" imageUrl="" separatorImage="~/Images/Template/menuSeparator.gif" selectable="false" enabled="true"/>
+</menu>

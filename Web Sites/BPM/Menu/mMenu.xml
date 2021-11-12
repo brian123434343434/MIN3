@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<menu >
+  <MenuItem ValueField="Inicio" TextField="Inicio" NavigateUrlField="http://172.17.0.160/xcars/SILPA/TestSilpa/security/login.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+  <MenuItem TextField="Salir" ValueField="Salir" NavigateUrlField="~/Errors/logout.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+</menu>

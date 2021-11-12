@@ -1,0 +1,2 @@
+<asp:HyperLink SkinID="HyperLinkVisited" runat="server" CssClass="csshyperlinkVisited" ToolTip="Ver Solicitud" Target="_blank" />
+<asp:HyperLink  runat="server" CssClass="cssHyperLink"/>

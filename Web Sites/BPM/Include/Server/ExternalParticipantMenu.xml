@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu >
+	<menuItem text="Administracion" id="1"  toolTip="Teléfonos" url="default.aspx" target="" imageUrl="" separatorImage="~/Images/Template/menuSeparator.gif" selectable="false" enabled="true">
+		<menuItem text="Grupos de Usuarios" id="2"  toolTip="Nokia" url="~/Category.aspx?id=2" target="" imageUrl="" separatorImage="" selectable="true" enabled="true"/>
+		<menuItem text="SonyEricsson" id="3"  toolTip="SonyEricsson" url="~/Category.aspx?id=3" target="" imageUrl="" separatorImage="" selectable="true" enabled="true"/>
+	</menuItem>
+	<menuItem text="Accesorios" id="10"  toolTip="Accesorios" url="default.aspx" target="" imageUrl=""  separatorImage="" selectable="true" enabled="true">
+		<menuItem text="SonyEricsson" id="3"  toolTip="SonyEricsson" url="~/Category.aspx?id=18" target="" imageUrl="" separatorImage="" selectable="true" enabled="true"/>
+		<menuItem text="Nokia" id="2"  toolTip="Nokia" url="~/Category.aspx?id=8" target="" imageUrl="" separatorImage="" selectable="true" enabled="true"/>
+	</menuItem>
+</menu>

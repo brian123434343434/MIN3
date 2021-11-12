@@ -1,0 +1,96 @@
+<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="WorkFlowAdmin.master.vb" 
+    Inherits="BPMWebSite.WorkFlowAdmin" %>
+
+<%@ Register Assembly="AjaxControls" Namespace="AjaxControls" TagPrefix="cc1" %>
+<%@ Register src="../UserControls/User.ascx" tagname="User" tagprefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>WorkFlow V8 - Tareas</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta name="keywords" content="Keywords here" />
+    <meta name="Author" content="Alejandro Chaparro M." />
+    <meta name="robots" content="index, follow, All" />
+    <meta name="revisit-after" content="30 days" />
+    <meta name="distribution" content="global" />
+    <meta name="rating" content="general" />
+    <meta name="Content-Language" content="english" />
+    <link href="../StyleSheets/stylos.css" type="text/css" rel="Stylesheet" />
+    <!--[if lte IE 7]> 
+<link href="StyleSheets/ie.css" rel="stylesheet" type="text/css"/>
+<![endif]-->
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server" EnableScriptGlobalization="true" EnableScriptLocalization="true">
+    </asp:ScriptManager>
+    <cc1:ModalUpdateProgress ID="ModalUpdateProgress1" runat="server" BackgroundCssClass="modalProgressGreyBackground">
+        <progresstemplate>
+            <div class="modalPopup">
+                <asp:Image ID="ProgressIndicator" SkinID="ProgressIndicator" runat="server" />
+                <br />
+                <br />
+                Cargando sus datos. Un momento por favor.
+            </div>
+        </progresstemplate>
+    </cc1:ModalUpdateProgress>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td class="cssBkgWorkItem">
+                <div style="position: absolute; z-index: 90; top: 36px; display: none; left: -500px;"
+                    id="preview_div">
+                </div>
+                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="cssHeaderBg">
+                    <tr>
+                        <td style="width: 261px">
+                            <a href="#">
+                                <asp:Image ID="Image1" runat="Server" SkinID="headerLeft" /></a>
+                        </td>
+                        <td>
+                            &nbsp;
+                        </td>
+                        <td align="right">
+                            <asp:Image ID="Image2" runat="Server" SkinID="headerRight" />
+                        </td>
+                    </tr>
+                </table>
+                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="cssBgMenu">
+                    <tr>                         
+                        <td>
+                            <a href="#"><asp:Image ID="headerLeftFB" runat="Server" SkinID="headerLeftFB" /></a>
+                        </td>
+                        <td align="right" class="cssHeaderRight">
+                            <uc1:User ID="User1" runat="server" />
+                        </td>
+                    </tr>
+                    <tr>               
+                        <td class="cssBgMenuTop">
+                            <asp:Menu ID="mnWorKFlowAdmin" runat="server" DataSourceID="WorkFlowMenuData" DynamicHorizontalOffset="2"
+                                 Orientation="Horizontal"
+                                StaticSubMenuIndent="10px">
+                                <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                                <DynamicHoverStyle CssClass="DynamicHoverStyle" />
+                                <DynamicMenuStyle CssClass="DynamicMenuItemStyle" />
+                                <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                                <DataBindings>
+                                    <asp:MenuItemBinding DataMember="MenuItem" EnabledField="EnabledField" NavigateUrlField="NavigateUrlField"
+                                        TextField="TextField" ToolTipField="ToolTipField" ValueField="ValueField" />
+                                </DataBindings>
+                                <StaticHoverStyle CssClass="StaticHoverStyle" />
+                            </asp:Menu>
+                        </td>
+                    </tr>
+                </table>
+                <div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        &nbsp;</asp:ContentPlaceHolder>
+                    <asp:XmlDataSource ID="WorkFlowMenuData" runat="server" DataFile="~/Include/Server/AdministratorMenu.xml"
+                        XPath="/*/*"></asp:XmlDataSource>
+                </div>
+            </td>
+        </tr>
+        
+    </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,72 @@
+﻿.opcionDeMenu
+{
+    background-image:url(/vital/img/bot_menu.jpg);
+    background-repeat:no-repeat;
+    background-position-y:center;
+    background-position-x:left;
+    width:500px;
+    height:55px;
+    float:left;
+}
+
+.opcionDeMenu.inactiva
+{
+    background-image:url(/vital/img/bot_menu_inactivo.jpg);
+    background-repeat:no-repeat;
+    background-position-y:center;
+    background-position-x:left;
+    width:500px;
+    height:55px;
+    float:left;
+}
+
+.contenidoOpcion
+{
+    padding:10px;    
+    margin: 10px 15px 15px 40px;
+}
+
+
+
+.contenidoOpcion a 
+{
+    text-decoration: none;
+    font-size: 16px;
+    color:#444444;
+}
+
+.contenidoOpcion a:hover
+{
+    text-decoration: none;
+    font-size: 16px;
+    color: #000000;
+}
+
+
+.inactiva a 
+{
+    text-decoration: none;
+    font-size: 16px;
+    color:#DDDDDD;
+}
+
+.inactiva a:hover
+{
+    text-decoration: none;
+    font-size: 16px;
+    color:#DDDDDD;
+}
+
+
+.cssBkgWorkItem
+{
+    float:left;
+    width:1000px;
+    display:block;
+    border:none !important;
+}
+
+.cssTitleCategory
+{
+    background-position-x: center !important;
+}

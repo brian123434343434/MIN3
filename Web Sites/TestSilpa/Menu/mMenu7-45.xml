@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="yes"?>
+<menu>
+  <MenuItem ValueField="" TextField="Inicio" NavigateUrlField="http://licencias.anla.gov.co/xcars/silpa/TestSilpa/security/Default.aspx" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="" />
+  <MenuItem ValueField="" TextField="Mis Tareas" NavigateUrlField="http://licencias.anla.gov.co/xcars/silpa/TestSilpa/security/goto.aspx?app=NuevoBPM&amp;op=TL&amp;IdRelated=7" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="" />
+  <MenuItem ValueField="ModoFuncionario" TextField="Iniciar Modo Funcionario" NavigateUrlField="http://licencias.anla.gov.co/xcars/silpa_UT_PRE/Impersonalizacion/RealizarBusqueda.aspx" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="" />
+  <MenuItem ValueField="" TextField="Salir" NavigateUrlField="http://licencias.anla.gov.co/xcars/silpa_UT_PRE/Salir.aspx" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="" />
+</menu>

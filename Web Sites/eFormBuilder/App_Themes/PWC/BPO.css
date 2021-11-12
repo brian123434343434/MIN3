@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+input {
+font:11px Arial, Helvetica, sans-serif;
+color:#666666;
+}
+select {
+font:11px Arial, Helvetica, sans-serif;
+color:#666666;
+}
+body {
+margin:0px;
+background:#FFFFFF;
+}
+.cssTopBkg {
+background:url(Images/Template/t_mid.jpg) repeat-x;
+height:52px;
+}
+.cssLeftColumn {
+background:url(Images/Template/colum_left.jpg) repeat-y right #DDDDDD;
+}
+.cssFootBkg {
+background:url(Images/Template/footer_bg.jpg) repeat-x;
+}
+.cssFootText {
+font:11px Verdana, Arial, Helvetica, sans-serif;
+color:#999999;
+text-align:right;
+padding-right:10px;
+}
+.cssTopLeftBkg {
+background:url(Images/Template/topLeftBkg.jpg) repeat-x;
+}
+.cssTopMidBkg {
+background:url(Images/Template/topMidBkg.jpg) repeat-x;
+padding:15px 15px 15px 15px;
+}
+.cssLeftSpace {
+padding-left:40px;
+}
+.cssSeparador {
+border-bottom:1px dotted ##B5B5B5;
+}
+.cssTextInput {
+font:12px Arial, Helvetica, sans-serif;
+color:#333333;
+padding-bottom:10px;
+}
+.cssBarraImg {
+background:url(Images/Template/mbkgImg.jpg) repeat-x;
+}
+.imgFondo {
+background:#CCC;
+padding:5px;
+}
+.cssBkgGrid {
+background:#FFFFFF;
+border:5px solid #CCCCCC;
+padding:10px;
+}
+.cssBkgGrid2 {
+	background:#FFFFFF;
+	border-top-width: 5px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCCCCC;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+}
+.cssTitleGrilla {
+font:15px Arial, Helvetica, sans-serif;
+font-weight:bold;
+color:#000000;
+background:#CCCCCC;
+padding:3px;
+}
+.cssAlternateRowItem{
+background:#E9E9E9;
+font:12px Arial, Helvetica, sans-serif;
+color:#333333;
+padding:3px;
+}
+.cssRowItem{
+font:12px Arial, Helvetica, sans-serif;
+color:#333333;
+padding:3px;
+}
+
+

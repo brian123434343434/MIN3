@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <response>
+	<operationResult>True</operationResult>
+	<operationType>
+		<code>1</code>
+		<name>UserLogin</name>
+	</operationType>
+	<operationResponse>
+		<UserInfo>
+			<Id>1</Id>
+			<Code>administrator</Code>
+			<Name>Administrador MAVDT</Name>
+			<DaysToExpiration>9944</DaysToExpiration>
+			<Identification>123456789</Identification>
+			<LastLogin>13/01/2010 07:42:32 a.m.</LastLogin>
+			<PositionName>ADMIN</PositionName>
+			<eMail>dbabativa@softmanagement.com.co</eMail>
+			<Password>admingtk</Password>
+			<Enabled>T</Enabled>
+		</UserInfo>
+		<UserGroups>
+			<Group Id="1" Code="ADMIN">
+				<Id>1</Id>
+				<Code>ADMIN</Code>
+				<Name>Administradores Generales</Name>
+			</Group>
+			<Group Id="2" Code="URegister">
+				<Id>2</Id>
+				<Code>URegister</Code>
+				<Name>Usuarios Registrados</Name>
+			</Group>
+			<Group Id="3" Code="EContenido">
+				<Id>3</Id>
+				<Code>EContenido</Code>
+				<Name>Editores de Contenido</Name>
+			</Group>
+			<Group Id="4" Code="UProcesosI">
+				<Id>4</Id>
+				<Code>UProcesosI</Code>
+				<Name>Usuarios de Procesos Internos</Name>
+			</Group>
+			<Group Id="5" Code="UNetwork">
+				<Id>5</Id>
+				<Code>UNetwork</Code>
+				<Name>Usuarios del Dominio</Name>
+			</Group>
+			<Group Id="7" Code="UStartProcess">
+				<Id>7</Id>
+				<Code>UStartProcess</Code>
+				<Name>Grupo de Procesos Internos</Name>
+			</Group>
+		</UserGroups>
+		<UserCompanies>
+			<Company Id="2" Code="">
+				<Id>2</Id>
+				<Code></Code>
+				<Name>Empresa</Name>
+			</Company>
+		</UserCompanies>
+		<UserModules>
+			<Module Id="1" Code="ESECURITY">
+				<Id>1</Id>
+				<Code>ESECURITY</Code>
+				<Name>Security Manager</Name>
+			</Module>
+			<Module Id="2" Code="ECONTENT">
+				<Id>2</Id>
+				<Code>ECONTENT</Code>
+				<Name>Content Managment</Name>
+			</Module>
+			<Module Id="3" Code="TASKMANAGER">
+				<Id>3</Id>
+				<Code>TASKMANAGER</Code>
+				<Name>Task Manager</Name>
+			</Module>
+			<Module Id="4" Code="EMAIL">
+				<Id>4</Id>
+				<Code>EMAIL</Code>
+				<Name>Mail System</Name>
+			</Module>
+			<Module Id="6" Code="SCHOOLMANAGER">
+				<Id>6</Id>
+				<Code>SCHOOLMANAGER</Code>
+				<Name>SchoolManager</Name>
+			</Module>
+			<Module Id="7" Code="WORKFLOW">
+				<Id>7</Id>
+				<Code>WORKFLOW</Code>
+				<Name>WorkFlow</Name>
+			</Module>
+			<Module Id="8" Code="VBFormBuilder">
+				<Id>8</Id>
+				<Code>VBFormBuilder</Code>
+				<Name>FormBuilder</Name>
+			</Module>
+			<Module Id="9" Code="HTMLIndexer">
+				<Id>9</Id>
+				<Code>HTMLIndexer</Code>
+				<Name>Html Indexer</Name>
+			</Module>
+			<Module Id="10" Code="ETRAINING">
+				<Id>10</Id>
+				<Code>ETRAINING</Code>
+				<Name>eTraining</Name>
+			</Module>
+		</UserModules>
+	</operationResponse>
+	<errorMessage>
+		<code></code>
+		<message></message>
+	</errorMessage>
+</response>

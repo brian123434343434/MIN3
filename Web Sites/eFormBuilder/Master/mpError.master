@@ -1,0 +1,97 @@
+<%@ master language="VB" inherits="Master_mpError, App_Web_id3u40ch" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxtoolkit" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Gattaca eFormBuilder - ClientForm</title>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta name="Author" content="Gattaca S.A." />
+    <meta name="robots" content="noindex,nofollow,noarchive,noodp,nosnippet" />
+</head>
+<body id="imgLogo">
+    <form id="frmInternalParticipant" runat="server">
+    <ajaxtoolkit:ToolkitScriptManager ID="smClient" runat="server" EnablePartialRendering="True">
+    </ajaxtoolkit:ToolkitScriptManager>
+    <asp:UpdateProgress ID="upPrincipal" runat="server" DisplayAfter="0">
+        <ProgressTemplate>
+            <div class="modalPopup">
+                <asp:Image ID="ProgressIndicator" SkinID="ProgressIndicator" runat="server" />
+                <br />
+                <br />
+                Cargando sus datos. Un momento por favor.
+            </div>
+        </ProgressTemplate>
+    </asp:UpdateProgress>
+    <table border="0" cellpadding="0" cellspacing="0" style="margin: auto; width: 100%;">
+        <tr>
+            <td>
+                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="cssHeaderBg">
+                    <tr><td>
+                            <a href="#">
+                                <asp:Image ID="headerLeft" runat="Server" SkinID="headerLeft" /></a></td>
+                        <td align="right" class="cssHeaderRight">
+                            Usuario:<asp:Label runat="server" SkinID="Label" ID="lblUserName" /></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="cssBkgPageLeft">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td width="34">
+                            &nbsp;
+                        </td>
+                        <td>
+                            <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+                                <tr>
+                                    <td>
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td class="cssBkgWorkItem">
+                                                    <asp:ContentPlaceHolder ID="cphError" runat="server">
+                                                    </asp:ContentPlaceHolder>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        &nbsp;<asp:XmlDataSource ID="InternalParticipantMenuDataSource" runat="server" DataFile="~/Include/Server/InternalParticipantMenu.xml"
+                                            XPath="/*/*"></asp:XmlDataSource>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td width="10">
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" align="right">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="cssFooterBg">
+                    <tr>
+                        <td class="cssTxtFooter">
+                            Derechos Reservados de Autor / 2000 -
+                            <%=Year(Now)%>
+                        </td>
+                        <td align="right" style="width: 50px;">
+                            <a href="http://www.e-gattaca.com">
+                                <asp:Image ID="Image1" runat="Server" SkinID="footerRight" /></a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <map name="Gattaca" id="Gattaca">
+        <area alt="" shape="rect" coords="4,13,111,43" href="http://www.e-gattaca.com" target="_blank" />
+    </map>
+    </form>
+</body>
+</html>

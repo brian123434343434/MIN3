@@ -1,0 +1,8 @@
+<asp:Button runat="server" CssClass="cssButton" />
+
+<asp:Button SkinID="saveFormButton" Text="Enviar" runat="server" CssClass="cssButton" />
+<asp:Button SkinID="saveAndPrintFormButton" Text="Enviar e imprimir" runat="server" CssClass="cssButton" />
+<asp:Button SkinID="closeFormButton" Text="Cancelar" runat="server" CssClass="cssButton" />
+
+<asp:Button SkinID="saveChildFormButton" Text="Agregar" runat="server" CssClass="cssButton" />
+<asp:Button SkinID="saveAndPrintChildFormButton" Text="Agregar e imprimir" runat="server" CssClass="cssButton" />

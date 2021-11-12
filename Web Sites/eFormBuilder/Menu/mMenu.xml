@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu>
+  <MenuItem ValueField="GATTACA" TextField="GATTACA" NavigateUrlField="" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+  <MenuItem ValueField="Administracion" TextField="Administracion" NavigateUrlField="" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField="">
+    <MenuItem TextField="Parametros de la aplicacion" ValueField="Parametros de la aplicacion" NavigateUrlField="~/Administrator/showAppSettings.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+    <!--<MenuItem TextField="Agregar Instancia Formulario" ValueField="Agregar Instancia Formulario" NavigateUrlField="~/Public/buildFormInstance.aspx?ID=45" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+    <MenuItem TextField="Ver Instancia Formulario" ValueField="Ver Instancia Formulario" NavigateUrlField="~/Public/buildFormInstance.aspx?ID=45" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>-->
+    <MenuItem ValueField="Importar" TextField="Importar" NavigateUrlField="" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField="">
+      <MenuItem TextField="Definicion de Formulario" ValueField="Definicion de Formulario" NavigateUrlField="~/Administrator/addFormXml.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+    </MenuItem>
+    <MenuItem TextField="Configuración de Cache de servidor" ValueField="Configuración de Cache de servidor" NavigateUrlField="~/Administrator/CacheSettings.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+  </MenuItem>
+  <MenuItem ValueField="Manejo de Formularios" TextField="Manejo de Formularios" NavigateUrlField="" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField="">
+    <MenuItem ValueField="Formularios" TextField="Formularios" NavigateUrlField="" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField="">
+      <MenuItem TextField="Nuevo" ValueField="Nuevo" NavigateUrlField="~/Administrator/addForm.aspx?op=add" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+      <MenuItem TextField="Buscar" ValueField="Buscar" NavigateUrlField="~/Administrator/searchForm.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+      <MenuItem TextField="---------------------------" ValueField="---------------------------" NavigateUrlField="~/Administrator/searchForm.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+      <MenuItem TextField="Buscar Instancia Formulario" ValueField="Buscar Instancia Formulario" NavigateUrlField="~/Administrator/searchFormInstance.aspx?idform=45" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+    </MenuItem>
+    <MenuItem ValueField="Capitulos" TextField="Capitulos" NavigateUrlField="" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField="">
+      <MenuItem TextField="Nuevo" ValueField="Nuevo" NavigateUrlField="~/Administrator/addChapter.aspx?op=add" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+      <!--<MenuItem TextField="Eliminar Capitulo" ValueField="Agregar Capitulo" NavigateUrlField="~/Administrator/deleteChapter.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>-->
+      <MenuItem TextField="Buscar" ValueField="Buscar" NavigateUrlField="~/Administrator/searchChapter.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+    </MenuItem>
+    <MenuItem ValueField="Campos" TextField="Campos" NavigateUrlField="" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField="">
+      <MenuItem TextField="Nuevo" ValueField="Nuevo" NavigateUrlField="~/Administrator/AddFields.aspx?op=add" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+      <!--<MenuItem TextField="Asociar Campo a Capitulo" ValueField="Asociar campo a capitulo" NavigateUrlField="~/Administrator/joinFieldToChapter.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>-->
+      <MenuItem TextField="Buscar" ValueField="Buscar" NavigateUrlField="~/Administrator/searchField.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+    </MenuItem>   
+    
+    
+  </MenuItem>
+
+  <MenuItem ValueField="Funciones para Campos" TextField="Funciones para Campos" NavigateUrlField="" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField="">
+    <!-- Relaciones de comparación-->
+    <MenuItem ValueField="Relaciones entre campos" TextField="Relaciones entre campos" NavigateUrlField="" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField="">
+      <MenuItem TextField="Nueva" ValueField="Nueva" NavigateUrlField="~/Administrator/AddFieldRelation.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>      
+      <MenuItem TextField="Buscar" ValueField="Buscar" NavigateUrlField="~/Administrator/searchFieldRelation.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+    </MenuItem>
+    <!-- Relaciones de Datos-->
+    <MenuItem ValueField="Relaciones de Datos" TextField="Relaciones de Datos" NavigateUrlField="" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField="">
+      <MenuItem TextField="Nueva relación con Servicio Web" ValueField="NuevoWS" NavigateUrlField="~/Administrator/addDataRelationWebService.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+      <MenuItem TextField="Nueva relación con Base de datos" ValueField="NuevaBD" NavigateUrlField="~/Administrator/addDataSourceRelationDataBase.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+      <MenuItem TextField="Buscar" ValueField="Buscar" NavigateUrlField="~/Administrator/searchDataSourceRelation.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+    </MenuItem>
+    <!-- Operaciones entre campos-->
+    <MenuItem ValueField="Operaciones" TextField="Operaciones" NavigateUrlField="" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField="">
+      <MenuItem TextField="Nueva" ValueField="Nueva" NavigateUrlField="~/Administrator/addOperation.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+      <MenuItem TextField="Buscar" ValueField="Buscar" NavigateUrlField="~/Administrator/searchOperations.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>    
+    </MenuItem>
+    <!-- Reglas-->
+    <MenuItem ValueField="Reglas" TextField="Reglas" NavigateUrlField="" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField="">
+      <MenuItem TextField="Nueva" ValueField="Nueva" NavigateUrlField="~/Administrator/addRule.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+      <MenuItem TextField="Buscar" ValueField="Buscar" NavigateUrlField="~/Administrator/searchRules.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+    </MenuItem> 
+  </MenuItem>
+
+  <!--Deshabilitado por no tener funcionalidad completa-->
+    <!--<MenuItem ValueField="Datos" TextField="Datos" NavigateUrlField="" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField="">
+    <MenuItem ValueField="Listas" TextField="Listas" NavigateUrlField="" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField="">
+      <MenuItem TextField="Nuevo" ValueField="Nuevo" NavigateUrlField="~/Administrator/addListSource.aspx?op=add" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+      <MenuItem TextField="Buscar" ValueField="Buscar" NavigateUrlField="~/Administrator/searchListSource.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+    </MenuItem>
+  </MenuItem>-->
+  
+  <MenuItem ValueField="Conexiones" TextField="Conexiones" NavigateUrlField="" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField="">
+    <MenuItem ValueField="PartnerLink" TextField="Enlace Servicio Web" NavigateUrlField="" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField="">
+      <MenuItem TextField="Nuevo" ValueField="Nuevo" NavigateUrlField="~/Administrator/addPartnerLink.aspx?op=add" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+      <MenuItem TextField="Buscar" ValueField="Buscar" NavigateUrlField="~/Administrator/SearchPartnerLink.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+    </MenuItem>
+    <MenuItem ValueField="InvokeMethod" TextField="Método de invocación" NavigateUrlField="" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField="">
+      <MenuItem TextField="Nuevo" ValueField="Nuevo" NavigateUrlField="~/Administrator/addInvokeMethod.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+      <MenuItem TextField="Buscar" ValueField="Buscar" NavigateUrlField="~/Administrator/searchInvokeMethod.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+    </MenuItem>
+    <!--<MenuItem TextField="Prueba Invoke" ValueField="Prueba Invoke" NavigateUrlField="~/test/WebInvoker.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>-->
+  </MenuItem>
+  <MenuItem TextField="Salir" ValueField="Salir" NavigateUrlField="~/Security/logout.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+</menu>

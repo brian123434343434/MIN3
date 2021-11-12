@@ -1,0 +1,21 @@
+<asp:Image SkinID="Espanol" ImageUrl="Images/Template/flag_SP.jpg" runat="server" AlternateText="Espa&ntilde;ol" width="17" height="17"  BorderWidth ="0"/>
+<asp:Image SkinID="English" ImageUrl="Images/Template/flag_EN.jpg" runat="server" AlternateText="English" width="17" height="17"  BorderWidth="0"/>
+<asp:Image SkinID="titleLeft" ImageUrl="Images/Template/title_left.jpg" runat="server" AlternateText="" width="35" height="39"  BorderWidth="0"/>
+<asp:Image SkinID="titleRight" ImageUrl="Images/Template/title_right.jpg" runat="server" AlternateText="" width="38" height="39"  BorderWidth="0"/>
+<asp:Image SkinID="footerRight" ImageUrl="Images/Template/footer_right.jpg" runat="server" AlternateText="" BorderWidth="0"/>
+<asp:Image SkinID="footerLeft" ImageUrl="Images/Template/footer_left.jpg" runat="server" AlternateText="" width="40" height="73"  BorderWidth="0"/>
+<asp:Image SkinID="headerLeftBPO" ImageUrl="Images/Template/header_leftBPO.jpg" runat="server" AlternateText="Volver al Inicio" BorderWidth="0"/>
+<asp:Image SkinID="headerLeftBPM" ImageUrl="Images/Template/header_leftBPM.jpg" runat="server" AlternateText="Volver al Inicio" BorderWidth="0"/>
+<asp:Image SkinID="headerLeftFB" ImageUrl="Images/Template/header_leftFB.jpg" runat="server" AlternateText="Volver al Inicio" BorderWidth="0"/>
+<asp:Image SkinID="headerLeftRB" ImageUrl="Images/Template/header_leftRB.jpg" runat="server" AlternateText="Volver al Inicio" BorderWidth="0"/>
+<asp:Image SkinID="headerLeftSEC" ImageUrl="Images/Template/header_leftSEC.jpg" runat="server" AlternateText="Volver al Inicio" BorderWidth="0"/>
+<asp:Image SkinID="headerLeftInternalProcess" ImageUrl="Images/Template/header_left_InternalProcess.jpg" runat="server" AlternateText="Volver al Inicio" width="261" height="104"  BorderWidth="0"/>
+<asp:Image SkinID="headerRight" ImageUrl="Images/Template/header_right.jpg" runat="server" AlternateText="Desarrollado por Gattaca" BorderWidth="0"/>
+<asp:Image SkinID="InsideFlagSP" ImageUrl="Images/Template/flag_SP.jpg" runat="server" AlternateText="Español" width="17" height="17"  BorderWidth="0"/>
+<asp:Image SkinID="ProgressIndicator" ImageUrl="Images/Template/indicator.gif"  runat="server" AlternateText="ProgressIndicator"/>
+<asp:image SkinID="ErrorTop" ImageURL="Images/Template/error_top.jpg" runat="server" AlternateText="" width="530" height="40" />
+<asp:image SkinID="ErrorLeft" ImageURL="Images/Template/error_left.jpg" runat="server" AlternateText="" width="178" height="118" />
+<asp:Image SkinID="ZoomIn" ImageUrl="Images/Template/ZoomIn.jpg" runat="server" AlternateText="Aumentar Tamano" BorderWidth="0" width="30px" height="30px" />
+<asp:Image SkinID="ZoomOut" ImageUrl="Images/Template/ZoomOut.jpg" runat="server" AlternateText="Disminuir Tamano" BorderWidth="0" width="30px" height="30px" />
+<asp:Image SkinID="btnBack" ImageUrl="Images/Template/btnBack.jpg" runat="server" AlternateText="Hoja Anterior" BorderWidth="0" width="30px" height="30px" />
+<asp:Image SkinID="btnNext" ImageUrl="Images/Template/btnNext.jpg" runat="server" AlternateText="Hoja Proxima" BorderWidth="0" width="30px" height="30px" />

@@ -1,0 +1,2030 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WF_Process Version="8.3">
+  <Process Id="2" Code="DA01-Solicitud de DAA">
+    <Id>2</Id>
+    <Code>DA01-Solicitud de DAA</Code>
+    <Name>Solicitud de DAA</Name>
+    <Description>Solicitud de DAA</Description>
+    <Created>7/7/2009 4:34:11 PM</Created>
+    <Version />
+    <Author>1</Author>
+    <Responsible />
+    <Documentation />
+    <DurationUnit>4</DurationUnit>
+    <Duration>1</Duration>
+    <InitialActivity>1</InitialActivity>
+    <Enabled>T</Enabled>
+  </Process>
+  <Packages>
+    <Package Id="2" Code="PQ01-LICENCIAS AMBIENTALES">
+      <Id>2</Id>
+      <Code>PQ01-LICENCIAS AMBIENTALES</Code>
+      <Name>LICENCIAS AMBIENTALES</Name>
+      <Creator />
+      <Created />
+      <Description>LICENCIAS AMBIENTALES</Description>
+      <Documentation />
+      <Enabled>T</Enabled>
+    </Package>
+  </Packages>
+  <Activities>
+    <Activity Id="1" Code="DAAC01-Validacion Autoridad Ambiental">
+      <Id>1</Id>
+      <Code>DAAC01-Validacion Autoridad Ambiental</Code>
+      <Name>Validacion Autoridad Ambiental</Name>
+      <Description>Actividad automatica ejecutada por el Motor de WorkFlow</Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>9</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>1</ActivityType>
+      <EntryDataType />
+      <EntryData />
+      <strJoin>2</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView />
+      <Tool />
+    </Activity>
+    <Activity Id="3" Code="DAAC02-Recibe No Radicado">
+      <Id>3</Id>
+      <Code>DAAC02-Recibe No Radicado</Code>
+      <Name>Autoridad Ambiental 1  Recibe No Radicado</Name>
+      <Description>Actividad automatica ejecutada por el Motor de WorkFlow</Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>9</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>1</ActivityType>
+      <EntryDataType />
+      <EntryData />
+      <strJoin>1</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView />
+      <Tool />
+    </Activity>
+    <Activity Id="4" Code="DAAC03-Envia No. Radicado 1">
+      <Id>4</Id>
+      <Code>DAAC03-Envia No. Radicado 1</Code>
+      <Name>No. Radicado 1</Name>
+      <Description>Actividad Manual en la que el usuario usar? la herramienta (...)</Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>4</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>4</ActivityType>
+      <EntryDataType>VBFormBuilderCOM</EntryDataType>
+      <EntryData>2</EntryData>
+      <strJoin>2</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView>http://www.gattacademos.com/bpmsuite/eFormBuilder/Public/buildFormInstance.aspx?</URLDataView>
+      <Tool Id="1" Code="A3">
+        <Id>1</Id>
+        <IDActivity>4</IDActivity>
+        <Code>A3</Code>
+        <Name>No. Radicado</Name>
+        <Type>4</Type>
+        <MainName>http://www.gattacademos.com/bpmsuite/eFormBuilder/Public/buildFormInstance.aspx?</MainName>
+        <Agent>VBFormBuilderCOM</Agent>
+        <Method>2</Method>
+        <Description>No. Radicado</Description>
+        <SecurityMode>0</SecurityMode>
+        <UserDomain />
+        <UserID />
+        <UserPassword />
+        <Enabled>T</Enabled>
+        <Application />
+      </Tool>
+    </Activity>
+    <Activity Id="6" Code="DAAC04-Valida Diagnostico Ambiental AA1">
+      <Id>6</Id>
+      <Code>DAAC04-Valida Diagnostico Ambiental AA1</Code>
+      <Name>Valida Diagnostico Ambiental AA1</Name>
+      <Description>Actividad Manual -</Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>4</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>1</ActivityType>
+      <EntryDataType />
+      <EntryData />
+      <strJoin>2</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView />
+      <Tool />
+    </Activity>
+    <Activity Id="9" Code="DAAC12-Recibe No Radicado CAR">
+      <Id>9</Id>
+      <Code>DAAC12-Recibe No Radicado CAR</Code>
+      <Name>CAR Recibe No Radicado</Name>
+      <Description>Actividad automatica ejecutada por el Motor de WorkFlow</Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>9</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>1</ActivityType>
+      <EntryDataType />
+      <EntryData />
+      <strJoin>1</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView />
+      <Tool />
+    </Activity>
+    <Activity Id="10" Code="DAAC11-MAVDT">
+      <Id>10</Id>
+      <Code>DAAC11-MAVDT</Code>
+      <Name>MAVDT</Name>
+      <Description>Actividad Manual -</Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>4</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>0</ActivityType>
+      <EntryDataType />
+      <EntryData />
+      <strJoin>2</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView />
+      <Tool />
+    </Activity>
+    <Activity Id="12" Code="DAAC05-Prep. Diagnostico AA1">
+      <Id>12</Id>
+      <Code>DAAC05-Prep. Diagnostico AA1</Code>
+      <Name>Preparar Diagnostico</Name>
+      <Description>Actividad Manual -</Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>4</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>0</ActivityType>
+      <EntryDataType />
+      <EntryData />
+      <strJoin>2</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>T</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView />
+      <Tool />
+    </Activity>
+    <Activity Id="13" Code="DAAC06-Envia No. Radicado 2 AA1">
+      <Id>13</Id>
+      <Code>DAAC06-Envia No. Radicado 2 AA1</Code>
+      <Name>Envia No. Radicado 2 AA1</Name>
+      <Description>Actividad Manual en la que el usuario usar? la herramienta (...)</Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>4</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>4</ActivityType>
+      <EntryDataType>VBFormBuilderCOM</EntryDataType>
+      <EntryData>2</EntryData>
+      <strJoin>2</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView>../../eFormBuilder/Public/buildFormInstance.aspx?</URLDataView>
+      <Tool Id="2" Code="No. Radicado 2 AA1">
+        <Id>2</Id>
+        <IDActivity>13</IDActivity>
+        <Code>No. Radicado 2 AA1</Code>
+        <Name>No. Radicado 2 AA1</Name>
+        <Type>4</Type>
+        <MainName>http://www.gattacademos.com/bpmsuite/eFormBuilder/Public/buildFormInstance.aspx?</MainName>
+        <Agent>VBFormBuilderCOM</Agent>
+        <Method>2</Method>
+        <Description>No. Radicado 2</Description>
+        <SecurityMode>0</SecurityMode>
+        <UserDomain />
+        <UserID />
+        <UserPassword />
+        <Enabled>T</Enabled>
+        <Application />
+      </Tool>
+    </Activity>
+    <Activity Id="14" Code="DAAC07-Recibe No. Radicado 2 AA1">
+      <Id>14</Id>
+      <Code>DAAC07-Recibe No. Radicado 2 AA1</Code>
+      <Name>Recibe No. Radicado 2 AA1</Name>
+      <Description>Actividad automatica ejecutada por el Motor de WorkFlow</Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>9</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>1</ActivityType>
+      <EntryDataType />
+      <EntryData />
+      <strJoin>1</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView />
+      <Tool />
+    </Activity>
+    <Activity Id="15" Code="DAAC08-Emitir Publicacion">
+      <Id>15</Id>
+      <Code>DAAC08-Emitir Publicacion</Code>
+      <Name>Emitir Publicacion Activa o Pasiva</Name>
+      <Description>Actividad Manual -</Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>4</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>0</ActivityType>
+      <EntryDataType />
+      <EntryData />
+      <strJoin>2</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>T</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView />
+      <Tool />
+    </Activity>
+    <Activity Id="16" Code="DAAC09-Evaluaci?n de Alternativas">
+      <Id>16</Id>
+      <Code>DAAC09-Evaluaci?n de Alternativas</Code>
+      <Name>Evaluaci?n de Alternativas</Name>
+      <Description>Actividad Manual -</Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>4</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>0</ActivityType>
+      <EntryDataType />
+      <EntryData />
+      <strJoin>2</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView />
+      <Tool />
+    </Activity>
+    <Activity Id="17" Code="DAAC10-Apertura del Expediente">
+      <Id>17</Id>
+      <Code>DAAC10-Apertura del Expediente</Code>
+      <Name>Apertura del Expediente</Name>
+      <Description>Actividad Manual en la que el usuario usar? la herramienta (...)</Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>4</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>4</ActivityType>
+      <EntryDataType>VBFormBuilderCOM</EntryDataType>
+      <EntryData>#</EntryData>
+      <strJoin>2</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView>../../eFormBuilder/Public/buildFormInstance.aspx?</URLDataView>
+      <Tool Id="3" Code="Apertura de Expediente">
+        <Id>3</Id>
+        <IDActivity>17</IDActivity>
+        <Code>Apertura de Expediente</Code>
+        <Name>Apertura de Expediente</Name>
+        <Type>4</Type>
+        <MainName>http://www.gattacademos.com/bpmsuite/eFormBuilder/Public/buildFormInstance.aspx?</MainName>
+        <Agent>VBFormBuilderCOM</Agent>
+        <Method>#</Method>
+        <Description>Apertura de Expediente</Description>
+        <SecurityMode>0</SecurityMode>
+        <UserDomain />
+        <UserID />
+        <UserPassword />
+        <Enabled>T</Enabled>
+        <Application />
+      </Tool>
+    </Activity>
+    <Activity Id="18" Code="DAAC13-Envio No. Radicado 3">
+      <Id>18</Id>
+      <Code>DAAC13-Envio No. Radicado 3</Code>
+      <Name>No. Radicado 3</Name>
+      <Description>Actividad Manual en la que el usuario usar? la herramienta (...)</Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>4</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>4</ActivityType>
+      <EntryDataType>VBFormBuilderCOM</EntryDataType>
+      <EntryData>2</EntryData>
+      <strJoin>2</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView>http://www.gattacademos.com/bpmsuite/eFormBuilder/Public/buildFormInstance.aspx?</URLDataView>
+      <Tool Id="4" Code="Envio No. Radicado 3">
+        <Id>4</Id>
+        <IDActivity>18</IDActivity>
+        <Code>Envio No. Radicado 3</Code>
+        <Name>Envio No. Radicado 3</Name>
+        <Type>4</Type>
+        <MainName>http://www.gattacademos.com/bpmsuite/eFormBuilder/Public/buildFormInstance.aspx?</MainName>
+        <Agent>VBFormBuilderCOM</Agent>
+        <Method>2</Method>
+        <Description>Envio No. Radicado 3</Description>
+        <SecurityMode>0</SecurityMode>
+        <UserDomain />
+        <UserID />
+        <UserPassword />
+        <Enabled>T</Enabled>
+        <Application />
+      </Tool>
+    </Activity>
+    <Activity Id="19" Code="DAAC14-Valida Diagnostico Ambiental CAR">
+      <Id>19</Id>
+      <Code>DAAC14-Valida Diagnostico Ambiental CAR</Code>
+      <Name>Valida Diagnostico Ambiental CAR</Name>
+      <Description>Actividad automatica ejecutada por el Motor de WorkFlow</Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>9</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>1</ActivityType>
+      <EntryDataType />
+      <EntryData />
+      <strJoin>2</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView />
+      <Tool />
+    </Activity>
+    <Activity Id="20" Code="DAAC15-Prep. Diagnostico CAR">
+      <Id>20</Id>
+      <Code>DAAC15-Prep. Diagnostico CAR</Code>
+      <Name>Prep. Diagnostico CAR</Name>
+      <Description>Actividad Manual - </Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>4</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>0</ActivityType>
+      <EntryDataType />
+      <EntryData />
+      <strJoin>2</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView />
+      <Tool />
+    </Activity>
+    <Activity Id="21" Code="DAAC16-Envia No. Radicado 2 CAR">
+      <Id>21</Id>
+      <Code>DAAC16-Envia No. Radicado 2 CAR</Code>
+      <Name>Envia No. Radicado 2 CAR</Name>
+      <Description>Actividad Manual en la que el usuario usar? la herramienta (...) </Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>4</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>4</ActivityType>
+      <EntryDataType>VBFormBuilderCOM</EntryDataType>
+      <EntryData>2</EntryData>
+      <strJoin>2</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView>../../eFormBuilder/Public/buildFormInstance.aspx?</URLDataView>
+      <Tool Id="5" Code="No.Radicado 2 CAR">
+        <Id>5</Id>
+        <IDActivity>21</IDActivity>
+        <Code>No.Radicado 2 CAR</Code>
+        <Name>No.Radicado 2 CAR</Name>
+        <Type>4</Type>
+        <MainName>http://www.gattacademos.com/bpmsuite/eFormBuilder/Public/buildFormInstance.aspx?</MainName>
+        <Agent>VBFormBuilderCOM</Agent>
+        <Method>2</Method>
+        <Description>No.Radicado 2 CAR</Description>
+        <SecurityMode>0</SecurityMode>
+        <UserDomain />
+        <UserID />
+        <UserPassword />
+        <Enabled>T</Enabled>
+        <Application />
+      </Tool>
+    </Activity>
+    <Activity Id="22" Code="DAAC17-Recibe No. Radicado 2 CAR">
+      <Id>22</Id>
+      <Code>DAAC17-Recibe No. Radicado 2 CAR</Code>
+      <Name>Recibe No. Radicado 2 CAR</Name>
+      <Description>Actividad automatica ejecutada por el Motor de WorkFlow</Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>9</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>1</ActivityType>
+      <EntryDataType />
+      <EntryData />
+      <strJoin>1</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView />
+      <Tool />
+    </Activity>
+    <Activity Id="23" Code="DAAC18-Emitir Publicacion CAR">
+      <Id>23</Id>
+      <Code>DAAC18-Emitir Publicacion CAR</Code>
+      <Name>Emitir Publicacion CAR</Name>
+      <Description>Actividad Manual -</Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>4</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>0</ActivityType>
+      <EntryDataType />
+      <EntryData />
+      <strJoin>2</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>T</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView />
+      <Tool />
+    </Activity>
+    <Activity Id="24" Code="DAAC19-Evaluaci?n de Alternativas CAR">
+      <Id>24</Id>
+      <Code>DAAC19-Evaluaci?n de Alternativas CAR</Code>
+      <Name>Evaluaci?n de Alternativas CAR</Name>
+      <Description>Actividad Manual - </Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>4</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>0</ActivityType>
+      <EntryDataType />
+      <EntryData />
+      <strJoin>2</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView />
+      <Tool />
+    </Activity>
+    <Activity Id="25" Code="DAAC20-Apertura del Expediente CAR">
+      <Id>25</Id>
+      <Code>DAAC20-Apertura del Expediente CAR</Code>
+      <Name>Apertura del Expediente CAR</Name>
+      <Description>Actividad Manual en la que el usuario usar? la herramienta (...) </Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>4</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>4</ActivityType>
+      <EntryDataType>VBFormBuilderCOM</EntryDataType>
+      <EntryData>#</EntryData>
+      <strJoin>2</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView>../../eFormBuilder/Public/buildFormInstance.aspx?</URLDataView>
+      <Tool Id="6" Code="Apertura del Expediente CAR">
+        <Id>6</Id>
+        <IDActivity>25</IDActivity>
+        <Code>Apertura del Expediente CAR</Code>
+        <Name>Apertura del Expediente CAR</Name>
+        <Type>4</Type>
+        <MainName>http://www.gattacademos.com/bpmsuite/eFormBuilder/Public/buildFormInstance.aspx?</MainName>
+        <Agent>VBFormBuilderCOM</Agent>
+        <Method>#</Method>
+        <Description>Apertura del Expediente CAR</Description>
+        <SecurityMode>0</SecurityMode>
+        <UserDomain />
+        <UserID />
+        <UserPassword />
+        <Enabled>T</Enabled>
+        <Application />
+      </Tool>
+    </Activity>
+    <Activity Id="26" Code="DAAC21-Evaluacion de DAA AA1">
+      <Id>26</Id>
+      <Code>DAAC21-Evaluacion de DAA AA1</Code>
+      <Name>Evaluacion de DAA AA1</Name>
+      <Description>Actividad Manual en la que el usuario usar? la herramienta (...)</Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>4</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>4</ActivityType>
+      <EntryDataType>VBFormBuilderCOM</EntryDataType>
+      <EntryData>3</EntryData>
+      <strJoin>2</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView>http://www.gattacademos.com/bpmsuite/eFormBuilder/Public/buildFormInstance.aspx?</URLDataView>
+      <Tool Id="7" Code="Evaluacion de DAA AA1">
+        <Id>7</Id>
+        <IDActivity>26</IDActivity>
+        <Code>Evaluacion de DAA AA1</Code>
+        <Name>Evaluacion de DAA AA1</Name>
+        <Type>4</Type>
+        <MainName>http://www.gattacademos.com/bpmsuite/eFormBuilder/Public/buildFormInstance.aspx?</MainName>
+        <Agent>VBFormBuilderCOM</Agent>
+        <Method>3</Method>
+        <Description>Evaluacion de DAA AA1</Description>
+        <SecurityMode>0</SecurityMode>
+        <UserDomain />
+        <UserID />
+        <UserPassword />
+        <Enabled>T</Enabled>
+        <Application />
+      </Tool>
+    </Activity>
+    <Activity Id="27" Code="DAAC22-Reporte AA1">
+      <Id>27</Id>
+      <Code>DAAC22-Reporte AA1</Code>
+      <Name>Reporte AA1</Name>
+      <Description>Actividad Manual -</Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>4</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>0</ActivityType>
+      <EntryDataType />
+      <EntryData />
+      <strJoin>2</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView />
+      <Tool />
+    </Activity>
+    <Activity Id="28" Code="DAAC23-Evaluacion de DAA CAR">
+      <Id>28</Id>
+      <Code>DAAC23-Evaluacion de DAA CAR</Code>
+      <Name>Evaluacion de DAA CAR</Name>
+      <Description>Actividad Manual en la que el usuario usar? la herramienta (...)</Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>4</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>4</ActivityType>
+      <EntryDataType>VBFormBuilderCOM</EntryDataType>
+      <EntryData>3</EntryData>
+      <strJoin>2</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView>../../eFormBuilder/Public/buildFormInstance.aspx?</URLDataView>
+      <Tool Id="8" Code="Evaluacion de DAA CAD">
+        <Id>8</Id>
+        <IDActivity>28</IDActivity>
+        <Code>Evaluacion de DAA CAD</Code>
+        <Name>Evaluacion de DAA CAD</Name>
+        <Type>4</Type>
+        <MainName>http://www.gattacademos.com/bpmsuite/eFormBuilder/Public/buildFormInstance.aspx?</MainName>
+        <Agent>VBFormBuilderCOM</Agent>
+        <Method>3</Method>
+        <Description>Evaluacion de DAA CAD</Description>
+        <SecurityMode>0</SecurityMode>
+        <UserDomain />
+        <UserID />
+        <UserPassword />
+        <Enabled>T</Enabled>
+        <Application />
+      </Tool>
+    </Activity>
+    <Activity Id="29" Code="DAAC24-Reporte CAR">
+      <Id>29</Id>
+      <Code>DAAC24-Reporte CAR</Code>
+      <Name>Reporte CAR</Name>
+      <Description>Actividad Manual -</Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>4</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>0</ActivityType>
+      <EntryDataType />
+      <EntryData />
+      <strJoin>2</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView />
+      <Tool />
+    </Activity>
+    <Activity Id="30" Code="DAAC25-Rechazo de Alternativas">
+      <Id>30</Id>
+      <Code>DAAC25-Rechazo de Alternativas</Code>
+      <Name>Rechazo de Alternativas</Name>
+      <Description>Actividad Manual -</Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>4</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>0</ActivityType>
+      <EntryDataType />
+      <EntryData />
+      <strJoin>2</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView />
+      <Tool />
+    </Activity>
+    <Activity Id="31" Code="DAAC26-Rechazo de Alternativas CAR">
+      <Id>31</Id>
+      <Code>DAAC26-Rechazo de Alternativas CAR</Code>
+      <Name>Rechazo de Alternativas CAR</Name>
+      <Description>Actividad Manual - </Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>4</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>0</ActivityType>
+      <EntryDataType />
+      <EntryData />
+      <strJoin>2</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView />
+      <Tool />
+    </Activity>
+  </Activities>
+  <Conditions>
+    <Condition Id="1" Code="CD01-CA-AA1">
+      <Id>1</Id>
+      <Code>CD01-CA-AA1</Code>
+      <Name>VAlidacion Autoridad Ambiental 1</Name>
+      <Description>http://www.gattacademos.com/bpmsuite/eFormBuilder/Services/eFormBuilderServices.asmx</Description>
+      <Weight>0</Weight>
+      <Type>3</Type>
+      <Enabled>T</Enabled>
+      <ConditionRule>1,=,1</ConditionRule>
+      <IDTool>0</IDTool>
+      <DB>0</DB>
+      <IsToolRequiered>F</IsToolRequiered>
+      <FormActivity>0</FormActivity>
+    </Condition>
+    <Condition Id="4" Code="CD02-No. Radicado2 AA1">
+      <Id>4</Id>
+      <Code>CD02-No. Radicado2 AA1</Code>
+      <Name>No. Radicado2 AA1</Name>
+      <Description>http://www.gattacademos.com/BPMSuite/eFormBuilder/Services/eFormBuilderServices.asmx</Description>
+      <Weight>0</Weight>
+      <Type>3</Type>
+      <Enabled>T</Enabled>
+      <ConditionRule>2,&lt;&gt;,0</ConditionRule>
+      <IDTool>0</IDTool>
+      <DB>0</DB>
+      <IsToolRequiered>F</IsToolRequiered>
+      <FormActivity>13</FormActivity>
+    </Condition>
+    <Condition Id="6" Code="CD03-cond. MAVDT">
+      <Id>6</Id>
+      <Code>CD03-cond. MAVDT</Code>
+      <Name>cond. MAVDT</Name>
+      <Description>http://www.gattacademos.com/bpmsuite/eFormBuilder/Services/eFormBuilderServices.asmx</Description>
+      <Weight>0</Weight>
+      <Type>3</Type>
+      <Enabled>T</Enabled>
+      <ConditionRule>3,=,1</ConditionRule>
+      <IDTool>0</IDTool>
+      <DB>0</DB>
+      <IsToolRequiered>F</IsToolRequiered>
+      <FormActivity>0</FormActivity>
+    </Condition>
+    <Condition Id="7" Code="CD04-CAR">
+      <Id>7</Id>
+      <Code>CD04-CAR</Code>
+      <Name>CAR</Name>
+      <Description>http://www.gattacademos.com/bpmsuite/eFormBuilder/Services/eFormBuilderServices.asmx</Description>
+      <Weight>0</Weight>
+      <Type>3</Type>
+      <Enabled>T</Enabled>
+      <ConditionRule>4,=,1</ConditionRule>
+      <IDTool>0</IDTool>
+      <DB>0</DB>
+      <IsToolRequiered>F</IsToolRequiered>
+      <FormActivity>0</FormActivity>
+    </Condition>
+    <Condition Id="10" Code="CD05-Autoridad Ambiental 1">
+      <Id>10</Id>
+      <Code>CD05-Autoridad Ambiental 1</Code>
+      <Name>Autoridad Ambiental 1</Name>
+      <Description>Autoridad Ambiental 1</Description>
+      <Weight>0</Weight>
+      <Type>0</Type>
+      <Enabled>T</Enabled>
+      <ConditionRule />
+      <IDTool>0</IDTool>
+      <DB />
+      <IsToolRequiered>F</IsToolRequiered>
+      <FormActivity />
+    </Condition>
+    <Condition Id="11" Code="CD06-Autoridad Ambiental 2">
+      <Id>11</Id>
+      <Code>CD06-Autoridad Ambiental 2</Code>
+      <Name>Autoridad Ambiental 2</Name>
+      <Description>Autoridad Ambiental 2</Description>
+      <Weight>0</Weight>
+      <Type>0</Type>
+      <Enabled>T</Enabled>
+      <ConditionRule />
+      <IDTool>0</IDTool>
+      <DB />
+      <IsToolRequiered>F</IsToolRequiered>
+      <FormActivity />
+    </Condition>
+    <Condition Id="12" Code="CD07-Envio Numero de Radicacion">
+      <Id>12</Id>
+      <Code>CD07-Envio Numero de Radicacion</Code>
+      <Name>Envio Numero de Radicacion</Name>
+      <Description>Envio Numero de Radicacion</Description>
+      <Weight>0</Weight>
+      <Type>0</Type>
+      <Enabled>T</Enabled>
+      <ConditionRule>2,&lt;&gt;,0</ConditionRule>
+      <IDTool>0</IDTool>
+      <DB>0</DB>
+      <IsToolRequiered>F</IsToolRequiered>
+      <FormActivity>4</FormActivity>
+    </Condition>
+    <Condition Id="13" Code="CD08-Preparar Diagnostico AA1">
+      <Id>13</Id>
+      <Code>CD08-Preparar Diagnostico AA1</Code>
+      <Name>Preparar Diagnostico</Name>
+      <Description>http://www.gattacademos.com/bpmsuite/eFormBuilder/Services/eFormBuilderServices.asmx</Description>
+      <Weight>0</Weight>
+      <Type>3</Type>
+      <Enabled>T</Enabled>
+      <ConditionRule>5,=,1</ConditionRule>
+      <IDTool>0</IDTool>
+      <DB>0</DB>
+      <IsToolRequiered>F</IsToolRequiered>
+      <FormActivity>26</FormActivity>
+    </Condition>
+    <Condition Id="14" Code="CD09-No. Radicado1 AA1">
+      <Id>14</Id>
+      <Code>CD09-No. Radicado1 AA1</Code>
+      <Name>No. Radicado1 AA1</Name>
+      <Description>http://www.gattacademos.com/bpmsuite/eFormBuilder/Services/eFormBuilderServices.asmx</Description>
+      <Weight>0</Weight>
+      <Type>3</Type>
+      <Enabled>T</Enabled>
+      <ConditionRule>2,&lt;&gt;,0</ConditionRule>
+      <IDTool>0</IDTool>
+      <DB>0</DB>
+      <IsToolRequiered>F</IsToolRequiered>
+      <FormActivity>4</FormActivity>
+    </Condition>
+    <Condition Id="15" Code="CD10-Pedir No. Radicaci?n">
+      <Id>15</Id>
+      <Code>CD10-Pedir No. Radicaci?n</Code>
+      <Name>Pedir No. Radicaci?n</Name>
+      <Description>Pedir No. Radicaci?n</Description>
+      <Weight>0</Weight>
+      <Type>0</Type>
+      <Enabled>T</Enabled>
+      <ConditionRule />
+      <IDTool>0</IDTool>
+      <DB />
+      <IsToolRequiered>F</IsToolRequiered>
+      <FormActivity />
+    </Condition>
+    <Condition Id="16" Code="CD11-Envio a Evaluaci?n de Alternativas">
+      <Id>16</Id>
+      <Code>CD11-Envio a Evaluaci?n de Alternativas</Code>
+      <Name>Envio a Evaluaci?n de Alternativas</Name>
+      <Description>Envio a Evaluaci?n de Alternativas</Description>
+      <Weight>0</Weight>
+      <Type>0</Type>
+      <Enabled>T</Enabled>
+      <ConditionRule />
+      <IDTool>0</IDTool>
+      <DB />
+      <IsToolRequiered>F</IsToolRequiered>
+      <FormActivity />
+    </Condition>
+    <Condition Id="17" Code="CD12-Acepta las alternativas">
+      <Id>17</Id>
+      <Code>CD12-Acepta las alternativas</Code>
+      <Name>Acepta las alternativas</Name>
+      <Description>Acepta las alternativas</Description>
+      <Weight>0</Weight>
+      <Type>0</Type>
+      <Enabled>T</Enabled>
+      <ConditionRule />
+      <IDTool>0</IDTool>
+      <DB />
+      <IsToolRequiered>F</IsToolRequiered>
+      <FormActivity />
+    </Condition>
+    <Condition Id="18" Code="CD13-Envio al inicio de la Licencia Ambiental">
+      <Id>18</Id>
+      <Code>CD13-Envio al inicio de la Licencia Ambiental</Code>
+      <Name>Envio al inicio de la Licencia Ambiental</Name>
+      <Description>Envio al inicio de la Licencia Ambiental</Description>
+      <Weight>0</Weight>
+      <Type>0</Type>
+      <Enabled>T</Enabled>
+      <ConditionRule />
+      <IDTool>0</IDTool>
+      <DB />
+      <IsToolRequiered>F</IsToolRequiered>
+      <FormActivity />
+    </Condition>
+    <Condition Id="19" Code="CD15-Preparar Diagnostico CAR">
+      <Id>19</Id>
+      <Code>CD15-Preparar Diagnostico CAR</Code>
+      <Name>Preparar Diagnostico CAR</Name>
+      <Description>http://www.gattacademos.com/bpmsuite/eFormBuilder/Services/eFormBuilderServices.asmx</Description>
+      <Weight>0</Weight>
+      <Type>3</Type>
+      <Enabled>T</Enabled>
+      <ConditionRule>5,=,1</ConditionRule>
+      <IDTool>0</IDTool>
+      <DB>0</DB>
+      <IsToolRequiered>F</IsToolRequiered>
+      <FormActivity>28</FormActivity>
+    </Condition>
+    <Condition Id="20" Code="CD14-No. Radicado1 CAR">
+      <Id>20</Id>
+      <Code>CD14-No. Radicado1 CAR</Code>
+      <Name>No. Radicado1 CAR</Name>
+      <Description>http://www.gattacademos.com/bpmsuite/eFormBuilder/Services/eFormBuilderServices.asmx</Description>
+      <Weight>0</Weight>
+      <Type>3</Type>
+      <Enabled>T</Enabled>
+      <ConditionRule>2,&lt;&gt;,0</ConditionRule>
+      <IDTool>0</IDTool>
+      <DB>0</DB>
+      <IsToolRequiered>F</IsToolRequiered>
+      <FormActivity>18</FormActivity>
+    </Condition>
+    <Condition Id="21" Code="CD16-No. Radicado2 CAR">
+      <Id>21</Id>
+      <Code>CD16-No. Radicado2 CAR</Code>
+      <Name>No. Radicado2 CAR</Name>
+      <Description>http://www.gattacademos.com/bpmsuite/eFormBuilder/Services/eFormBuilderServices.asmx</Description>
+      <Weight>0</Weight>
+      <Type>3</Type>
+      <Enabled>T</Enabled>
+      <ConditionRule>2,&lt;&gt;,0</ConditionRule>
+      <IDTool>0</IDTool>
+      <DB>0</DB>
+      <IsToolRequiered>F</IsToolRequiered>
+      <FormActivity>21</FormActivity>
+    </Condition>
+    <Condition Id="22" Code="CD17-Necesita DDA">
+      <Id>22</Id>
+      <Code>CD17-Necesita DDA</Code>
+      <Name>Necesita DDA</Name>
+      <Description>Continuar proceso DAA</Description>
+      <Weight>0</Weight>
+      <Type>0</Type>
+      <Enabled>T</Enabled>
+      <ConditionRule />
+      <IDTool>0</IDTool>
+      <DB />
+      <IsToolRequiered>F</IsToolRequiered>
+      <FormActivity />
+    </Condition>
+    <Condition Id="23" Code="CD18-No necesita DDA">
+      <Id>23</Id>
+      <Code>CD18-No necesita DDA</Code>
+      <Name>No necesita DDA</Name>
+      <Description>No necesita DDA</Description>
+      <Weight>0</Weight>
+      <Type>0</Type>
+      <Enabled>T</Enabled>
+      <ConditionRule />
+      <IDTool>0</IDTool>
+      <DB />
+      <IsToolRequiered>F</IsToolRequiered>
+      <FormActivity />
+    </Condition>
+    <Condition Id="24" Code="CD19-Final ">
+      <Id>24</Id>
+      <Code>CD19-Final </Code>
+      <Name>Final </Name>
+      <Description>Final </Description>
+      <Weight>0</Weight>
+      <Type>0</Type>
+      <Enabled>T</Enabled>
+      <ConditionRule />
+      <IDTool>0</IDTool>
+      <DB />
+      <IsToolRequiered>F</IsToolRequiered>
+      <FormActivity />
+    </Condition>
+    <Condition Id="25" Code="CD21-Rechazo de Alternativas">
+      <Id>25</Id>
+      <Code>CD21-Rechazo de Alternativas</Code>
+      <Name>Rechazo de Alternativas</Name>
+      <Description>Rechazo de Alternativas</Description>
+      <Weight>0</Weight>
+      <Type>0</Type>
+      <Enabled>T</Enabled>
+      <ConditionRule />
+      <IDTool>0</IDTool>
+      <DB />
+      <IsToolRequiered>F</IsToolRequiered>
+      <FormActivity />
+    </Condition>
+  </Conditions>
+  <ConditionsByActivity>
+    <ConditionByActivity IdCondition="1" IdActivity="1" />
+    <ConditionByActivity IdCondition="4" IdActivity="14" />
+    <ConditionByActivity IdCondition="6" IdActivity="1" />
+    <ConditionByActivity IdCondition="7" IdActivity="1" />
+    <ConditionByActivity IdCondition="10" IdActivity="10" />
+    <ConditionByActivity IdCondition="11" IdActivity="10" />
+    <ConditionByActivity IdCondition="12" IdActivity="4" />
+    <ConditionByActivity IdCondition="12" IdActivity="13" />
+    <ConditionByActivity IdCondition="12" IdActivity="18" />
+    <ConditionByActivity IdCondition="12" IdActivity="21" />
+    <ConditionByActivity IdCondition="13" IdActivity="6" />
+    <ConditionByActivity IdCondition="14" IdActivity="3" />
+    <ConditionByActivity IdCondition="15" IdActivity="12" />
+    <ConditionByActivity IdCondition="15" IdActivity="20" />
+    <ConditionByActivity IdCondition="16" IdActivity="15" />
+    <ConditionByActivity IdCondition="16" IdActivity="23" />
+    <ConditionByActivity IdCondition="17" IdActivity="16" />
+    <ConditionByActivity IdCondition="17" IdActivity="24" />
+    <ConditionByActivity IdCondition="18" IdActivity="17" />
+    <ConditionByActivity IdCondition="18" IdActivity="25" />
+    <ConditionByActivity IdCondition="19" IdActivity="19" />
+    <ConditionByActivity IdCondition="20" IdActivity="9" />
+    <ConditionByActivity IdCondition="21" IdActivity="22" />
+    <ConditionByActivity IdCondition="22" IdActivity="26" />
+    <ConditionByActivity IdCondition="22" IdActivity="28" />
+    <ConditionByActivity IdCondition="23" IdActivity="26" />
+    <ConditionByActivity IdCondition="23" IdActivity="28" />
+    <ConditionByActivity IdCondition="24" IdActivity="27" />
+    <ConditionByActivity IdCondition="24" IdActivity="29" />
+    <ConditionByActivity IdCondition="24" IdActivity="30" />
+    <ConditionByActivity IdCondition="24" IdActivity="31" />
+    <ConditionByActivity IdCondition="25" IdActivity="16" />
+    <ConditionByActivity IdCondition="25" IdActivity="24" />
+  </ConditionsByActivity>
+  <Transitions>
+    <Transition Id="6" Code="T:DAAC02_CDAC21">
+      <Id>6</Id>
+      <Code>T:DAAC02_CDAC21</Code>
+      <Name>T:DAAC02_CDAC21</Name>
+      <IdFromActivity>3</IdFromActivity>
+      <IdToActivity>26</IdToActivity>
+      <Description>De  Autoridad Ambiental 1 A  Diagnostico Ambiental</Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz?  Autoridad Ambiental 1</Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="10" Code="T:DAAC01_CDAC12">
+      <Id>10</Id>
+      <Code>T:DAAC01_CDAC12</Code>
+      <Name>T:DAAC01_CDAC12</Name>
+      <IdFromActivity>1</IdFromActivity>
+      <IdToActivity>9</IdToActivity>
+      <Description>De  Validacion Autoridad Ambiental A  CAR</Description>
+      <Threshold>0</Threshold>
+      <Priority>2</Priority>
+      <Message>Se realiz?  Validacion Autoridad Ambiental</Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="11" Code="T:DAAC11_CDAC12">
+      <Id>11</Id>
+      <Code>T:DAAC11_CDAC12</Code>
+      <Name>T:DAAC11_CDAC12</Name>
+      <IdFromActivity>10</IdFromActivity>
+      <IdToActivity>9</IdToActivity>
+      <Description>De  MAVDT A  CAR</Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz?  MAVDT</Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="12" Code="T:DAAC11_CDAC02">
+      <Id>12</Id>
+      <Code>T:DAAC11_CDAC02</Code>
+      <Name>T:DAAC11_CDAC02</Name>
+      <IdFromActivity>10</IdFromActivity>
+      <IdToActivity>3</IdToActivity>
+      <Description>De  MAVDT A  Autoridad Ambiental 1</Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz?  MAVDT</Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="13" Code="T:DAAC03_CDAC02">
+      <Id>13</Id>
+      <Code>T:DAAC03_CDAC02</Code>
+      <Name>T:DAAC03_CDAC02</Name>
+      <IdFromActivity>4</IdFromActivity>
+      <IdToActivity>3</IdToActivity>
+      <Description>De  No. Radicado A  Autoridad Ambiental 1</Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Envio Numero de Radicado</Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="15" Code="T:DAAC05_CDAC06">
+      <Id>15</Id>
+      <Code>T:DAAC05_CDAC06</Code>
+      <Name>T:DAAC05_CDAC06</Name>
+      <IdFromActivity>12</IdFromActivity>
+      <IdToActivity>13</IdToActivity>
+      <Description>De  Preparar Diagnostico A  No. Radicado 2</Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz?  Preparar Diagnostico</Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="16" Code="T:DAAC01_CDAC02">
+      <Id>16</Id>
+      <Code>T:DAAC01_CDAC02</Code>
+      <Name>T:DAAC01_CDAC02</Name>
+      <IdFromActivity>1</IdFromActivity>
+      <IdToActivity>3</IdToActivity>
+      <Description>De  Validacion Autoridad Ambiental A  Autoridad Ambiental 1</Description>
+      <Threshold>0</Threshold>
+      <Priority>2</Priority>
+      <Message>Se realiz?  Validacion Autoridad Ambiental</Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="17" Code="T:DAAC01_CDAC11">
+      <Id>17</Id>
+      <Code>T:DAAC01_CDAC11</Code>
+      <Name>T:DAAC01_CDAC11</Name>
+      <IdFromActivity>1</IdFromActivity>
+      <IdToActivity>10</IdToActivity>
+      <Description>De  Validacion Autoridad Ambiental A  MAVDT</Description>
+      <Threshold>0</Threshold>
+      <Priority>2</Priority>
+      <Message>Se realiz?  Validacion Autoridad Ambiental</Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="18" Code="T:DAAC01_CDAC03">
+      <Id>18</Id>
+      <Code>T:DAAC01_CDAC03</Code>
+      <Name>T:DAAC01_CDAC03</Name>
+      <IdFromActivity>1</IdFromActivity>
+      <IdToActivity>4</IdToActivity>
+      <Description>De  Validacion Autoridad Ambiental A  No. Radicado</Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz?  Validacion Autoridad Ambiental</Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="19" Code="DAAC01-DAAC13">
+      <Id>19</Id>
+      <Code>DAAC01-DAAC13</Code>
+      <Name>DAAC01-DAAC13</Name>
+      <IdFromActivity>1</IdFromActivity>
+      <IdToActivity>18</IdToActivity>
+      <Description>A Envio No. Radicado 3</Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz?  Validacion Autoridad Ambiental</Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="20" Code="T:DAAC13_DAAC12">
+      <Id>20</Id>
+      <Code>T:DAAC13_DAAC12</Code>
+      <Name>T:DAAC13_DAAC12</Name>
+      <IdFromActivity>18</IdFromActivity>
+      <IdToActivity>9</IdToActivity>
+      <Description>
+De Envio No. Radicado 3  A CAR Recibe No Radicado </Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Envio No. Radicado 3 </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="21" Code="T:DAAC12_DAAC23">
+      <Id>21</Id>
+      <Code>T:DAAC12_DAAC23</Code>
+      <Name>T:DAAC12_DAAC23</Name>
+      <IdFromActivity>9</IdFromActivity>
+      <IdToActivity>28</IdToActivity>
+      <Description>De Recibe No Radicado CAR  A Valida Diagnostico Ambiental CAR</Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Recibe No Radicado CAR</Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="22" Code="T:DAAC14_DAAC15">
+      <Id>22</Id>
+      <Code>T:DAAC14_DAAC15</Code>
+      <Name>T:DAAC14_DAAC15</Name>
+      <IdFromActivity>19</IdFromActivity>
+      <IdToActivity>20</IdToActivity>
+      <Description>
+De Valida Diagnostico Ambiental CAR  A Prep. Diagnostico CAR </Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Valida Diagnostico Ambiental CAR </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="23" Code="T:DAAC15_DAAC16">
+      <Id>23</Id>
+      <Code>T:DAAC15_DAAC16</Code>
+      <Name>T:DAAC15_DAAC16</Name>
+      <IdFromActivity>20</IdFromActivity>
+      <IdToActivity>21</IdToActivity>
+      <Description>
+De Prep. Diagnostico CAR  A Envia No. Radicado 2 CAR </Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Prep. Diagnostico CAR </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="24" Code="T:DAAC15_DAAC17">
+      <Id>24</Id>
+      <Code>T:DAAC15_DAAC17</Code>
+      <Name>T:DAAC15_DAAC17</Name>
+      <IdFromActivity>20</IdFromActivity>
+      <IdToActivity>22</IdToActivity>
+      <Description>
+De Prep. Diagnostico CAR  A Recibe No. Radicado 2 CAR </Description>
+      <Threshold>0</Threshold>
+      <Priority>2</Priority>
+      <Message>Se realiz? Prep. Diagnostico CAR </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="25" Code="T:DAAC16_DAAC17">
+      <Id>25</Id>
+      <Code>T:DAAC16_DAAC17</Code>
+      <Name>T:DAAC16_DAAC17</Name>
+      <IdFromActivity>21</IdFromActivity>
+      <IdToActivity>22</IdToActivity>
+      <Description>
+De Envia No. Radicado 2 CAR  A Recibe No. Radicado 2 CAR </Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Envia No. Radicado 2 CAR </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="26" Code="T:DAAC17_DAAC18">
+      <Id>26</Id>
+      <Code>T:DAAC17_DAAC18</Code>
+      <Name>T:DAAC17_DAAC18</Name>
+      <IdFromActivity>22</IdFromActivity>
+      <IdToActivity>23</IdToActivity>
+      <Description>
+De Recibe No. Radicado 2 CAR  A Emitir Publicacion CAR </Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Recibe No. Radicado 2 CAR </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="27" Code="T:DAAC10_LA ">
+      <Id>27</Id>
+      <Code>T:DAAC10_LA </Code>
+      <Name>T:DAAC10_LA </Name>
+      <IdFromActivity>17</IdFromActivity>
+      <IdToActivity>0</IdToActivity>
+      <Description>
+De Apertura del Expediente  A  Actividad final</Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Apertura del Expediente </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="28" Code="T:DAAC20_LA ">
+      <Id>28</Id>
+      <Code>T:DAAC20_LA </Code>
+      <Name>T:DAAC20_LA</Name>
+      <IdFromActivity>25</IdFromActivity>
+      <IdToActivity>0</IdToActivity>
+      <Description>
+De Apertura del Expediente CAR  A  Actividad final</Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Apertura del Expediente CAR </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="29" Code="T:DAAC21_DAAC04">
+      <Id>29</Id>
+      <Code>T:DAAC21_DAAC04</Code>
+      <Name>T:DAAC21_DAAC04</Name>
+      <IdFromActivity>26</IdFromActivity>
+      <IdToActivity>6</IdToActivity>
+      <Description>De Evaluacion de DAA AA1  A Valida Diagnostico Ambiental AA1</Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Evaluacion de DAA AA1</Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="30" Code="T:DAAC21_DAAC22">
+      <Id>30</Id>
+      <Code>T:DAAC21_DAAC22</Code>
+      <Name>T:DAAC21_DAAC22</Name>
+      <IdFromActivity>26</IdFromActivity>
+      <IdToActivity>27</IdToActivity>
+      <Description>De Evaluacion de DAA AA1  A Reporte AA1</Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Evaluacion de DAA AA1</Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="31" Code="T:DAAC22_LA ">
+      <Id>31</Id>
+      <Code>T:DAAC22_LA </Code>
+      <Name>T:DAAC22_LA</Name>
+      <IdFromActivity>27</IdFromActivity>
+      <IdToActivity>0</IdToActivity>
+      <Description>
+De Reporte AA1  A  Actividad final</Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Reporte AA1 </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="32" Code="T:DAAC23_DAAC14">
+      <Id>32</Id>
+      <Code>T:DAAC23_DAAC14</Code>
+      <Name>T:DAAC23_DAAC14</Name>
+      <IdFromActivity>28</IdFromActivity>
+      <IdToActivity>19</IdToActivity>
+      <Description>
+De Evaluacion de DAA CAD  A Valida Diagnostico Ambiental CAR </Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Evaluacion de DAA CAD </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="33" Code="T:DAAC23_DAAC24">
+      <Id>33</Id>
+      <Code>T:DAAC23_DAAC24</Code>
+      <Name>T:DAAC23_DAAC24</Name>
+      <IdFromActivity>28</IdFromActivity>
+      <IdToActivity>29</IdToActivity>
+      <Description>
+De Evaluacion de DAA CAD  A Reporte CAD </Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Evaluacion de DAA CAD </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="34" Code="T:DAAC24_LA ">
+      <Id>34</Id>
+      <Code>T:DAAC24_LA </Code>
+      <Name>T:DAAC24_LA</Name>
+      <IdFromActivity>29</IdFromActivity>
+      <IdToActivity>0</IdToActivity>
+      <Description>
+De Reporte CAD  A  Actividad final</Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Reporte CAD </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="35" Code="T:DAAC04_DAAC05">
+      <Id>35</Id>
+      <Code>T:DAAC04_DAAC05</Code>
+      <Name>T:DAAC04_DAAC05</Name>
+      <IdFromActivity>6</IdFromActivity>
+      <IdToActivity>12</IdToActivity>
+      <Description>De Valida Diagnostico Ambiental AA1  A Prep. Diagnostico AA1</Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Valida Diagnostico Ambiental AA1</Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="37" Code="T:DAAC05_DAAC07">
+      <Id>37</Id>
+      <Code>T:DAAC05_DAAC07</Code>
+      <Name>T:DAAC05_DAAC07</Name>
+      <IdFromActivity>12</IdFromActivity>
+      <IdToActivity>14</IdToActivity>
+      <Description>
+De Prep. Diagnostico AA1  A Recibe No. Radicado 2 AA1 </Description>
+      <Threshold>0</Threshold>
+      <Priority>2</Priority>
+      <Message>Se realiz? Prep. Diagnostico AA1 </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="38" Code="T:DAAC06_DAAC07">
+      <Id>38</Id>
+      <Code>T:DAAC06_DAAC07</Code>
+      <Name>T:DAAC06_DAAC07DAAC07</Name>
+      <IdFromActivity>13</IdFromActivity>
+      <IdToActivity>14</IdToActivity>
+      <Description>
+De Envia No. Radicado 2 AA1  A Recibe No. Radicado 2 AA1 </Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Envia No. Radicado 2 AA1 </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="39" Code="T:DAAC07_DAAC08">
+      <Id>39</Id>
+      <Code>T:DAAC07_DAAC08</Code>
+      <Name>T:DAAC07_DAAC08DAAC08</Name>
+      <IdFromActivity>14</IdFromActivity>
+      <IdToActivity>15</IdToActivity>
+      <Description>
+De Recibe No. Radicado 2 AA1  A Emitir Publicacion </Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Recibe No. Radicado 2 AA1 </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="40" Code="T:DAAC08_DAAC09">
+      <Id>40</Id>
+      <Code>T:DAAC08_DAAC09</Code>
+      <Name>T:DAAC08_DAAC09</Name>
+      <IdFromActivity>15</IdFromActivity>
+      <IdToActivity>16</IdToActivity>
+      <Description>
+De Emitir Publicacion  A Evaluaci?n de Alternativas </Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Emitir Publicacion </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="41" Code="T:DAAC09_DAAC10">
+      <Id>41</Id>
+      <Code>T:DAAC09_DAAC10</Code>
+      <Name>T:DAAC09_DAAC10</Name>
+      <IdFromActivity>16</IdFromActivity>
+      <IdToActivity>17</IdToActivity>
+      <Description>
+De Evaluaci?n de Alternativas  A Apertura del Expediente </Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Evaluaci?n de Alternativas </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="42" Code="T:DAAC09_DAAC25">
+      <Id>42</Id>
+      <Code>T:DAAC09_DAAC25</Code>
+      <Name>T:DAAC09_DAAC25</Name>
+      <IdFromActivity>16</IdFromActivity>
+      <IdToActivity>30</IdToActivity>
+      <Description>
+De Evaluaci?n de Alternativas  A Rechazo de Alternativas </Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Evaluaci?n de Alternativas </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="43" Code="T:DAAC25_LA ">
+      <Id>43</Id>
+      <Code>T:DAAC25_LA </Code>
+      <Name>T:DAAC25_LA</Name>
+      <IdFromActivity>30</IdFromActivity>
+      <IdToActivity>0</IdToActivity>
+      <Description>
+De Rechazo de Alternativas  A  Actividad final</Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Rechazo de Alternativas </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="45" Code="T:DAAC18_DAAC19">
+      <Id>45</Id>
+      <Code>T:DAAC18_DAAC19</Code>
+      <Name>T:DAAC18_DAAC19</Name>
+      <IdFromActivity>23</IdFromActivity>
+      <IdToActivity>24</IdToActivity>
+      <Description>
+De Emitir Publicacion CAR  A Evaluaci?n de Alternativas CAR </Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Emitir Publicacion CAR </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="46" Code="T:DAAC19_DAAC20">
+      <Id>46</Id>
+      <Code>T:DAAC19_DAAC20</Code>
+      <Name>T:DAAC19_DAAC20</Name>
+      <IdFromActivity>24</IdFromActivity>
+      <IdToActivity>25</IdToActivity>
+      <Description>
+De Evaluaci?n de Alternativas CAR  A Apertura del Expediente CAR </Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Evaluaci?n de Alternativas CAR </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="47" Code="T:DAAC26_LA ">
+      <Id>47</Id>
+      <Code>T:DAAC26_LA </Code>
+      <Name>T:DAAC26_LA</Name>
+      <IdFromActivity>31</IdFromActivity>
+      <IdToActivity>0</IdToActivity>
+      <Description>
+De Rechazo de Alternativas CAR  A  Actividad final</Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Rechazo de Alternativas CAR </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="48" Code="T:DAAC19_DAAC26">
+      <Id>48</Id>
+      <Code>T:DAAC19_DAAC26</Code>
+      <Name>T:DAAC19_DAAC26</Name>
+      <IdFromActivity>24</IdFromActivity>
+      <IdToActivity>31</IdToActivity>
+      <Description>
+De Evaluaci?n de Alternativas CAR  A Rechazo de Alternativas CAR </Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Evaluaci?n de Alternativas CAR </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="61" Code="T:DAAC25_LA ">
+      <Id>61</Id>
+      <Code>T:DAAC25_LA </Code>
+      <Name>T:DAAC25_LA </Name>
+      <IdFromActivity>30</IdFromActivity>
+      <IdToActivity>0</IdToActivity>
+      <Description>
+De Rechazo de Alternativas  A  Actividad final</Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Rechazo de Alternativas </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+  </Transitions>
+  <TransitionsRule>
+    <TransitionRule IdTransition="6" IdCondition="14" />
+    <TransitionRule IdTransition="10" IdCondition="7" />
+    <TransitionRule IdTransition="11" IdCondition="11" />
+    <TransitionRule IdTransition="12" IdCondition="10" />
+    <TransitionRule IdTransition="13" IdCondition="12" />
+    <TransitionRule IdTransition="15" IdCondition="15" />
+    <TransitionRule IdTransition="16" IdCondition="1" />
+    <TransitionRule IdTransition="17" IdCondition="6" />
+    <TransitionRule IdTransition="18" IdCondition="1" />
+    <TransitionRule IdTransition="19" IdCondition="7" />
+    <TransitionRule IdTransition="20" IdCondition="12" />
+    <TransitionRule IdTransition="21" IdCondition="20" />
+    <TransitionRule IdTransition="22" IdCondition="19" />
+    <TransitionRule IdTransition="23" IdCondition="15" />
+    <TransitionRule IdTransition="24" IdCondition="15" />
+    <TransitionRule IdTransition="25" IdCondition="12" />
+    <TransitionRule IdTransition="26" IdCondition="21" />
+    <TransitionRule IdTransition="27" IdCondition="18" />
+    <TransitionRule IdTransition="28" IdCondition="18" />
+    <TransitionRule IdTransition="29" IdCondition="22" />
+    <TransitionRule IdTransition="30" IdCondition="23" />
+    <TransitionRule IdTransition="31" IdCondition="24" />
+    <TransitionRule IdTransition="32" IdCondition="22" />
+    <TransitionRule IdTransition="33" IdCondition="23" />
+    <TransitionRule IdTransition="34" IdCondition="24" />
+    <TransitionRule IdTransition="35" IdCondition="13" />
+    <TransitionRule IdTransition="37" IdCondition="15" />
+    <TransitionRule IdTransition="38" IdCondition="12" />
+    <TransitionRule IdTransition="39" IdCondition="4" />
+    <TransitionRule IdTransition="40" IdCondition="16" />
+    <TransitionRule IdTransition="41" IdCondition="17" />
+    <TransitionRule IdTransition="42" IdCondition="25" />
+    <TransitionRule IdTransition="43" IdCondition="24" />
+    <TransitionRule IdTransition="45" IdCondition="16" />
+    <TransitionRule IdTransition="46" IdCondition="17" />
+    <TransitionRule IdTransition="47" IdCondition="24" />
+    <TransitionRule IdTransition="48" IdCondition="25" />
+  </TransitionsRule>
+  <ProcessCases>
+    <ProcessCase Id="1" Code="PC - DAA">
+      <Id>1</Id>
+      <Code>PC - DAA</Code>
+      <Name>PC - Solicitud de DAA</Name>
+      <Description>PC -Solicitud de DAA</Description>
+      <Documentation />
+      <Author>1</Author>
+      <FromDate>7/7/2009 12:00:00 AM</FromDate>
+      <ToDate>7/7/2019 12:00:00 AM</ToDate>
+      <DurationUnit>4</DurationUnit>
+      <Duration>1</Duration>
+      <Limit />
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime />
+      <WorkingTime />
+      <EntryDataType>Gattaca FormBuilder</EntryDataType>
+      <EntryData>1</EntryData>
+      <email>proceso_DAA@procesos.com</email>
+      <cost />
+      <Priority>0</Priority>
+      <URLHelp>#</URLHelp>
+      <URLService>#</URLService>
+      <URLDataView>http://www.gattacademos.com/bpmsuite/eFormbuilder/security/applicationLogin.aspx?type=startprocess&amp;</URLDataView>
+      <IDMessagePolicy>3</IDMessagePolicy>
+      <Enabled>T</Enabled>
+      <Status>T</Status>
+    </ProcessCase>
+  </ProcessCases>
+  <MailSettings>
+    <MailSetting />
+  </MailSettings>
+  <History>
+    <ProcessInstances>
+      <ProcessInstance Id="88" IdProcessCase="1">
+        <Id>88</Id>
+        <IdProcess>1</IdProcess>
+        <EntryDataType>VBFormBuilder</EntryDataType>
+        <EntryData>1</EntryData>
+        <IdEntryData>105</IdEntryData>
+        <IdApplicationUser>1</IdApplicationUser>
+        <InternalCode />
+        <NSequence>0</NSequence>
+        <Status>248</Status>
+        <CreateTime>7/2/2009 3:20:49 PM</CreateTime>
+        <StartTime>7/2/2009 3:20:49 PM</StartTime>
+        <EndTime>7/2/2009 3:31:34 PM</EndTime>
+        <Comment> </Comment>
+      </ProcessInstance>
+    </ProcessInstances>
+    <ActivityInstances>
+      <ActivityInstance Id="249" IdActivity="1">
+        <Id>249</Id>
+        <IdActivity>1</IdActivity>
+        <IdProcessInstance>88</IdProcessInstance>
+        <IdParticipant />
+        <EntryDataType />
+        <EntryData />
+        <IdEntryData />
+        <Status>248</Status>
+        <CreateTime>7/2/2009 3:20:50 PM</CreateTime>
+        <StartTime>7/2/2009 3:20:50 PM</StartTime>
+        <EndTime>7/2/2009 3:20:51 PM</EndTime>
+        <Comments>Actividad Automatica</Comments>
+        <OutComments>Actividad Automatica</OutComments>
+        <FileName />
+        <ExpectedEndTime>7/2/2009 3:20:51 PM</ExpectedEndTime>
+        <IdCauseTransition>0</IdCauseTransition>
+      </ActivityInstance>
+      <ActivityInstance Id="250" IdActivity="4">
+        <Id>250</Id>
+        <IdActivity>4</IdActivity>
+        <IdProcessInstance>88</IdProcessInstance>
+        <IdParticipant>1</IdParticipant>
+        <EntryDataType>VBFormBuilder</EntryDataType>
+        <EntryData>2</EntryData>
+        <IdEntryData>106</IdEntryData>
+        <Status>248</Status>
+        <CreateTime>7/2/2009 3:20:53 PM</CreateTime>
+        <StartTime>7/2/2009 3:22:59 PM</StartTime>
+        <EndTime>7/2/2009 3:23:34 PM</EndTime>
+        <Comments />
+        <OutComments />
+        <FileName />
+        <ExpectedEndTime>7/2/2009 3:20:54 PM</ExpectedEndTime>
+        <IdCauseTransition>18</IdCauseTransition>
+      </ActivityInstance>
+      <ActivityInstance Id="251" IdActivity="3">
+        <Id>251</Id>
+        <IdActivity>3</IdActivity>
+        <IdProcessInstance>88</IdProcessInstance>
+        <IdParticipant>0</IdParticipant>
+        <EntryDataType />
+        <EntryData />
+        <IdEntryData />
+        <Status>248</Status>
+        <CreateTime>7/2/2009 3:20:55 PM</CreateTime>
+        <StartTime>7/2/2009 3:23:36 PM</StartTime>
+        <EndTime>7/2/2009 3:23:36 PM</EndTime>
+        <Comments>Actividad Automatica</Comments>
+        <OutComments>Actividad Automatica</OutComments>
+        <FileName />
+        <ExpectedEndTime>7/2/2009 3:20:56 PM</ExpectedEndTime>
+        <IdCauseTransition>16</IdCauseTransition>
+      </ActivityInstance>
+      <ActivityInstance Id="252" IdActivity="26">
+        <Id>252</Id>
+        <IdActivity>26</IdActivity>
+        <IdProcessInstance>88</IdProcessInstance>
+        <IdParticipant>1</IdParticipant>
+        <EntryDataType>VBFormBuilder</EntryDataType>
+        <EntryData>3</EntryData>
+        <IdEntryData>107</IdEntryData>
+        <Status>248</Status>
+        <CreateTime>7/2/2009 3:23:38 PM</CreateTime>
+        <StartTime>7/2/2009 3:23:56 PM</StartTime>
+        <EndTime>7/2/2009 3:24:29 PM</EndTime>
+        <Comments />
+        <OutComments />
+        <FileName />
+        <ExpectedEndTime>7/2/2009 3:23:38 PM</ExpectedEndTime>
+        <IdCauseTransition>6</IdCauseTransition>
+      </ActivityInstance>
+      <ActivityInstance Id="253" IdActivity="6">
+        <Id>253</Id>
+        <IdActivity>6</IdActivity>
+        <IdProcessInstance>88</IdProcessInstance>
+        <IdParticipant />
+        <EntryDataType />
+        <EntryData />
+        <IdEntryData />
+        <Status>248</Status>
+        <CreateTime>7/2/2009 3:24:30 PM</CreateTime>
+        <StartTime>7/2/2009 3:24:31 PM</StartTime>
+        <EndTime>7/2/2009 3:24:31 PM</EndTime>
+        <Comments>Actividad Automatica</Comments>
+        <OutComments>Actividad Automatica</OutComments>
+        <FileName />
+        <ExpectedEndTime>7/2/2009 3:24:30 PM</ExpectedEndTime>
+        <IdCauseTransition>29</IdCauseTransition>
+      </ActivityInstance>
+      <ActivityInstance Id="254" IdActivity="12">
+        <Id>254</Id>
+        <IdActivity>12</IdActivity>
+        <IdProcessInstance>88</IdProcessInstance>
+        <IdParticipant>1</IdParticipant>
+        <EntryDataType />
+        <EntryData />
+        <IdEntryData />
+        <Status>248</Status>
+        <CreateTime>7/2/2009 3:24:33 PM</CreateTime>
+        <StartTime>7/2/2009 3:24:53 PM</StartTime>
+        <EndTime>7/2/2009 3:25:12 PM</EndTime>
+        <Comments />
+        <OutComments />
+        <FileName />
+        <ExpectedEndTime>7/2/2009 3:24:33 PM</ExpectedEndTime>
+        <IdCauseTransition>35</IdCauseTransition>
+      </ActivityInstance>
+      <ActivityInstance Id="255" IdActivity="13">
+        <Id>255</Id>
+        <IdActivity>13</IdActivity>
+        <IdProcessInstance>88</IdProcessInstance>
+        <IdParticipant>1</IdParticipant>
+        <EntryDataType>VBFormBuilder</EntryDataType>
+        <EntryData>2</EntryData>
+        <IdEntryData>108</IdEntryData>
+        <Status>248</Status>
+        <CreateTime>7/2/2009 3:25:13 PM</CreateTime>
+        <StartTime>7/2/2009 3:25:23 PM</StartTime>
+        <EndTime>7/2/2009 3:25:41 PM</EndTime>
+        <Comments />
+        <OutComments />
+        <FileName />
+        <ExpectedEndTime>7/2/2009 3:25:13 PM</ExpectedEndTime>
+        <IdCauseTransition>15</IdCauseTransition>
+      </ActivityInstance>
+      <ActivityInstance Id="256" IdActivity="14">
+        <Id>256</Id>
+        <IdActivity>14</IdActivity>
+        <IdProcessInstance>88</IdProcessInstance>
+        <IdParticipant>0</IdParticipant>
+        <EntryDataType />
+        <EntryData />
+        <IdEntryData />
+        <Status>248</Status>
+        <CreateTime>7/2/2009 3:25:14 PM</CreateTime>
+        <StartTime>7/2/2009 3:25:43 PM</StartTime>
+        <EndTime>7/2/2009 3:25:43 PM</EndTime>
+        <Comments>Actividad Automatica</Comments>
+        <OutComments>Actividad Automatica</OutComments>
+        <FileName />
+        <ExpectedEndTime>7/2/2009 3:25:15 PM</ExpectedEndTime>
+        <IdCauseTransition>37</IdCauseTransition>
+      </ActivityInstance>
+      <ActivityInstance Id="257" IdActivity="15">
+        <Id>257</Id>
+        <IdActivity>15</IdActivity>
+        <IdProcessInstance>88</IdProcessInstance>
+        <IdParticipant>1</IdParticipant>
+        <EntryDataType />
+        <EntryData />
+        <IdEntryData />
+        <Status>248</Status>
+        <CreateTime>7/2/2009 3:25:44 PM</CreateTime>
+        <StartTime>7/2/2009 3:26:22 PM</StartTime>
+        <EndTime>7/2/2009 3:26:43 PM</EndTime>
+        <Comments />
+        <OutComments />
+        <FileName />
+        <ExpectedEndTime>7/2/2009 3:25:44 PM</ExpectedEndTime>
+        <IdCauseTransition>39</IdCauseTransition>
+      </ActivityInstance>
+      <ActivityInstance Id="258" IdActivity="16">
+        <Id>258</Id>
+        <IdActivity>16</IdActivity>
+        <IdProcessInstance>88</IdProcessInstance>
+        <IdParticipant>1</IdParticipant>
+        <EntryDataType />
+        <EntryData />
+        <IdEntryData />
+        <Status>248</Status>
+        <CreateTime>7/2/2009 3:26:44 PM</CreateTime>
+        <StartTime>7/2/2009 3:26:51 PM</StartTime>
+        <EndTime>7/2/2009 3:30:36 PM</EndTime>
+        <Comments />
+        <OutComments />
+        <FileName />
+        <ExpectedEndTime>7/2/2009 3:26:44 PM</ExpectedEndTime>
+        <IdCauseTransition>40</IdCauseTransition>
+      </ActivityInstance>
+      <ActivityInstance Id="259" IdActivity="17">
+        <Id>259</Id>
+        <IdActivity>17</IdActivity>
+        <IdProcessInstance>88</IdProcessInstance>
+        <IdParticipant>1</IdParticipant>
+        <EntryDataType />
+        <EntryData />
+        <IdEntryData />
+        <Status>248</Status>
+        <CreateTime>7/2/2009 3:30:38 PM</CreateTime>
+        <StartTime>7/2/2009 3:30:47 PM</StartTime>
+        <EndTime>7/2/2009 3:31:33 PM</EndTime>
+        <Comments />
+        <OutComments />
+        <FileName />
+        <ExpectedEndTime>7/2/2009 3:30:38 PM</ExpectedEndTime>
+        <IdCauseTransition>41</IdCauseTransition>
+      </ActivityInstance>
+    </ActivityInstances>
+  </History>
+</WF_Process>

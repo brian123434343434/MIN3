@@ -1,0 +1,25 @@
+<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="WorkFlow.master.vb" Inherits="BPMWebSite.WorkFlow" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta name="keywords" content="Keywords here" />
+    <meta name="Author" content="Alejandro Chaparro M." />
+    <meta name="robots" content="index, follow, All" />
+    <meta name="revisit-after" content="30 days" />
+    <meta name="distribution" content="global" />
+    <meta name="rating" content="general" />
+    <meta name="Content-Language" content="english" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!--Funcionario-->
+<menu>
+  <MenuItem ValueField="MAVDT" TextField="Inicio" NavigateUrlField="" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+  <MenuItem ValueField="Tareas" TextField="Tareas" NavigateUrlField="" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField="">
+    <MenuItem ValueField="Lista de Tareas" TextField="Mis Tareas" NavigateUrlField="~/security/goto.aspx?app=BPM&amp;op=TL" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+  </MenuItem>
+  <MenuItem ValueField="IniciarTramite" TextField="Iniciar Trámite" NavigateUrlField="" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField="">
+    <MenuItem ValueField="Licencias" TextField="Licencias Ambientales" NavigateUrlField="~/security/goto.aspx?app=FBApp&amp;type=startProcess&amp;op=1" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+    <MenuItem ValueField="ConcesionAguasSubterraneas" TextField="Concesión de Aguas Subterraneas" NavigateUrlField="~/security/goto.aspx?app=FBApp&amp;type=startProcess&amp;op=3" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+  </MenuItem>
+  <MenuItem ValueField="Auditoria" TextField="Auditoria" NavigateUrlField="~/auditoria/default.asmx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+  <MenuItem ValueField="Indicadores" TextField="Indicadores" NavigateUrlField="~/inficadores/default.asmx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+  <MenuItem ValueField="FirmaDigital" TextField="Firma Digital" NavigateUrlField="~/firmaDigital/default.asmx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+  <MenuItem ValueField="CargaArchivos" TextField="Carga de Archivos" NavigateUrlField="~/firmaDigital/default.asmx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+  <MenuItem ValueField="SolicitudInformacion" TextField="Solicitud Información" NavigateUrlField="" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField="">
+    <MenuItem ValueField="OtraAA" TextField="Otra Autoridad Ambiental" NavigateUrlField="~/solicitud/AA.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+    <MenuItem ValueField="OtraEE" TextField="Otra Entidad" NavigateUrlField="~/solicitud/AA.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+  </MenuItem>
+  <MenuItem ValueField="Audiencia" TextField="Audiencia Publica" NavigateUrlField="~/audiencia/default.asmx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+  <MenuItem ValueField="Publicacion" TextField="Publicaciones" NavigateUrlField="~/publicacion/default.asmx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+  <MenuItem TextField="Salir" ValueField="Salir" NavigateUrlField="~/Security/logout.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+</menu>

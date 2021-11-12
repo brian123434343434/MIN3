@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="yes"?>
+<menu>
+  <MenuItem>
+    <ValueField>Lista de Tareas</ValueField>
+    <TextField>Lista de Tareas</TextField>
+    <NavigateUrlField />
+    <EnabledField />
+    <FormatString />
+    <ImageUrlField />
+    <PopOutImageUrlField />
+    <SelectableField />
+    <SeparatorImageUrlField />
+    <TargetField />
+    <ToolTipField />
+  </MenuItem>
+  <MenuItem>
+    <ValueField>asdf</ValueField>
+    <TextField>adfsasdf</TextField>
+    <NavigateUrlField>asdfasdf</NavigateUrlField>
+    <EnabledField />
+    <FormatString />
+    <ImageUrlField />
+    <PopOutImageUrlField />
+    <SelectableField />
+    <SeparatorImageUrlField />
+    <TargetField>asdfasdf</TargetField>
+    <ToolTipField />
+  </MenuItem>
+  <MenuItem>
+    <ValueField>Iniciar Trámite</ValueField>
+    <TextField>Iniciar Trámite</TextField>
+    <NavigateUrlField />
+    <EnabledField />
+    <FormatString />
+    <ImageUrlField />
+    <PopOutImageUrlField />
+    <SelectableField />
+    <SeparatorImageUrlField />
+    <TargetField />
+    <ToolTipField />
+  </MenuItem>
+</menu>

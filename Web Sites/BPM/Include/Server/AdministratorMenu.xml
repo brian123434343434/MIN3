@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu >
+  <MenuItem ValueField="MainMenu" TextField="Menú Principal" NavigateUrlField="" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="" />
+  <MenuItem TextField="Diseñador de Procesos" ValueField="Diseñador de Procesos" NavigateUrlField="" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="">
+    <MenuItem TextField="Paquetes de Procesos" ValueField="Packages" NavigateUrlField="~/Administrator/Package/AdminPackage.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="Administración de Paquetes" />
+    <MenuItem TextField="Procesos" ValueField="Processes" NavigateUrlField="~/Administrator/Process/AdminProcess.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="Administración de Procesos" />
+    <MenuItem TextField="Condiciones" ValueField="Conditions" NavigateUrlField="~/Administrator/Condition/AdminCondition.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="Administración de Condiciones" />
+    <MenuItem TextField="Actividades" ValueField="Activities" NavigateUrlField="~/Administrator/Activity/AdminActivity.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="Administración de Actividades" />
+    <MenuItem TextField="Transiciones" ValueField="Transitions" NavigateUrlField="~/Administrator/Transition/AdminTransition.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="Administración de Transiciones" />
+    <MenuItem TextField="Participantes" ValueField="Participantes" NavigateUrlField="~/Administrator/Participant/AdminParticipant.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="Administración de Participantes" />
+    <MenuItem TextField="Casos de Procesos" ValueField="ProcessCases" NavigateUrlField="~/Administrator/Process/AdminProcessCase.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="Administración de Casos de Procesos" />
+  </MenuItem>
+  <MenuItem TextField="Administración de Procesos" ValueField="Administrador de Procesos" NavigateUrlField="" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="">
+    <MenuItem TextField="Instancias de Procesos" ValueField="ActInstance" NavigateUrlField="~/Administrator/RunTime/AdmProcInstance.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="Administración de Instancias de Procesos" />
+    <MenuItem TextField="Instancias de Actividades" ValueField="ProcessesInstance" NavigateUrlField="~/Administrator/RunTime/AdmActInstance.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="Administración de Instancias de Actividades" />
+    <MenuItem TextField="Importar / Exportar" ValueField="Importación / Exportación de Procesos" NavigateUrlField="" EnabledField="True" ToolTipField="" >
+      <MenuItem TextField="eWorkFlow V 1.5" ValueField="eWorkFlow V 1.5" NavigateUrlField="" EnabledField="True" ToolTipField="" >
+        <MenuItem TextField="Exportar de 1.5 a 8.3" ValueField="Export_15" NavigateUrlField="~/Administrator/Tools/ExportAspToNet.aspx" EnabledField="True" ToolTipField="" />
+      </MenuItem>
+      <MenuItem TextField="eWorkFlow V 8.3 " ValueField="eWorkFlow V 8.3 " NavigateUrlField="" EnabledField="True" ToolTipField="" >
+        <MenuItem TextField="Importar XML" ValueField="Import_83" NavigateUrlField="~/Administrator/Tools/ImportNetToNet.aspx" EnabledField="True" ToolTipField="" />
+        <MenuItem TextField="Exportar XML" ValueField="Export_83" NavigateUrlField="~/Administrator/Tools/ExportNetToNet.aspx" EnabledField="True" ToolTipField="" />
+      </MenuItem>
+    </MenuItem>
+  </MenuItem>
+  <MenuItem TextField="Configuración" ValueField="Settings" NavigateUrlField="" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="">
+    <MenuItem TextField="Parametros" ValueField="Parameters" NavigateUrlField="~/Administrator/Settings/Settings.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="Parametros del Motor de Workflow" />
+    <MenuItem TextField="Politicas de Alertas" ValueField="MessagePolicies" NavigateUrlField="~/Administrator/Settings/MessagePolicy.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="Politicas de Notificaciones" />
+    <MenuItem TextField="Mensajes de Alertas" ValueField="Messages" NavigateUrlField="~/Administrator/Settings/MessageSettings.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="Mensajes de Notificación" />
+    <MenuItem TextField="Cambiar Contraseña" ValueField="ChangePassword" NavigateUrlField="~/Common/ChangePassword.aspx?app=Administrator" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="Cambiar Contraseña" />
+  </MenuItem >
+  <MenuItem ValueField="Cerrar Sesión" TextField="Cerrar Sesión" NavigateUrlField="/SILPA_UT_PRE/Salir.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="" />
+</menu>

@@ -1,0 +1,1714 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Gattaca.Facade.eSecurity
+</name>
+</assembly>
+<members>
+<member name="M:Gattaca.Facade.eSecurity.eJournal.GetApplicationTransactions(Gattaca.Application.Credentials.ApplicationCredentials)">
+	<summary>
+ Llama la función de captura de Operaciones (ApplicationTransaction)
+ </summary>
+	<param name="oAppCredentials"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<Author>Jaime Mora</Author>
+	<Date>28/05/09</Date>
+</member><member name="M:Gattaca.Facade.eSecurity.eJournal.GetApplicationUsers(Gattaca.Application.Credentials.ApplicationCredentials)">
+	<summary>
+ Llama la función de captura de Usuarios (ApplicationUser)
+ </summary>
+	<param name="oAppCredentials"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<Author>Jaime Mora</Author>
+	<Date>29/05/09</Date>
+</member><member name="M:Gattaca.Facade.eSecurity.eJournal.GetMessages(Gattaca.Application.Credentials.ApplicationCredentials)">
+	<summary>
+ Llama la función de captura de Mensajes de Error (Message)
+ </summary>
+	<param name="oAppCredentials"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<Author>Jaime Mora</Author>
+	<Date>29/05/09</Date>
+</member><member name="M:Gattaca.Facade.eSecurity.eJournal.GetJournals(Gattaca.Application.Credentials.ApplicationCredentials,System.Collections.Generic.List{Gattaca.Application.Tools.SearchCriteriaEntity},System.String,System.Int32,System.Int32)">
+	<summary>
+ Llama la función de captura de Operaciones (Journal)
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="oSearchCriterios"></param>
+	<param name="order"></param>
+	<param name="lCurrentPage"></param>
+	<param name="lPageSize"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<Author>Jaime Mora</Author>
+	<Date>29/05/09</Date>
+</member><member name="M:Gattaca.Facade.eSecurity.eJournal.GetJournal(Gattaca.Application.Credentials.ApplicationCredentials,System.Int64)">
+	<summary>
+ Llama la función de captura de Operaciones (Journal) por ID
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="IDJournal"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<Author>Jaime Mora</Author>
+	<Date>01/05/09</Date>
+</member><member name="M:Gattaca.Facade.eSecurity.eJournal.JournalStatistics(Gattaca.Application.Credentials.ApplicationCredentials,System.Int32,System.Int32,System.String,System.String)">
+	<summary>
+ Llama la función que calcula las estadísticas de Journal
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="iApplicationTransaction"></param>
+	<param name="iYear"></param>
+	<param name="sDistributionGroup"></param>
+	<param name="sOptionsChoice"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<Author>Jaime Mora</Author>
+	<Date>01/06/09</Date>
+</member><member name="M:Gattaca.Facade.eSecurity.eStats.GetUsersByGroup(Gattaca.Application.Credentials.ApplicationCredentials)">
+	<summary>
+ Llama la función de captura de Estadísticas de Usuarios x Grupos 
+ </summary>
+	<param name="oAppCredentials"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<Author>Jaime Mora</Author>
+	<Date>09/06/09</Date>
+</member><member name="M:Gattaca.Facade.eSecurity.eStats.GetUsersByCompany(Gattaca.Application.Credentials.ApplicationCredentials)">
+	<summary>
+ Llama la función de captura de Estadísticas de Usuarios x Compañia 
+ </summary>
+	<param name="oAppCredentials"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<Author>Jaime Mora</Author>
+	<Date>11/06/09</Date>
+</member><member name="M:Gattaca.Facade.eSecurity.eStats.GetUsersByLocality(Gattaca.Application.Credentials.ApplicationCredentials)">
+	<summary>
+ Llama la función de captura de Estadísticas de Usuarios x Localidad 
+ </summary>
+	<param name="oAppCredentials"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<Author>Jaime Mora</Author>
+	<Date>16/06/09</Date>
+</member><member name="M:Gattaca.Facade.eSecurity.eStats.GetLoginStatistics(Gattaca.Application.Credentials.ApplicationCredentials,System.String,System.String,System.String,System.String)">
+	<summary>
+ Llama la función de captura de Estadísticas de Entradas
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="sDistributionGroup"></param>
+	<param name="sStartDate"></param>
+	<param name="sEndDate"></param>
+	<param name="sOptionsChoice"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<Author>Jaime Mora</Author>
+	<Date>16/06/09</Date>
+</member><member name="M:Gattaca.Facade.eSecurity.eStats.GetVisitorStatistics(Gattaca.Application.Credentials.ApplicationCredentials,System.String,System.String)">
+	<summary>
+ Llama la función de captura de Estadísticas de Visitas
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="sStartDate"></param>
+	<param name="sEndDate"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<Author>Jaime Mora</Author>
+	<Date>16/06/09</Date>
+</member><member name="M:Gattaca.Facade.eSecurity.eStats.GetTransactionStatistics(Gattaca.Application.Credentials.ApplicationCredentials,System.String,System.String,System.String,System.String,System.Int64)">
+	<summary>
+ Llama la función de captura de Estadísticas de Operaciones
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="sDistributionGroup"></param>
+	<param name="sStartDate"></param>
+	<param name="sEndDate"></param>
+	<param name="sOptionsChoice"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<Author>Jaime Mora</Author>
+	<Date>17/06/09</Date>
+</member><member name="M:Gattaca.Facade.eSecurity.eStats.GetApplicationUsers(Gattaca.Application.Credentials.ApplicationCredentials)">
+	<summary>
+ Llama la función de captura de Usuarios (ApplicationUser)
+ </summary>
+	<param name="oAppCredentials"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<Author>Jaime Mora</Author>
+	<Date>29/05/09</Date>
+</member><member name="M:Gattaca.Facade.eSecurity.eStats.GetFailureTryStatistics(Gattaca.Application.Credentials.ApplicationCredentials,System.String,System.String,System.String,System.String)">
+	<summary>
+ Llama la función de captura de Estadísticas de Intentos de Acceso
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="sDistributionGroup"></param>
+	<param name="sStartDate"></param>
+	<param name="sEndDate"></param>
+	<param name="sOptionsChoice"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<Author>Jaime Mora</Author>
+	<Date>17/06/09</Date>
+</member><member name="M:Gattaca.Facade.eSecurity.Tools.RunSQLReturnRS(Gattaca.Application.Credentials.ApplicationCredentials,System.Int32,System.String,System.String)">
+	<summary>
+	</summary>
+	<param name="objAppCredentials"></param>
+	<param name="iOperationID"></param>
+	<param name="strSP"></param>
+	<param name="sDatabase"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.Tools.RunSQLReturnDataset(Gattaca.Application.Credentials.ApplicationCredentials,System.Int32,System.String,System.Data.Common.DbParameter[],System.Data.CommandType,System.String)">
+	<summary>
+ Retorna un dataset.
+ </summary>
+	<param name="objAppCredentials"></param>
+	<param name="lOperationID"></param>
+	<param name="strSP"></param>
+	<param name="objParams"></param>
+	<param name="sDatabase"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.Tools.RunSQLReturnDataTable(Gattaca.Application.Credentials.ApplicationCredentials,System.Int32,System.String,System.Data.Common.DbParameter[],System.Data.CommandType,System.String)">
+	<summary>
+ Retorna un DataTable.
+ </summary>
+	<param name="objAppCredentials"></param>
+	<param name="lOperationID"></param>
+	<param name="strSP"></param>
+	<param name="objParams"></param>
+	<param name="CommandType"></param>
+	<param name="sDatabase"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.Tools.RunSQLReturnDataRow(Gattaca.Application.Credentials.ApplicationCredentials,System.Int32,System.String,System.Data.Common.DbParameter[],System.Data.CommandType,System.String)">
+	<summary>
+ Retorna un datarow.
+ </summary>
+	<param name="objAppCredentials"></param>
+	<param name="lOperationID"></param>
+	<param name="strSP"></param>
+	<param name="objParams"></param>
+	<param name="CommandType"></param>
+	<param name="sDatabase"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.Tools.RunSQL(Gattaca.Application.Credentials.ApplicationCredentials,System.Int32,System.String,System.String)">
+	<summary>
+	</summary>
+	<param name="oAppCredentials"></param>
+	<param name="iOperationID"></param>
+	<param name="strSP"></param>
+	<param name="sDatabase"></param>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.Tools.FindMessage(System.String,System.Int32,System.Int32)">
+	<summary>
+ Obtener Descripcion para un error o mensaje
+ </summary>
+	<param name="sClient"></param>
+	<param name="iMessageCode">Code Error o mensaje</param>
+	<param name="iTypeMsg"> Type de mensaje (0 = Ok)</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.Tools.TestRegExp(System.String,System.String)">
+	<summary>
+ Prueba si una cadena cumple con una expresion Regular
+ </summary>
+	<param name="myPattern"></param>
+	<param name="myString"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.Tools.Publish(System.Exception,System.String,System.String,System.String)">
+	<summary>
+ Error Helper Manager
+ </summary>
+	<param name="oEx"></param>
+	<param name="ClientName"></param>
+	<param name="ModuleName"></param>
+	<param name="MethodName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.Tools.CompaniesIDsToString(System.Collections.Generic.List{Gattaca.Entity.eSecurity.CompanyEntity})">
+	<summary>
+ Retorna una cadena con todos los IDs de la coleccion separados por comas
+ </summary>
+	<returns></returns>
+	<remarks>Util para las consultas de Tipo IN ()</remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.UserLogin(Gattaca.Application.Credentials.ApplicationCredentials,System.String,System.String,Gattaca.Entity.eSecurity.AuthenticationMode)">
+	<summary>
+  Validar el password de un usuario
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="login"></param>
+	<param name="password"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<history>
+     [jpastrana]   Created
+     [jpelaez]   25/08/2000 Edited
+     [jpelaez]   27/04/2005 Se incluyo soporte para encriptación de la contraseña usando CriptoAPI
+     [jpelaez]   02/05/2005 Se modificaron los parametros de Entrada, se eliminaron iLockTry, iLockTime, bLockIPEnabled, bOnePlace
+     [jpelaez]   11/05/2006 Se modifico para permitir autenticación integrada con el directorio activo.
+     [jpelaez]   22/04/2007 Refactored
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.LockIP(System.String,System.String,System.String,System.Int32,System.String)">
+	<summary>
+ Bloquear IP segun numero de intentos
+ </summary>
+	<param name="sAppClient"></param>
+	<param name="sIP"></param>
+	<param name="sClient"></param>
+	<param name="iTry"></param>
+	<param name="sIDSession"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<history>
+      [jpelaez] Created 09/01/2001
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetTransactions(Gattaca.Application.Credentials.ApplicationCredentials,System.String,System.Object,System.String,System.Boolean,System.Int32,System.Int32)">
+	<summary>
+ Consultar las operaciones existentes segun los criterios de busqueda
+ </summary>
+	<param name="AppCredentials "></param>
+	<param name="FieldSearch "></param>
+	<param name="SearchValue "></param>
+	<param name="Order "></param>
+	<param name="IsOnlyEnabled "></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.ChangePassword(Gattaca.Application.Credentials.ApplicationCredentials,System.String)">
+	<summary>
+     Cambiar la Contraseña
+ </summary>
+	<param name="oAppCredentials">Credenciales del Usuario</param>
+	<param name="sPassword">Contraseña Nueva del Usuario</param>
+	<remarks>
+     Se incluyó modificaciones para validar complejidad de la contraseña.
+ </remarks>
+	<history>
+     [jpastrana]    Created
+     [jpelaez]   04/22/2005 se incluyo soporte para encriptación, complejidad e historico de la contraseña
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetUserGroupsbyUser(Gattaca.Application.Credentials.ApplicationCredentials,System.Int64)">
+	<summary>
+ Carga el Listado de Roles a los que pertenece el usuario
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="IDUser"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<history>
+       [jpelaez] Refactored 13/04/2007
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetUserCompanies(Gattaca.Application.Credentials.ApplicationCredentials,System.Int64)">
+	<summary>
+ Carga el Listado de Compañías autorizadas para el Usuario
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="IDUser"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<history>
+      [jpelaez] Created 09/07/2001
+      [jpelaez] Refactored 13/04/2007
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetUsersByUserGroup(Gattaca.Application.Credentials.ApplicationCredentials,System.String)">
+	<summary>
+ Carga la lista de usuarios que pertenecen a un grupo dado
+ </summary>
+	<param name="AppCredentials"></param>
+	<param name="GroupIDs"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetUsersByUserGroup(Gattaca.Application.Credentials.ApplicationCredentials,System.String,System.Collections.Generic.List{Gattaca.Application.Tools.SearchCriteriaEntity},System.String,System.Int32,System.Int32)">
+	<summary>
+ Carga la lista de usuarios que pertenecen a un grupo dado
+ </summary>
+	<param name="AppCredentials"></param>
+	<param name="GroupIDs"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetCompanyInfo(Gattaca.Application.Credentials.ApplicationCredentials,System.Int64)">
+	<summary>
+ Carga Información de una Compañía
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="CompanyID"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<history>
+          [jpelaez] created 24/12/2001
+          [jpelaez] refactored 25/04/2007
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetAuthorizedModules(Gattaca.Application.Credentials.ApplicationCredentials,System.Int64)">
+	<summary>
+ Carga la lista de los modulos autorizados para un usuario y empresa
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="lUserID"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<history>
+          [jpelaez] Created  24/12/2001
+          [jpelaez] Refactored 25/04/2007   
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.IsModuleAuthoriced(Gattaca.Application.Credentials.ApplicationCredentials,System.Int64,System.String)">
+	<summary>
+  Determina si el usuario tiene permisos para un modulo de la aplicacion
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="UserID">Id del Usuario que quiero validar</param>
+	<param name="ModuleCode">Codigo del Modulo que quiero validar para ese usuario, Ej: eSecurity</param>
+	<returns></returns>
+	<remarks></remarks>
+	<history>
+        [jpelaez] created 13/04/2007
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.IsInRole(Gattaca.Application.Credentials.ApplicationCredentials,System.Int64,System.Int64)">
+	<summary>
+ Determina si un Usuario es Miembro de un Grupo especifico
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="UserID"></param>
+	<param name="RoleID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.IsModuleAuthoriced(Gattaca.Application.Credentials.ApplicationCredentials,System.Int64,System.Int64)">
+	<summary>
+ Determina si el usuario tiene permisos para un modulo de la aplicacion
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="UserID"></param>
+	<param name="ModuleID"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<history>
+        [jpelaez] created 13/04/2007
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetUserInfo(Gattaca.Application.Credentials.ApplicationCredentials,System.String)">
+	<summary>
+ Carga Información básica de un usuario usando el Código del Usuario
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="sUserCode"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetCompanies(Gattaca.Application.Credentials.ApplicationCredentials,System.String,System.String,System.String,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int32,System.String,System.String,System.String,System.String,System.Int64,System.Int64,System.Int32,System.Int32)">
+	<summary>
+  Carga el Listado de Compañias de la aplicación, los parametros opcionales habilitan la función como buscador
+ </summary>
+	<param name="AppCredentials"></param>
+	<param name="sCode"></param>
+	<param name="sName"></param>
+	<param name="sIdentification"></param>
+	<param name="lCityID"></param>
+	<param name="lLocalCurrency"></param>
+	<param name="lForeignCurrency"></param>
+	<param name="lType"></param>
+	<param name="lCategory"></param>
+	<param name="lAttribute"></param>
+	<param name="sAttributeType"></param>
+	<param name="sAttributeName"></param>
+	<param name="sAttributeValue"></param>
+	<param name="sUserGroups"></param>
+	<param name="lCountryID"></param>
+	<param name="lIDApplicationUser"></param>
+	<returns></returns>
+	<history>
+      [jpelaez] Created 04/05/2006
+      [jpelaez] Refactored 18/04/2007
+ </history>
+	<remarks>
+      Se migró a la ultima versión de la aplicación.
+ </remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetUsersByCompany(Gattaca.Application.Credentials.ApplicationCredentials,System.String,System.String)">
+	<summary>
+ Carga la lista de usuarios que son miembros de una compañía y estan en una lista de roles especificos
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="CompanyIDs"></param>
+	<param name="UserGroupIDs"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<history>
+ 	[jpelaez]	10/23/2005	Created
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetUsersByCompany(Gattaca.Application.Credentials.ApplicationCredentials,System.String)">
+	<summary>
+ Carga la lista de usuarios que son miembros de una compañía
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="CompanyIDs"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<history>
+        [jpelaez] Refactored 18/04/2007
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetUserCompanies(Gattaca.Application.Credentials.ApplicationCredentials,System.Int64,System.Boolean)">
+	<summary>
+ Carga el Listado de Compañías autorizadas para el Usuario pero sin incluir las que hereda 
+ por ser miembro de diferentes grupos
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="IDUser"></param>
+	<param name="InheritGroups"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<history>
+         [jpelaez] Created 09/07/2001
+         [jpelaez] Refactores 21/04/2007
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetSettings(Gattaca.Application.Credentials.ApplicationCredentials)">
+	<summary>
+ Cargar la Configuracion del Sistema. 
+ </summary>
+	<param name="oAppCredentials"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<history>
+     [jpelaez] Created 11/04/2007
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetCountriesByCurrency(Gattaca.Application.Credentials.ApplicationCredentials,System.Int64)">
+	<summary>
+ Retorna todos los paises que usan una moneda seleccionada
+ </summary>
+	<param name="oAppCredentials">Credenciales de la Aplicacion</param>
+	<param name="CurrencyID">ID de la moneda que se consulta</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetCompanyTypesByCompany(Gattaca.Application.Credentials.ApplicationCredentials,System.Int64)">
+	<summary>
+     Cargar el Listado de Tipos de Compañía por Compañía
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="lCompanyID"></param>
+	<returns></returns>
+	<remarks>
+	</remarks>
+	<history>
+     [jpelaez] 27/04/2005 Created
+     [jpelaez] 29/04/2007 Refactored
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetCompanyHierarchyByCompanyID(System.String,System.Int64)">
+	<summary>
+  Retorna un Recordset con las Jerarquia de Compañias dado un ID de Compañía
+ </summary>
+	<param name="sClient"></param>
+	<param name="lCompanyID"> ID de la Compañía Padre</param>
+	<returns> Recordset con la lista de compañías hijas</returns>
+	<history>
+       [jpelaez] Created
+       [jpelaez] Edited. Se modificó para que devuelva el código de las compañías. 
+ </history>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetUserHierarchyByUserID(System.String,System.Int64)">
+	<summary>
+ Retorna un Recordset con las Jerarquia de Usuarios dado un ID de Usuario
+ </summary>
+	<param name="sClient"></param>
+	<param name="lCompanyID"></param>
+	<returns></returns>
+	<history>
+       [jpelaez] Created   17/05/2005
+ </history>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetAttributesByApplicationUser(Gattaca.Application.Credentials.ApplicationCredentials,System.Int64,System.Boolean)">
+	<summary>
+ Carga el Recordset con la Lista de Atributos asociados a un Usuario.
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="lApplicationUser"></param>
+	<param name="bShowValues"></param>
+	<returns></returns>
+	<remarks>Si bShowValues = True devuelve el contenido de los atributos del usuario
+ . Si el valor el False, devuelve la lista de atributos en general</remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.Publish(System.Exception,System.String,System.String,System.String)">
+	<summary>
+ Error Helper Manager
+ </summary>
+	<param name="oEx"></param>
+	<param name="ClientName"></param>
+	<param name="ModuleName"></param>
+	<param name="MethodName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetApplicationUsers(Gattaca.Application.Credentials.ApplicationCredentials,System.String,System.Int32,System.String,System.Boolean,System.Int32,System.Int32)">
+	<summary>
+ Carga la Coleccion de Usuarios que cumplen con los criterios de busqueda.
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="FieldSearch"></param>
+	<param name="SearchValue"></param>
+	<param name="Order"></param>
+	<param name="IsOnlyEnabled"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetApplicationUsers(Gattaca.Application.Credentials.ApplicationCredentials,System.String,System.String,System.String,System.Boolean,System.Int32,System.Int32)">
+	<summary>
+ Carga la Coleccion de Usuarios que cumplen con los criterios de busqueda
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="FieldSearch"></param>
+	<param name="SearchValue"></param>
+	<param name="Order"></param>
+	<param name="IsOnlyEnabled"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetApplicationUsers(Gattaca.Application.Credentials.ApplicationCredentials,System.Collections.Generic.List{Gattaca.Application.Tools.SearchCriteriaEntity},System.String,System.Int32,System.Int32)">
+	<summary>
+ Carga la Coleccion de Usuarios que cumplen con los criterios de busqueda
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="oSearchCriterios"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetCities(Gattaca.Application.Credentials.ApplicationCredentials,System.String,System.Int32,System.String,System.Boolean,System.Int32,System.Int32)">
+	<summary>
+ Cargar Lista de Ciudades
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="FieldSearch"></param>
+	<param name="SearchValue"></param>
+	<param name="Order"></param>
+	<param name="IsOnlyEnabled"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<history>
+       [jpelaez] Created 21/01/2003
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetCities(Gattaca.Application.Credentials.ApplicationCredentials,System.String,System.String,System.String,System.Boolean,System.Int32,System.Int32)">
+	<summary>
+ Cargar Lista de Ciudades
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="FieldSearch"></param>
+	<param name="SearchValue"></param>
+	<param name="Order"></param>
+	<param name="IsOnlyEnabled"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<history>
+       [jpelaez] Created 21/01/2003
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetCities(Gattaca.Application.Credentials.ApplicationCredentials,System.Collections.Generic.List{Gattaca.Application.Tools.SearchCriteriaEntity},System.String,System.Int32,System.Int32)">
+	<summary>
+ Cargar Lista de Ciudades
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="oSearchCriterios"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetCompanies(Gattaca.Application.Credentials.ApplicationCredentials,System.String,System.Int32,System.String,System.Boolean,System.Int32,System.Int32)">
+	<summary>
+ Carga el Listado de Compañias de la aplicación
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="FieldSearch"></param>
+	<param name="SearchValue"></param>
+	<param name="Order"></param>
+	<param name="IsOnlyEnabled"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetCompanies(Gattaca.Application.Credentials.ApplicationCredentials,System.String,System.String,System.String,System.Boolean,System.Int32,System.Int32)">
+	<summary>
+ Carga el Listado de Compañias de la aplicación
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="FieldSearch"></param>
+	<param name="SearchValue"></param>
+	<param name="Order"></param>
+	<param name="IsOnlyEnabled"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetCompanies(Gattaca.Application.Credentials.ApplicationCredentials,System.Collections.Generic.List{Gattaca.Application.Tools.SearchCriteriaEntity},System.String,System.Int32,System.Int32)">
+	<summary>
+ Carga el Listado de Compañias de la aplicación
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="oSearchCriterios"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetCountries(Gattaca.Application.Credentials.ApplicationCredentials,System.String,System.Int32,System.String,System.Boolean,System.Int32,System.Int32)">
+	<summary>
+ Carga lista de Paises
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="sFieldSearch"></param>
+	<param name="vSearchValue"></param>
+	<param name="sOrder"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<history>
+      [jpelaez] Created 15/04/2007
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetCountries(Gattaca.Application.Credentials.ApplicationCredentials,System.String,System.String,System.String,System.Boolean,System.Int32,System.Int32)">
+	<summary>
+ Carga la lista de Paises
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="sFieldSearch"></param>
+	<param name="vSearchValue"></param>
+	<param name="sOrder"></param>
+	<param name="IsOnlyEnabled"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetCountries(Gattaca.Application.Credentials.ApplicationCredentials,System.Collections.Generic.List{Gattaca.Application.Tools.SearchCriteriaEntity},System.String,System.Int32,System.Int32)">
+	<summary>
+ Carga lista de Paises
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="oSearchCriterios"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<history>
+      [jpelaez] Created 04/14/2007
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetCurrencies(Gattaca.Application.Credentials.ApplicationCredentials,System.String,System.Int32,System.String,System.Boolean)">
+	<summary>
+ Carga lista de Monedas
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="sFieldSearch"></param>
+	<param name="vSearchValue"></param>
+	<param name="sOrder"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<history>
+      [jpelaez] Refactored 04/14/2007
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetCurrencies(Gattaca.Application.Credentials.ApplicationCredentials,System.String,System.String,System.String,System.Boolean)">
+	<summary>
+ Carga lista de Monedas
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="sFieldSearch"></param>
+	<param name="vSearchValue"></param>
+	<param name="sOrder"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<history>
+      [jpelaez] Refactored 04/14/2007
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetCurrencies(Gattaca.Application.Credentials.ApplicationCredentials,System.Collections.Generic.List{Gattaca.Application.Tools.SearchCriteriaEntity},System.String)">
+	<summary>
+ Carga lista de Monedas
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="oSearchCriterios"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<history>
+      [jpelaez] Refactored 04/14/2007
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetDeptos(Gattaca.Application.Credentials.ApplicationCredentials,System.String,System.Int32,System.String,System.Boolean)">
+	<summary>
+ Cargar Lista de Departamentos
+ </summary>
+	<param name="appCredentials"></param>
+	<param name="fieldSearch"></param>
+	<param name="searchValue"></param>
+	<param name="order"></param>
+	<param name="isOnlyEnabled"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetDeptos(Gattaca.Application.Credentials.ApplicationCredentials,System.String,System.String,System.String,System.Boolean)">
+	<summary>
+ Cargar Lista de Departamentos
+ </summary>
+	<param name="appCredentials"></param>
+	<param name="fieldSearch"></param>
+	<param name="searchValue"></param>
+	<param name="order"></param>
+	<param name="isOnlyEnabled"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetDeptos(Gattaca.Application.Credentials.ApplicationCredentials,System.Collections.Generic.List{Gattaca.Application.Tools.SearchCriteriaEntity},System.String)">
+	<summary>
+ Cargar Lista de Departamentos
+ </summary>
+	<param name="appCredentials"></param>
+	<param name="searchCriterios"></param>
+	<param name="order"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetLanguages(Gattaca.Application.Credentials.ApplicationCredentials,System.String,System.Int32,System.String,System.Boolean)">
+	<summary>
+ Carga la Lista de Idiomas 
+ </summary>
+	<param name="appCredentials"></param>
+	<param name="fieldSearch"></param>
+	<param name="searchValue"></param>
+	<param name="order"></param>
+	<param name="isOnlyEnabled"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetLanguages(Gattaca.Application.Credentials.ApplicationCredentials,System.String,System.String,System.String,System.Boolean)">
+	<summary>
+ Carga la Lista de Idiomas
+ </summary>
+	<param name="AppCredentials"></param>
+	<param name="FieldSearch"></param>
+	<param name="SearchValue"></param>
+	<param name="Order"></param>
+	<param name="IsOnlyEnabled"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetLanguages(Gattaca.Application.Credentials.ApplicationCredentials,System.Collections.Generic.List{Gattaca.Application.Tools.SearchCriteriaEntity},System.String)">
+	<summary>
+ Cargar la Lista de Idiomas. 
+ </summary>
+	<param name="AppCredentials"></param>
+	<param name="SearchCriterios"></param>
+	<param name="Order"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetLocalities(Gattaca.Application.Credentials.ApplicationCredentials,System.String,System.Int32,System.String,System.Boolean)">
+	<summary>
+ Cargar la lista de localidades
+ </summary>
+	<param name="appCredentials"></param>
+	<param name="fieldSearch"></param>
+	<param name="searchValue"></param>
+	<param name="order"></param>
+	<param name="isOnlyEnabled"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetLocalities(Gattaca.Application.Credentials.ApplicationCredentials,System.String,System.String,System.String,System.Boolean)">
+	<summary>
+ Cargar la lista de Localidades
+ </summary>
+	<param name="appCredentials"></param>
+	<param name="fieldSearch"></param>
+	<param name="searchValue"></param>
+	<param name="order"></param>
+	<param name="isOnlyEnabled"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetLocalities(Gattaca.Application.Credentials.ApplicationCredentials,System.Collections.Generic.List{Gattaca.Application.Tools.SearchCriteriaEntity},System.String)">
+	<summary>
+ Cargar la Lista de Localidades
+ </summary>
+	<param name="appCredentials"></param>
+	<param name="searchCriterios"></param>
+	<param name="order"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetUserGroups(Gattaca.Application.Credentials.ApplicationCredentials,System.String,System.Int32,System.String,System.Boolean,System.Int32,System.Int32)">
+	<summary>
+ Cargar la Lista de Grupos de Usuarios
+ </summary>
+	<param name="appCredentials"></param>
+	<param name="fieldSearch"></param>
+	<param name="searchValue"></param>
+	<param name="order"></param>
+	<param name="isOnlyEnabled"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetUserGroups(Gattaca.Application.Credentials.ApplicationCredentials,System.String,System.String,System.String,System.Boolean,System.Int32,System.Int32)">
+	<summary>
+ Cargar la Lista de Grupos de Usuarios
+ </summary>
+	<param name="appCredentials"></param>
+	<param name="fieldSearch"></param>
+	<param name="searchValue"></param>
+	<param name="order"></param>
+	<param name="isOnlyEnabled"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetUserGroups(Gattaca.Application.Credentials.ApplicationCredentials,System.Collections.Generic.List{Gattaca.Application.Tools.SearchCriteriaEntity},System.String,System.Int32,System.Int32)">
+	<summary>
+ Cargar la Lista de Grupos de Usuarios
+ </summary>
+	<param name="appCredentials"></param>
+	<param name="searchCriterios"></param>
+	<param name="order"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetLocalityTypes(Gattaca.Application.Credentials.ApplicationCredentials,System.String,System.Int32,System.String,System.Boolean)">
+	<summary>
+ Cargar la Lista de Tipos de Localidades
+ </summary>
+	<param name="appCredentials"></param>
+	<param name="fieldSearch"></param>
+	<param name="searchValue"></param>
+	<param name="order"></param>
+	<param name="isOnlyEnabled"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetLocalityTypes(Gattaca.Application.Credentials.ApplicationCredentials,System.String,System.String,System.String,System.Boolean)">
+	<summary>
+ Cargar la Lista de Tipos de Localidades
+ </summary>
+	<param name="appCredentials"></param>
+	<param name="fieldSearch"></param>
+	<param name="searchValue"></param>
+	<param name="order"></param>
+	<param name="isOnlyEnabled"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.GetLocalityTypes(Gattaca.Application.Credentials.ApplicationCredentials,System.Collections.Generic.List{Gattaca.Application.Tools.SearchCriteriaEntity},System.String)">
+	<summary>
+ Carga la Lista de Tipos de Localidades.
+ </summary>
+	<param name="appCredentials"></param>
+	<param name="searchCriterios"></param>
+	<param name="order"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eSecurity.JournalInsert(Gattaca.Application.Credentials.ApplicationCredentials,System.String,System.String,System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ Inserción en el Journal publico para otras aplicaciones
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="sStartDate"></param>
+	<param name="iIDTransaction"></param>
+	<param name="sMsgText"></param>
+	<param name="iMsgCode"></param>
+	<param name="sParameter1"></param>
+	<param name="sValue1"></param>
+	<param name="sParameter2"></param>
+	<param name="sValue2"></param>
+	<param name="sParameter3"></param>
+	<param name="sValue3"></param>
+	<remarks></remarks>
+	<history>
+        [jpelaez] Created 24/04/2007
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.AddAttribute(System.String,System.Int64,System.String,System.String,System.String,System.String,System.Int64,System.String)">
+	<summary>
+ Adicionar Atributos
+ </summary>
+	<param name="sClient"></param>
+	<param name="lUserID"></param>
+	<param name="sName"></param>
+	<param name="sType"></param>
+	<param name="sDetail"></param>
+	<param name="sUnChangeable"></param>
+	<param name="lCategory"></param>
+	<param name="AttributeEntity"></param>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.UpdateAttribute(System.String,System.Int64,System.Int64,System.String,System.String,System.String,System.String,System.Int64,System.String)">
+	<summary>
+ Actualizar Atributo
+ </summary>
+	<param name="sClient"></param>
+	<param name="lUserID"></param>
+	<param name="lID"></param>
+	<param name="sName"></param>
+	<param name="sType"></param>
+	<param name="sDetail"></param>
+	<param name="sUnChangeable"></param>
+	<param name="lCategory"></param>
+	<param name="sAttributeEntity"></param>
+	<remarks></remarks>
+	<history>
+ Juan Carlos Pastrana
+ Juan Carlos Peláez  28/10/2002
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.DeleteAttribute(System.String,System.Int64,System.Int64,System.String)">
+	<summary>
+ Eliminar Atributos
+ </summary>
+	<param name="sClient"></param>
+	<param name="lUserID"></param>
+	<param name="lID"></param>
+	<param name="sAttributeEntity"></param>
+	<remarks></remarks>
+	<history>
+ Juan Carlos Pastrana
+ Juan Carlos Peláez  28/10/2002
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.AddAttributeCategory(System.String,System.Int64,System.String)">
+	<summary>
+ Crear un Categoría de Atributos
+ </summary>
+	<param name="sClient"></param>
+	<param name="lUserID"></param>
+	<param name="sName"></param>
+	<remarks></remarks>
+	<history>
+ Juan Carlos Pastrana
+ Juan Carlos Peláez   11/09/2001
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.UpdateAttributeCategory(System.String,System.Int64,System.Int64,System.String)">
+	<summary>
+ Actualizar Categoría de Atributos
+ </summary>
+	<param name="sClient"></param>
+	<param name="lUserID"></param>
+	<param name="lID"></param>
+	<param name="sName"></param>
+	<remarks></remarks>
+	<history>
+ Juan Carlos Pastrana
+ Juan Carlos Pelaez  11/09/2001
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.DeleteAttributeCategory(System.String,System.Int64,System.Int64)">
+	<summary>
+ Eliminar Categoría de Atributos
+ </summary>
+	<param name="sClient"></param>
+	<param name="lUserID"></param>
+	<param name="lID"></param>
+	<remarks></remarks>
+	<history>
+ Juan Carlos Pastrana
+ Juan Carlos Pelaez  11/09/2001
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.AddCompanyType(System.String,System.Int64,System.String,System.Int64,System.String)">
+	<summary>
+ Agregar Tipo de Compañía
+ </summary>
+	<param name="sClient"></param>
+	<param name="lUserID"></param>
+	<param name="sName"></param>
+	<param name="lCategory"></param>
+	<param name="sAttributes"></param>
+	<remarks></remarks>
+	<history>
+ Juan Carlos Pelaez 11/09/2001
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.UpdateCompanyType(System.String,System.Int64,System.Int64,System.String,System.Int64,System.String)">
+	<summary>
+ Actualizar Tipo de Compañía
+ </summary>
+	<param name="sClient"></param>
+	<param name="lUserID"></param>
+	<param name="lID"></param>
+	<param name="sName"></param>
+	<param name="lCategory"></param>
+	<param name="sAttributes"></param>
+	<remarks></remarks>
+	<history>
+ Juan Carlos Pelaez 11/09/2001
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.DeleteCompanyType(System.String,System.Int64,System.Int64)">
+	<summary>
+ Eliminar Tipo de Compañía
+ </summary>
+	<param name="sClient"></param>
+	<param name="lUserID"></param>
+	<param name="lID"></param>
+	<remarks></remarks>
+	<history>
+ Juan Carlos Pelaez  11/09/2001
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.AddCompany(Gattaca.Application.Credentials.ApplicationCredentials,Gattaca.Entity.eSecurity.CompanyEntity,System.Int64,System.String)">
+	<summary>
+ Crear una Compañía
+ </summary>
+	<param name="AppCredentials"></param>
+	<param name="MasterCompany"></param>
+	<param name="MasterCompanyClient"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<history>
+               [jpelaez] Created   11/09/2001
+               [jpelaez] Refactored   14/05/2004
+               [jpelaez] Refactored WCF 29/04/2007   
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.UpdateCompany(Gattaca.Application.Credentials.ApplicationCredentials,Gattaca.Entity.eSecurity.CompanyEntity)">
+	<summary>
+ Actualizar Compañía
+ </summary>
+	<param name="AppCredentials"></param>
+	<remarks></remarks>
+	<history>
+ Juan Carlos Pelaez 11/09/2001
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.DeleteCompany(Gattaca.Application.Credentials.ApplicationCredentials,System.Int64)">
+	<summary>
+  Eliminar Compañía
+ </summary>
+	<param name="lID"></param>
+	<remarks></remarks>
+	<history>
+     [jpastrana]   Created
+     [jpelaez]   11/09/2001 Edited
+     [jpelaez]   11/05/2006 Se incluyo borrado de la Jerarquia de Compañías.
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.AddCompanyTypeCategory(System.String,System.Int64,System.String)">
+	<summary>
+ Agregar Categoría de Empresa
+ </summary>
+	<param name="sClient"></param>
+	<param name="lUserID"></param>
+	<param name="sName"></param>
+	<remarks></remarks>
+	<history>
+ Juan Carlos Pelaez 11/09/2001
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.UpdateCompanyTypeCategory(System.String,System.Int64,System.Int64,System.String)">
+	<summary>
+ Actualizar Categoría de Empresa
+ </summary>
+	<param name="sClient"></param>
+	<param name="lUserID"></param>
+	<param name="lID"></param>
+	<param name="sName"></param>
+	<remarks></remarks>
+	<history>
+ Juan Carlos Pelaez 11/09/2001
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.DeleteCompanyTypeCategory(System.String,System.Int64,System.Int64)">
+	<summary>
+ Eliminar Categoría de Empresa
+ </summary>
+	<param name="sClient"></param>
+	<param name="lUserID"></param>
+	<param name="lID"></param>
+	<remarks></remarks>
+	<history>
+ Juan Carlos Pelaez  11/09/2001
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.UpdateCompanyTypesXCompany(System.String,System.Int64,System.Int64,System.String)">
+	<summary>
+ Actualizar relaciones de Tipos de Compañía por Compañía
+ </summary>
+	<param name="sClient"></param>
+	<param name="lUserID"></param>
+	<param name="lCompany"></param>
+	<param name="sTypes"></param>
+	<remarks></remarks>
+	<history>
+       Juan Carlos Pastrana
+       Juan Carlos Peláez   11/09/2001
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.AddAttributeValues(Gattaca.Application.Credentials.ApplicationCredentials,System.Collections.Generic.List{Gattaca.Entity.eSecurity.AttributeEntity},System.String)">
+	<summary>
+ Adiciona los atributos de un determinado usuario
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="rsAttributes"></param>
+	<param name="AttributeEntityName"></param>
+	<history>
+ [eQuintero created 2009/03/10]
+ </history>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.UpdateAttributeValues(Gattaca.Application.Credentials.ApplicationCredentials,System.Collections.Generic.List{Gattaca.Entity.eSecurity.AttributeEntity},System.String)">
+	<summary>
+ Actualiza los valores de atributos de un Usuario
+ </summary>
+	<param name="oAppCredentials"></param>
+	<param name="rsAttributes"></param>
+	<param name="AttributeEntityName"></param>
+	<history>
+ [eQuintero created 2009/03/10]
+ </history>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.AddCurrency(Gattaca.Application.Credentials.ApplicationCredentials,System.String,System.String,System.String,System.String)">
+	<summary>
+ Insertar una nueva moneda
+ </summary>
+	<param name="AppCredentials"></param>
+	<param name="sCode"></param>
+	<param name="sName"></param>
+	<param name="sPricePrefix"></param>
+	<param name="sStatus"></param>
+	<remarks>Juan Carlos Pelaez</remarks>
+	<history>
+        [jpelaez] refactored 14/04/2007
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.UpdateCurrency(Gattaca.Application.Credentials.ApplicationCredentials,System.Int64,System.String,System.String,System.String,System.String)">
+	<summary>
+ Actualizar los datos de una moneda
+ </summary>
+	<param name="AppCredentials"></param>
+	<param name="lID"></param>
+	<param name="sCode"></param>
+	<param name="sName"></param>
+	<param name="sPricePrefix"></param>
+	<param name="sStatus"></param>
+	<remarks></remarks>
+	<history>
+         [jpelaez] refactored 14/04/2007
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.AddCountry(Gattaca.Application.Credentials.ApplicationCredentials,Gattaca.Entity.eSecurity.CountryEntity)">
+	<summary>
+ Insertar un nuevo país
+ </summary>
+	<param name="AppCredentials"></param>
+	<param name="objCountry"></param>
+	<remarks></remarks>
+	<Author>Jaime Mora</Author>
+	<Date>03/06/09</Date>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.UpdateCountry(Gattaca.Application.Credentials.ApplicationCredentials,Gattaca.Entity.eSecurity.CountryEntity)">
+	<summary>
+ Actualizar los datos de un País
+ </summary>
+	<param name="AppCredentials"></param>
+	<param name="objCountry"></param>
+	<remarks></remarks>
+	<Author>Jaime Mora</Author>
+	<Date>03/06/09</Date>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.AddDepto(System.String,System.Int64,System.String,System.String,System.Int64,System.String)">
+	<summary>
+ Insertar un nuevo Depto
+ </summary>
+	<param name="sClient"></param>
+	<param name="lUserID"></param>
+	<param name="sCode"></param>
+	<param name="sName"></param>
+	<param name="lIDCountry"></param>
+	<param name="sEnabled"></param>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.AddDepto(Gattaca.Application.Credentials.ApplicationCredentials,Gattaca.Entity.eSecurity.DeptoEntity)">
+	<summary>
+ Insertar un nuevo Depto
+ </summary>
+	<param name="AppCredentials"></param>
+	<param name="objDepto"></param>
+	<remarks></remarks>
+	<Author>Jaime Mora</Author>
+	<Date>03/06/09</Date>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.UpdateDepto(System.String,System.Int64,System.Int64,System.String,System.String,System.Int64,System.String)">
+	<summary>
+ Actualizar datos de un Departamento/Región
+ </summary>
+	<param name="sClient"></param>
+	<param name="lUserID"></param>
+	<param name="lID"></param>
+	<param name="sCode"></param>
+	<param name="sName"></param>
+	<param name="lIDCountry"></param>
+	<param name="sEnabled"></param>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.UpdateDepto(Gattaca.Application.Credentials.ApplicationCredentials,Gattaca.Entity.eSecurity.DeptoEntity)">
+	<summary>
+ Actualizar datos de un Departamento/Región
+ </summary>
+	<param name="AppCredentials"></param>
+	<param name="objDepto"></param>
+	<remarks></remarks>
+	<Author>Jaime Mora</Author>
+	<Date>03/06/09</Date>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.AddCity(System.String,System.Int64,System.String,System.String,System.Int64,System.String)">
+	<summary>
+ Insertar una nueva Ciudad
+ </summary>
+	<param name="sClient"></param>
+	<param name="lUserID"></param>
+	<param name="sCode"></param>
+	<param name="sName"></param>
+	<param name="lIdDepto"></param>
+	<param name="sStatus"></param>
+	<remarks></remarks>
+	<history>
+ Juan Carlos Pelaez   11/09/2001
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.AddCity(Gattaca.Application.Credentials.ApplicationCredentials,Gattaca.Entity.eSecurity.CityEntity)">
+	<summary>
+ Insertar una nueva Ciudad
+ </summary>
+	<param name="AppCredentials"></param>
+	<param name="objCity"></param>
+	<remarks></remarks>
+	<Author>Jaime Mora</Author>
+	<Date>03/06/09</Date>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.UpdateCity(System.String,System.Int64,System.Int64,System.String,System.String,System.Int64,System.String)">
+	<summary>
+ Actualizar datos de una ciudad
+ </summary>
+	<param name="sClient"></param>
+	<param name="lUserID"></param>
+	<param name="lID"></param>
+	<param name="sCode"></param>
+	<param name="sName"></param>
+	<param name="lIdDepto"></param>
+	<param name="sStatus"></param>
+	<remarks></remarks>
+	<history>
+ Juan Carlos Pelaez 11/09/2001
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.UpdateCity(Gattaca.Application.Credentials.ApplicationCredentials,Gattaca.Entity.eSecurity.CityEntity)">
+	<summary>
+ Actualizar datos de una Ciudad
+ </summary>
+	<param name="AppCredentials"></param>
+	<param name="objCity"></param>
+	<remarks></remarks>
+	<Author>Jaime Mora</Author>
+	<Date>03/06/09</Date>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.UpdateUser(Gattaca.Application.Credentials.ApplicationCredentials,Gattaca.Entity.eSecurity.ApplicationUserEntity)">
+	<summary>
+  Actualizar la información de un usuario del Sistema
+ </summary>
+	<param name="AppCredentials"></param>
+	<remarks></remarks>
+	<history>
+     [jpastrana] Created
+     [jpelaez] 25/08/2000 Edited
+     [jpelaez] 27/04/2005 Se incluyó soporte para criptográfia, complejidad e historico de contraseñas.
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.AssignUserToGroup(System.String,System.Int64,System.Int64,System.Collections.Generic.List{Gattaca.Entity.eSecurity.UserGroupEntity})">
+	<summary>
+ Asignar un Usuario a un Grupo
+ </summary>
+	<param name="sClient"></param>
+	<param name="lUserID"></param>
+	<param name="iIDUser"></param>
+	<param name="UserGroups"></param>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.AddLocality(System.String,System.Int64,System.String,System.String,System.Int64,System.Int64,System.String)">
+	<summary>
+     Adiciona una Localidad
+ </summary>
+	<param name="sClient"></param>
+	<remarks>
+	</remarks>
+	<history>
+     [jpelaez]   Created
+     [jpelaez]   30/01/2001 Edited
+     [jpelaez]   25/04/2005 Se corrigió el código de operación.
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.AssignLocalityToUser(System.String,System.Int64,System.Int64,System.Collections.Generic.List{Gattaca.Entity.eSecurity.LocalityEntity})">
+	<summary>
+ Asignar localidades a un Usuario (Sucursales)
+ </summary>
+	<param name="sClient"></param>
+	<param name="lUserID"></param>
+	<param name="lIDUser"></param>
+	<param name="Localities"></param>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.UpdateUserGroup(Gattaca.Application.Credentials.ApplicationCredentials,Gattaca.Entity.eSecurity.UserGroupEntity)">
+	<summary>
+ Actualiza la Información de un Grupo
+ </summary>
+	<remarks></remarks>
+	<history>
+ Juan Carlos Peláez 08/12/2000
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.UpdateLocality(System.String,System.Int64,System.Int64,System.String,System.String,System.Int64,System.Int64,System.String)">
+	<summary>
+ Actualiza la Información de una Localidad
+ </summary>
+	<param name="sClient"></param>
+	<param name="lUserID"></param>
+	<param name="lID"></param>
+	<param name="sCode"></param>
+	<param name="sName"></param>
+	<param name="lType"></param>
+	<param name="lCompany"></param>
+	<param name="sEnabled"></param>
+	<remarks></remarks>
+	<history>
+ Juan Carlos Pelaez 04/01/2001
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.UpdateMessage(System.String,System.Int64,System.String,System.String,System.String)">
+	<summary>
+ Actualiza un mensaje de error
+ </summary>
+	<param name="sClient"></param>
+	<param name="lUserID"></param>
+	<param name="lID"></param>
+	<param name="sCode"></param>
+	<param name="sName"></param>
+	<remarks></remarks>
+	<history>
+      Juan Carlos Pelaez  08/12/2000
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.DeleteCurrency(Gattaca.Application.Credentials.ApplicationCredentials,System.Int64)">
+	<summary>
+ Eliminar Moneda
+ </summary>
+	<param name="AppCredentials"></param>
+	<param name="lID"></param>
+	<remarks></remarks>
+	<history>
+      [jpelaez] Created 02/11/2001
+      [jpelaez] Refactored 14/04/2007 
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.DeleteCountry(Gattaca.Application.Credentials.ApplicationCredentials,System.Int64)">
+	<summary>
+ Eliminar País
+ </summary>
+	<param name="AppCredentials"></param>
+	<param name="lIDCountry"></param>
+	<remarks></remarks>
+	<history>
+       [jpelaez] Created 03/11/2001
+       [jpelaez] Refactored 15/04/2007 
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.DeleteDepto(System.String,System.Int64,System.Int64)">
+	<summary>
+ Eliminar Depto
+ </summary>
+	<param name="sClient"></param>
+	<param name="lUserID"></param>
+	<param name="lID"></param>
+	<remarks></remarks>
+	<history>
+ Juan Carlos Pelaez  03/11/2001
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.DeleteDepto(Gattaca.Application.Credentials.ApplicationCredentials,System.Int64)">
+	<summary>
+ Eliminar Depto
+ </summary>
+	<param name="AppCredentials"></param>
+	<param name="lID"></param>
+	<remarks></remarks>
+	<Author>Jaime Mora</Author>
+	<Date>03/06/09</Date>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.DeleteCity(System.String,System.Int64,System.Int64)">
+	<summary>
+ Eliminar Ciudad
+ </summary>
+	<param name="sClient"></param>
+	<param name="lUserID"></param>
+	<param name="lCityID"></param>
+	<remarks></remarks>
+	<history>
+ Juan Carlos Peláez 03/11/2001
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.DeleteCity(Gattaca.Application.Credentials.ApplicationCredentials,System.Int64)">
+	<summary>
+ Eliminar Ciudad
+ </summary>
+	<param name="AppCredentials"></param>
+	<param name="lID"></param>
+	<remarks></remarks>
+	<Author>Jaime Mora</Author>
+	<Date>03/06/09</Date>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.DeleteMessage(System.String,System.Int64,System.Int64)">
+	<summary>
+ Eliminar Mensajes de Error
+ </summary>
+	<param name="sClient"></param>
+	<param name="lUserID"></param>
+	<param name="lID"></param>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.DeleteLocalityType(System.String,System.Int64,System.Int64)">
+	<summary>
+ Eliminar Tipo de Localidad
+ </summary>
+	<param name="sClient"></param>
+	<param name="lUserID"></param>
+	<param name="lID"></param>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.DeleteLocality(System.String,System.Int64,System.Int64)">
+	<summary>
+ Eliminar Localidad
+ </summary>
+	<param name="sClient"></param>
+	<param name="lUserID"></param>
+	<param name="lID"></param>
+	<remarks></remarks>
+	<history>
+       Juan Carlos Pelaez
+       Juan Carlos Pelaez   03/11/2001
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.AssignModulesToGroup(System.String,System.Int64,System.Int64,System.Collections.Generic.List{Gattaca.Entity.eSecurity.ModuleEntity})">
+	<summary>
+ Asignar un Modulo a un grupo
+ </summary>
+	<param name="sClient"></param>
+	<param name="lUserID"></param>
+	<param name="lIDUserGroup"></param>
+	<param name="Modules"></param>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.GetTransactionsByUserGroup(Gattaca.Application.Credentials.ApplicationCredentials,System.Int64)">
+	<summary>
+ Consultar las operaciones asignadas a un grupo
+ </summary>
+	<param name="AppCredentials "></param>
+	<param name="lIDUserGroup"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.GetModulesByUserGroup(System.String,System.Int64,System.Int64)">
+	<summary>
+ Consultar las operaciones asignadas a un grupo
+ </summary>
+	<param name="sClient"></param>
+	<param name="lUserID"></param>
+	<param name="lIDUserGroup"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.AssignUserGroupsToCompany(Gattaca.Application.Credentials.ApplicationCredentials,System.Int64,System.Collections.Generic.List{Gattaca.Entity.eSecurity.UserGroupEntity})">
+	<summary>
+ Asignar a una Compañia un conjunto de grupos de usuarios
+ </summary>
+	<param name="lIDCompany"></param>
+	<param name="UserGroups"></param>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.AssignModulesToCompany(System.String,System.Int64,System.Int64,System.Collections.Generic.List{Gattaca.Entity.eSecurity.ModuleEntity})">
+	<summary>
+ Asignar Modulos a una Compañía
+ </summary>
+	<param name="sClient"></param>
+	<param name="lUserID"></param>
+	<param name="lIDCompany"></param>
+	<param name="Modules"></param>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.RemoveUserFromCompany(System.String,System.Int64,System.Int64,System.Int64)">
+	<summary>
+ Retirar un usuario de una compañia
+ </summary>
+	<param name="sClient"></param>
+	<param name="lUserID"></param>
+	<param name="lIDUser"></param>
+	<param name="lIDCompany"></param>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.ActivateCompany(System.String,System.Int64,System.Int64)">
+	<summary>
+ Activar Compañía y sus Usuarios
+ </summary>
+	<param name="sClient"></param>
+	<param name="lUserID"></param>
+	<param name="lID"></param>
+	<remarks></remarks>
+	<history>
+       Fernando Ruiz Vera 09/07/02
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.AssignUsersToGroup(System.String,System.Int64,System.Int64,System.Collections.Generic.List{Gattaca.Entity.eSecurity.ApplicationUserEntity})">
+	<summary>
+ Asignar un Grupo a un Usuario
+ </summary>
+	<param name="sClient"></param>
+	<param name="lUserID"></param>
+	<param name="lIDUserGroup"></param>
+	<param name="ApplicationUsers"></param>
+	<remarks></remarks>
+	<history>
+ Juan Carlos Pelaez 17/05/2004
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.UpdateSettings(Gattaca.Application.Credentials.ApplicationCredentials,Gattaca.Entity.eSecurity.SettingsEntity)">
+	<summary>
+ Actualizar los valores de Configuración.
+ </summary>
+	<remarks></remarks>
+	<history>
+   [jpelaez]   27/04/2005 Created
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.AssignParentCompany(System.String,System.Int64,System.Int64,System.Collections.Generic.List{Gattaca.Entity.eSecurity.CompanyEntity})">
+	<summary>
+ Asignar a una Empresa unas Empresas Hijas
+ </summary>
+	<param name="sClient"></param>
+	<param name="lUserID"></param>
+	<param name="lIDCompany"></param>
+	<param name="Companies"></param>
+	<remarks></remarks>
+	<history>
+       Juan Carlos Peláez
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.AssignParentUser(System.String,System.Int64,System.Int64,System.Collections.Generic.List{Gattaca.Entity.eSecurity.ApplicationUserEntity})">
+	<summary>
+ Asignar a una Empresa unas Empresas Hijas
+ </summary>
+	<param name="sClient"></param>
+	<param name="lUserID"></param>
+	<param name="lIDUser"></param>
+	<param name="oUsers"></param>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.JournalInsert(System.String,System.String,System.String,System.String,System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ Inserción en el Journal 
+ </summary>
+	<param name="sClient"></param>
+	<param name="sSessionID"></param>
+	<param name="sStartDate"></param>
+	<param name="iClient"></param>
+	<param name="iIDTransaction"></param>
+	<param name="sMsgText"></param>
+	<param name="iMsgCode"></param>
+	<param name="sParameter1"></param>
+	<param name="sValue1"></param>
+	<param name="sParameter2"></param>
+	<param name="sValue2"></param>
+	<param name="sParameter3"></param>
+	<param name="sValue3"></param>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.AssignUsersToCompany(System.String,System.Int64,System.Int64,System.Collections.Generic.List{Gattaca.Entity.eSecurity.ApplicationUserEntity})">
+	<summary>
+  Asignar un Usuario a una Lista de Empresas
+ </summary>
+	<param name="sClient"></param>
+	<param name="lUserID"></param>
+	<param name="lIDCompany"></param>
+	<param name="Users"></param>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.Publish(System.Exception,System.String,System.String,System.String)">
+	<summary>
+ Error Helper Manager
+ </summary>
+	<param name="oEx"></param>
+	<param name="ClientName"></param>
+	<param name="ModuleName"></param>
+	<param name="MethodName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.AssignUserGroupsToUser(Gattaca.Application.Credentials.ApplicationCredentials,System.Int64,System.Collections.Generic.List{Gattaca.Entity.eSecurity.UserGroupEntity})">
+	<summary>
+ Asigna un usuario a los grupos pasados como parametros. 
+ </summary>
+	<param name="AppCredentials">Credenciales de Autenticacion</param>
+	<param name="IDUser">Id del Usuario al que se asignaran los grupos</param>
+	<param name="UserGroups">Listado de Grupos en los que se incluira el usuario</param>
+	<remarks></remarks>
+	<history>
+       [jpelaez] created 29/04/2007
+ </history>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.AssignCompanyToUser(Gattaca.Application.Credentials.ApplicationCredentials,System.Int64,System.Int64)">
+	<summary>
+ Asigna un usuario a la compañía pasada como parametro
+ </summary>
+	<param name="AppCredentials">Credenciales de Autenticación de la Aplicación</param>
+	<param name="lIDUser">Id del Usuario</param>
+	<param name="lIDCompany">Id de la Compañía</param>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.AssignCompaniesToUser(Gattaca.Application.Credentials.ApplicationCredentials,System.Int64,System.Collections.Generic.List{Gattaca.Entity.eSecurity.CompanyEntity})">
+	<summary>
+ Asigna a un usuario a las compañías pasadas como parametros
+ </summary>
+	<param name="AppCredentials">Credenciales de Autenticación de la Aplicación</param>
+	<param name="lIDUser">Id del Usuario</param>
+	<param name="Companies ">List de Compañias</param>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.GetModulesByUser(Gattaca.Application.Credentials.ApplicationCredentials,System.Int32)">
+	<summary>
+ Recupera los módulos que tiene asignado el usuario
+ </summary>
+	<param name="AppCredentials"></param>
+	<param name="IdUser">Identificador del usuario</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.GetADUsersToDelete(Gattaca.Application.Credentials.ApplicationCredentials,System.Collections.Generic.List{Gattaca.Entity.eSecurity.ApplicationUserEntity},System.String)">
+	<summary>
+ Método para obtener el listado de usuarios del directorio activo 
+ registrados en la base de datos que se deben eliminar
+ </summary>
+	<param name="AppCredentials"></param>
+	<param name="usersToExclude">Listado de usuarios del DA que deben conservarse, no eliminarse</param>
+	<param name="domain">Dominio del Directorio Activo</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.GetDeptos(Gattaca.Application.Credentials.ApplicationCredentials,System.Int32,System.String,System.String,System.String,System.String)">
+	<summary>
+ Llama la función de captura de Departamentos (Depto)
+ </summary>
+	<param name="objApplicationCredentials"></param>
+	<param name="iId"></param>
+	<param name="sCode"></param>
+	<param name="sName"></param>
+	<param name="sCountry"></param>
+	<param name="sOrder"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<Author>Jaime Mora</Author>
+	<Date>02/06/09</Date>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.GetCities(Gattaca.Application.Credentials.ApplicationCredentials,System.Int32,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ Llama la función de captura de Ciudades (City)
+ </summary>
+	<param name="objApplicationCredentials"></param>
+	<param name="iId"></param>
+	<param name="sCode"></param>
+	<param name="sName"></param>
+	<param name="sDepto"></param>
+	<param name="sCountry"></param>
+	<param name="sOrder"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<Author>Jaime Mora</Author>
+	<Date>03/06/09</Date>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.GetCountries(Gattaca.Application.Credentials.ApplicationCredentials,System.Int32,System.String,System.String,System.String)">
+	<summary>
+ Llama la función de captura de Paises (Country)
+ </summary>
+	<param name="objApplicationCredentials"></param>
+	<param name="iId"></param>
+	<param name="sName"></param>
+	<param name="sCity">Ciudad Capital</param>
+	<param name="sOrder"></param>
+	<returns></returns>
+	<remarks></remarks>
+	<Author>Jaime Mora</Author>
+	<Date>02/06/09</Date>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.GetModulesByUserGroup(Gattaca.Application.Credentials.ApplicationCredentials,System.Int64)">
+	<summary>
+ Consultar los Modulos asignados a un grupo
+ </summary>
+	<param name="AppCredentials"></param>
+	<param name="IDUserGroup"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.AssignModulesToUserGroup(Gattaca.Application.Credentials.ApplicationCredentials,System.Int64,System.Collections.Generic.List{Gattaca.Entity.eSecurity.ModuleEntity})">
+	<summary>
+  Asignar un Modulo a un grupo
+ </summary>
+	<param name="AppCredentials"></param>
+	<param name="IDUserGroup"></param>
+	<param name="Modules"></param>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.AssignTransactionToUserGroup(Gattaca.Application.Credentials.ApplicationCredentials,System.Int64,System.Collections.Generic.List{Gattaca.Entity.eSecurity.ApplicationTransactionEntity})">
+	<summary>
+ Asignanar una Operacion a un grupo
+ </summary>
+	<param name="AppCredentials"></param>
+	<param name="IDUserGroup"></param>
+	<param name="Transaction"></param>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.GetUsersByUserGroup(Gattaca.Application.Credentials.ApplicationCredentials,System.Int64,System.Collections.Generic.List{Gattaca.Application.Tools.SearchCriteriaEntity},System.String,System.Int32,System.Int32)">
+	<summary>
+ Consultar los Usuarios asignados a un grupo
+ </summary>
+	<param name="AppCredentials"></param>
+	<param name="IDUserGroup"></param>
+	<param name="searchCriterios"></param>
+	<param name="order"></param>
+	<param name="lCurrentPage"></param>
+	<param name="lPageSize"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.GetMessage(Gattaca.Application.Credentials.ApplicationCredentials,System.Collections.Generic.List{Gattaca.Application.Tools.SearchCriteriaEntity},System.String,System.Int32,System.Int32)">
+	<summary>
+ Optiene todos los Mensajes
+ </summary>
+	<param name="AppCredentials"></param>
+	<param name="searchCriterios"></param>
+	<param name="order"></param>
+	<param name="lCurrentPage"></param>
+	<param name="lPageSize"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Facade.eSecurity.eAdmin.GetMessageByCode(Gattaca.Application.Credentials.ApplicationCredentials,System.Int64)">
+	<summary>
+ Consultar mensajes por codigo
+ </summary>
+	<param name="idMessage"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Gattaca.Facade.eSecurity.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Gattaca.Facade.eSecurity.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Gattaca.Facade.eSecurity.My.Resources.Resources.MSG_ERR_DEF">
+	<summary>
+  Looks up a localized string similar to TRANSACTION ERROR.
+</summary>
+</member><member name="P:Gattaca.Facade.eSecurity.My.Resources.Resources.MSG_OK_DEF">
+	<summary>
+  Looks up a localized string similar to TRANSACTION SUCESSFULL.
+</summary>
+</member><member name="P:Gattaca.Facade.eSecurity.My.Resources.Resources.SETTINGS_ERR">
+	<summary>
+  Looks up a localized string similar to ERROR LOADING SETTINGS.
+</summary>
+</member><member name="T:Gattaca.Facade.eSecurity.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

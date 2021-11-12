@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!--Solicitante-->
+<menu>
+  <MenuItem ValueField="MAVDT" TextField="Inicio" NavigateUrlField="" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+  <!-- <MenuItem ValueField="Lista de Tareas" TextField="Mis Tareas" NavigateUrlField="http://172.17.0.160/xcars/silpa/TestSilpa/security/goto.aspx?app=BPM&amp;op=TL&amp;IdRelated=7" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>-->
+  <MenuItem ValueField="Lista de Tareas" TextField="Mis Tareas" NavigateUrlField="http://172.17.0.160/xcars/silpa/TestSilpa/security/goto.aspx?app=NuevoBPM&amp;op=TL&amp;IdRelated=7" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+  <MenuItem ValueField="RUIA" TextField="RUIA" NavigateUrlField="" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField="">
+		<MenuItem ValueField="RUAS" TextField="Diligenciar  RUIA" NavigateUrlField="http://172.17.0.160/xcars/silpa_UT_PRE/RUIA/RegistrarSancion.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+		<MenuItem ValueField="RUAS2" TextField="Consultar  RUIA" NavigateUrlField="http://172.17.0.160/xcars/silpa_UT_PRE/RUIA/ConsultarSancion.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+  </MenuItem>
+  <MenuItem TextField="Salir" ValueField="Salir" NavigateUrlField="http://172.17.0.160/xcars/silpa_UT_PRE/Salir.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+</menu>

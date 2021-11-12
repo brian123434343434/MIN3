@@ -1,0 +1,47 @@
+<%@ master language="VB" inherits="Master_mpLogin, App_Web_u0z9p1sa" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxtoolkit" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Gattaca eFormBuilder</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td>
+                    <ajaxtoolkit:ToolkitScriptManager ID="smLogin" runat="server">
+                    </ajaxtoolkit:ToolkitScriptManager>
+<%--                    <asp:UpdateProgress ID="upPrincipal" runat="server" DisplayAfter="0">
+                        <ProgressTemplate>
+                            <div class="modalPopup">
+                                <div id="MODAL_DIV_AJAX" style="width:10px; height:10px; position: absolute; z-index: 9999;">
+                                    <asp:Image ID="ProgressIndicator" SkinID="ProgressIndicator" runat="server" />
+                                </div>
+                                <div id="MODAL_DIV_AJAX_TOTAL" style="filter: alpha(opacity=20); background:#99cc66; position: absolute; z-index: 9998;"></div>
+                            </div>
+                        </ProgressTemplate>
+                    </asp:UpdateProgress>--%>
+                </td>
+            </tr>
+            <tr>
+                <td align="right" class="cssBgBPM">
+                            <table width="100%" border="0" cellpadding="0" cellspacing="0" class="cssLoginTable">
+                <tr>
+                <td>
+                                    <asp:ContentPlaceHolder ID="cphLogin" runat="server">
+                    </asp:ContentPlaceHolder>
+
+                </td>
+            </tr>
+        </table>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

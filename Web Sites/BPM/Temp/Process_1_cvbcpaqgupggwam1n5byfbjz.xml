@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WF_Process Version="8.3">
+  <Process Id="1" Code="AU-ADMINISTRACION DE USUARIOS">
+    <Id>1</Id>
+    <Code>AU-ADMINISTRACION DE USUARIOS</Code>
+    <Name>ADMINISTRACION DE USUARIOS</Name>
+    <Description>ADMINISTRACION DE USUARIOS</Description>
+    <Created>6/25/2009 5:04:00 PM</Created>
+    <Version>1.0</Version>
+    <Author>1</Author>
+    <Responsible>1</Responsible>
+    <Documentation>Process_1.PDF</Documentation>
+    <DurationUnit>4</DurationUnit>
+    <Duration>10</Duration>
+    <InitialActivity>6</InitialActivity>
+    <Enabled>T</Enabled>
+  </Process>
+  <Packages>
+    <Package Id="1" Code="PQ01-ALKOSTO">
+      <Id>1</Id>
+      <Code>PQ01-ALKOSTO</Code>
+      <Name>ALKOSTO</Name>
+      <Creator />
+      <Created />
+      <Description>ALKOSTO</Description>
+      <Documentation />
+      <Enabled>T</Enabled>
+    </Package>
+  </Packages>
+  <Activities>
+    <Activity Id="6" Code="AUAC01-Asignar Funcional">
+      <Id>6</Id>
+      <Code>AUAC01-Asignar Funcional</Code>
+      <Name>Asignar Funcionales</Name>
+      <Description>Actividad automatica ejecutada por el Motor de WorkFlow</Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>9</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>1</ActivityType>
+      <EntryDataType />
+      <EntryData />
+      <strJoin>2</strJoin>
+      <strSplit>1</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView />
+      <Tool />
+    </Activity>
+    <Activity Id="7" Code="AUAC02-Windows">
+      <Id>7</Id>
+      <Code>AUAC02-Windows</Code>
+      <Name>Administrar Accsesos Windows</Name>
+      <Description>Actividad Manual - Windows</Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>4</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>0</ActivityType>
+      <EntryDataType />
+      <EntryData />
+      <strJoin>2</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>8</IDMessagePolicy>
+      <URLDataView />
+      <Tool />
+    </Activity>
+    <Activity Id="10" Code="AUAC03-PeopleSoft Inventarios">
+      <Id>10</Id>
+      <Code>AUAC03-PeopleSoft Inventarios</Code>
+      <Name>Administrar Accesos PeopelSoft Inventarios</Name>
+      <Description>Actividad Manual - Administrar Accesos PeopelSoft Inventarios</Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>4</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>0</ActivityType>
+      <EntryDataType />
+      <EntryData />
+      <strJoin>2</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>8</IDMessagePolicy>
+      <URLDataView />
+      <Tool />
+    </Activity>
+    <Activity Id="11" Code="AUAC04-PeopleSoft AM">
+      <Id>11</Id>
+      <Code>AUAC04-PeopleSoft AM</Code>
+      <Name>Administrar Acceso PeopleSoft AM</Name>
+      <Description>Actividad Manual - Administrar Accesos PeopelSoft AM</Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>4</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>0</ActivityType>
+      <EntryDataType />
+      <EntryData />
+      <strJoin>2</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>8</IDMessagePolicy>
+      <URLDataView />
+      <Tool />
+    </Activity>
+    <Activity Id="12" Code="AUAC05-PeopleSoft OM">
+      <Id>12</Id>
+      <Code>AUAC05-PeopleSoft OM</Code>
+      <Name>Administar Accesos PeopleSoft OM</Name>
+      <Description>Actividad Manual - Administar Accesos PeopleSoft OM</Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>4</DurationUnit>
+      <Duration>3</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>0</ActivityType>
+      <EntryDataType />
+      <EntryData />
+      <strJoin>2</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>T</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>8</IDMessagePolicy>
+      <URLDataView />
+      <Tool />
+    </Activity>
+  </Activities>
+  <Conditions>
+    <Condition Id="10" Code="C02-Finalizar">
+      <Id>10</Id>
+      <Code>C02-Finalizar</Code>
+      <Name>Finalizar</Name>
+      <Description>Finalizar</Description>
+      <Weight>0</Weight>
+      <Type>0</Type>
+      <Enabled>T</Enabled>
+      <ConditionRule />
+      <IDTool>0</IDTool>
+      <DB />
+      <IsToolRequiered>F</IsToolRequiered>
+      <FormActivity />
+    </Condition>
+    <Condition Id="11" Code="C03-Windows">
+      <Id>11</Id>
+      <Code>C03-Windows</Code>
+      <Name>Windows</Name>
+      <Description>http://www.gattacademos.com/bog02devnet/Administrator/net/eFormBuilderV83/Services/eFormBuilderServices.asmx</Description>
+      <Weight>0</Weight>
+      <Type>3</Type>
+      <Enabled>T</Enabled>
+      <ConditionRule>43,=,Agregar/Modificar/Quitar</ConditionRule>
+      <IDTool>0</IDTool>
+      <DB>0</DB>
+      <IsToolRequiered>F</IsToolRequiered>
+      <FormActivity>0</FormActivity>
+    </Condition>
+    <Condition Id="12" Code="C04-PeopleSoft Inventarios">
+      <Id>12</Id>
+      <Code>C04-PeopleSoft Inventarios</Code>
+      <Name>PeopleSoft Inventarios</Name>
+      <Description>http://www.gattacademos.com/bog02devnet/Administrator/net/eFormBuilderV83/Services/eFormBuilderServices.asmx</Description>
+      <Weight>0</Weight>
+      <Type>3</Type>
+      <Enabled>T</Enabled>
+      <ConditionRule>199,=,Agregar/Modificar/Quitar</ConditionRule>
+      <IDTool>0</IDTool>
+      <DB>0</DB>
+      <IsToolRequiered>F</IsToolRequiered>
+      <FormActivity>0</FormActivity>
+    </Condition>
+    <Condition Id="13" Code="C05-PeopleSoft AM">
+      <Id>13</Id>
+      <Code>C05-PeopleSoft AM</Code>
+      <Name>PeopleSoft AM</Name>
+      <Description>http://www.gattacademos.com/bog02devnet/Administrator/net/eFormBuilderV83/Services/eFormBuilderServices.asmx</Description>
+      <Weight>0</Weight>
+      <Type>3</Type>
+      <Enabled>T</Enabled>
+      <ConditionRule>203,=,Agregar/Modificar/Quitar</ConditionRule>
+      <IDTool>0</IDTool>
+      <DB>0</DB>
+      <IsToolRequiered>F</IsToolRequiered>
+      <FormActivity>0</FormActivity>
+    </Condition>
+    <Condition Id="14" Code="C06-PeopleSoft OM">
+      <Id>14</Id>
+      <Code>C06-PeopleSoft OM</Code>
+      <Name>PeopleSoft OM</Name>
+      <Description>http://www.gattacademos.com/bog02devnet/Administrator/net/eFormBuilderV83/Services/eFormBuilderServices.asmx</Description>
+      <Weight>0</Weight>
+      <Type>3</Type>
+      <Enabled>T</Enabled>
+      <ConditionRule>207,=,Agregar/Modificar/Quitar</ConditionRule>
+      <IDTool>0</IDTool>
+      <DB>0</DB>
+      <IsToolRequiered>F</IsToolRequiered>
+      <FormActivity>0</FormActivity>
+    </Condition>
+  </Conditions>
+  <ConditionsByActivity>
+    <ConditionByActivity IdCondition="10" IdActivity="7" />
+    <ConditionByActivity IdCondition="10" IdActivity="10" />
+    <ConditionByActivity IdCondition="10" IdActivity="11" />
+    <ConditionByActivity IdCondition="10" IdActivity="12" />
+    <ConditionByActivity IdCondition="11" IdActivity="6" />
+    <ConditionByActivity IdCondition="12" IdActivity="6" />
+    <ConditionByActivity IdCondition="13" IdActivity="6" />
+    <ConditionByActivity IdCondition="14" IdActivity="6" />
+  </ConditionsByActivity>
+  <Transitions>
+    <Transition Id="28" Code="T:AUAC01_AUAC02">
+      <Id>28</Id>
+      <Code>T:AUAC01_AUAC02</Code>
+      <Name>T:AUAC01_AUAC02AUAC02</Name>
+      <IdFromActivity>6</IdFromActivity>
+      <IdToActivity>7</IdToActivity>
+      <Description>
+De Asignar Funcional  A Windows </Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Asignar Funcional </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="29" Code="T:AUAC01_AUAC02">
+      <Id>29</Id>
+      <Code>T:AUAC01_AUAC02</Code>
+      <Name>T:AUAC01_AUAC02AUAC02</Name>
+      <IdFromActivity>6</IdFromActivity>
+      <IdToActivity>7</IdToActivity>
+      <Description>
+De Asignar Funcional  A Windows </Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Asignar Funcional </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="30" Code="T:AUAC01_AUAC03">
+      <Id>30</Id>
+      <Code>T:AUAC01_AUAC03</Code>
+      <Name>T:AUAC01_AUAC03AUAC03</Name>
+      <IdFromActivity>6</IdFromActivity>
+      <IdToActivity>10</IdToActivity>
+      <Description>
+De Asignar Funcional  A PeopleSoft Inventarios </Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Asignar Funcional </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="31" Code="T:AUAC01_AUAC04">
+      <Id>31</Id>
+      <Code>T:AUAC01_AUAC04</Code>
+      <Name>T:AUAC01_AUAC04AUAC04</Name>
+      <IdFromActivity>6</IdFromActivity>
+      <IdToActivity>11</IdToActivity>
+      <Description>
+De Asignar Funcional  A PeopleSoft AM </Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Asignar Funcional </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="32" Code="T:AUAC01_AUAC05">
+      <Id>32</Id>
+      <Code>T:AUAC01_AUAC05</Code>
+      <Name>T:AUAC01_AUAC05AUAC05</Name>
+      <IdFromActivity>6</IdFromActivity>
+      <IdToActivity>12</IdToActivity>
+      <Description>
+De Asignar Funcional  A PeopleSoft OM </Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Asignar Funcional </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="33" Code="T:AUAC02_LA ">
+      <Id>33</Id>
+      <Code>T:AUAC02_LA </Code>
+      <Name>T:AUAC02_LA LA </Name>
+      <IdFromActivity>7</IdFromActivity>
+      <IdToActivity>0</IdToActivity>
+      <Description>
+De Windows  A  Actividad final</Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? la administraci?n de accesos a Windows </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="34" Code="T:AUAC03_LA ">
+      <Id>34</Id>
+      <Code>T:AUAC03_LA </Code>
+      <Name>T:AUAC03_LA LA </Name>
+      <IdFromActivity>10</IdFromActivity>
+      <IdToActivity>0</IdToActivity>
+      <Description>
+De PeopleSoft Inventarios  A  Actividad final</Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? la administraci?n de accesos a PeopleSoft Inventarios </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="35" Code="T:AUAC04_LA ">
+      <Id>35</Id>
+      <Code>T:AUAC04_LA </Code>
+      <Name>T:AUAC04_LA LA </Name>
+      <IdFromActivity>11</IdFromActivity>
+      <IdToActivity>0</IdToActivity>
+      <Description>
+De PeopleSoft AM  A  Actividad final</Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? la administraci?n de accesos a PeopleSoft AM </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="36" Code="T:AUAC05_LA ">
+      <Id>36</Id>
+      <Code>T:AUAC05_LA </Code>
+      <Name>T:AUAC05_LA LA </Name>
+      <IdFromActivity>12</IdFromActivity>
+      <IdToActivity>0</IdToActivity>
+      <Description>
+De PeopleSoft OM  A  Actividad final</Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? la administraci?n de accesos a PeopleSoft OM </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+  </Transitions>
+  <TransitionsRule>
+    <TransitionRule IdTransition="28" IdCondition="11" />
+    <TransitionRule IdTransition="30" IdCondition="12" />
+    <TransitionRule IdTransition="31" IdCondition="13" />
+    <TransitionRule IdTransition="32" IdCondition="14" />
+    <TransitionRule IdTransition="33" IdCondition="10" />
+    <TransitionRule IdTransition="34" IdCondition="10" />
+    <TransitionRule IdTransition="35" IdCondition="10" />
+    <TransitionRule IdTransition="36" IdCondition="10" />
+  </TransitionsRule>
+  <ProcessCases>
+    <ProcessCase Id="8" Code="PC - PR01-ALKOSTO">
+      <Id>8</Id>
+      <Code>PC - PR01-ALKOSTO</Code>
+      <Name>PC - ADMINISTRACION DE USUARIOS</Name>
+      <Description>PC -PR01-ALKOSTO</Description>
+      <Documentation />
+      <Author>1</Author>
+      <FromDate>2/23/2009 12:00:00 AM</FromDate>
+      <ToDate>2/23/2019 12:00:00 AM</ToDate>
+      <DurationUnit>4</DurationUnit>
+      <Duration>10</Duration>
+      <Limit />
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime />
+      <WorkingTime />
+      <EntryDataType>Gattaca FormBuilder</EntryDataType>
+      <EntryData>5</EntryData>
+      <email>proceso_PR01-ALKOSTO@procesos.com</email>
+      <cost />
+      <Priority>1</Priority>
+      <URLHelp>http://www.gattacademos.com/bog02devnet/Administrator/net/eFormBuilderV83/security/applicationLogin.aspx?type=startprocess&amp;</URLHelp>
+      <URLService>http://www.gattacademos.com/bog02devnet/Administrator/net/eFormBuilderV83/security/applicationLogin.aspx?type=startprocess&amp;</URLService>
+      <URLDataView>http://www.gattacademos.com/bog02devnet/Administrator/net/eFormBuilderV83/security/applicationLogin.aspx?type=startprocess&amp;</URLDataView>
+      <IDMessagePolicy>3</IDMessagePolicy>
+      <Enabled>T</Enabled>
+      <Status>T</Status>
+    </ProcessCase>
+  </ProcessCases>
+  <MailSettings>
+    <MailSetting IdRelated="7">
+      <IdRelated>7</IdRelated>
+      <ParticipantRole>0</ParticipantRole>
+      <EntityType>0</EntityType>
+      <Status>4</Status>
+      <Subject>Accesos a Windows</Subject>
+      <FromMail>workflow@e-gattaca.com</FromMail>
+      <Content>Se ha generado una solicitud para agregar, modificar o quitar permisos para Windows.</Content>
+      <Enabled>T</Enabled>
+    </MailSetting>
+    <MailSetting IdRelated="7">
+      <IdRelated>7</IdRelated>
+      <ParticipantRole>0</ParticipantRole>
+      <EntityType>0</EntityType>
+      <Status>248</Status>
+      <Subject>Accesos a Windows</Subject>
+      <FromMail>workflow@e-gattaca.com</FromMail>
+      <Content>La solicitud N? &lt;ProcessInstance&gt; para agregar, modificar o quitar permisos para Windows fue realizada exitosamente.</Content>
+      <Enabled>T</Enabled>
+    </MailSetting>
+  </MailSettings>
+  <History>
+    <ProcessInstances>
+      <ProcessInstance Id="1" IdProcessCase="8">
+        <Id>1</Id>
+        <IdProcess>8</IdProcess>
+        <EntryDataType>VBFormBuilder</EntryDataType>
+        <EntryData>5</EntryData>
+        <IdEntryData>35</IdEntryData>
+        <IdApplicationUser>1</IdApplicationUser>
+        <InternalCode />
+        <NSequence>0</NSequence>
+        <Status>2</Status>
+        <CreateTime>6/25/2009 5:08:43 PM</CreateTime>
+        <StartTime>6/25/2009 5:08:43 PM</StartTime>
+        <EndTime />
+        <Comment> </Comment>
+      </ProcessInstance>
+    </ProcessInstances>
+    <ActivityInstances>
+      <ActivityInstance Id="1" IdActivity="6">
+        <Id>1</Id>
+        <IdActivity>6</IdActivity>
+        <IdProcessInstance>1</IdProcessInstance>
+        <IdParticipant />
+        <EntryDataType />
+        <EntryData />
+        <IdEntryData />
+        <Status>248</Status>
+        <CreateTime>6/25/2009 5:08:44 PM</CreateTime>
+        <StartTime>6/25/2009 5:08:45 PM</StartTime>
+        <EndTime>6/25/2009 5:08:45 PM</EndTime>
+        <Comments>Actividad Automatica</Comments>
+        <OutComments>Actividad Automatica</OutComments>
+        <FileName />
+        <ExpectedEndTime>6/25/2009 5:08:45 PM</ExpectedEndTime>
+        <IdCauseTransition>0</IdCauseTransition>
+      </ActivityInstance>
+      <ActivityInstance Id="2" IdActivity="7">
+        <Id>2</Id>
+        <IdActivity>7</IdActivity>
+        <IdProcessInstance>1</IdProcessInstance>
+        <IdParticipant>1</IdParticipant>
+        <EntryDataType />
+        <EntryData />
+        <IdEntryData />
+        <Status>248</Status>
+        <CreateTime>6/25/2009 5:08:48 PM</CreateTime>
+        <StartTime>6/26/2009 2:29:52 PM</StartTime>
+        <EndTime>6/26/2009 3:03:09 PM</EndTime>
+        <Comments>Observaciones adicionales</Comments>
+        <OutComments />
+        <FileName />
+        <ExpectedEndTime>6/26/2009 5:08:48 PM</ExpectedEndTime>
+        <IdCauseTransition>28</IdCauseTransition>
+      </ActivityInstance>
+      <ActivityInstance Id="3" IdActivity="10">
+        <Id>3</Id>
+        <IdActivity>10</IdActivity>
+        <IdProcessInstance>1</IdProcessInstance>
+        <IdParticipant>1</IdParticipant>
+        <EntryDataType />
+        <EntryData />
+        <IdEntryData />
+        <Status>2</Status>
+        <CreateTime>6/25/2009 5:08:49 PM</CreateTime>
+        <StartTime>6/26/2009 2:30:44 PM</StartTime>
+        <EndTime />
+        <Comments />
+        <OutComments />
+        <FileName />
+        <ExpectedEndTime>6/26/2009 5:08:49 PM</ExpectedEndTime>
+        <IdCauseTransition>30</IdCauseTransition>
+      </ActivityInstance>
+    </ActivityInstances>
+  </History>
+</WF_Process>

@@ -1,0 +1,244 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Gattaca.Factory.eSecurity
+</name>
+</assembly>
+<members>
+<member name="M:Gattaca.Factory.eSecurity.JournalFactory.Make(Gattaca.Application.Tools.Enumerations.CoreDbType)">
+	<summary>
+ Construir la cada de acceso de acuerdo a la definicion de datos hecha en el registro de la aplicacion.
+ </summary>
+	<param name="DbType">Tipo de base de datos</param>
+	<returns></returns>
+	<remarks></remarks>
+	<history>
+ Diego Armando Gomez    22/02/2007 
+ </history>
+</member><member name="T:Gattaca.Factory.eSecurity.JournalFactory">
+	<summary>
+ Descripcion: Clase que representa la capa de acceso a datos.
+ Elaborado: Diego Armando Gomez.
+ Fecha: 23/02/2007
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Factory.eSecurity.FailureTryFactory.Make(Gattaca.Application.Tools.Enumerations.CoreDbType)">
+	<summary>
+ Descripcion: Construir la cada de acceso de acuerdo a la definicion de datos hecha en el registro de la aplicacion.
+ Elaborado: Diego Armando Gomez.
+ Fecha: 20/02/2007
+ </summary>
+	<param name="DbType">Tipo de base de datos</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Gattaca.Factory.eSecurity.FailureTryFactory">
+	<summary>
+ Descripcion: Clase que contrulle la capa de acceso a datos de acuerdo al tipo de almacenamiento.
+ Elaborado: Diego Armando Gomez.
+ Fecha: 20/02/2007
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Factory.eSecurity.LanguageFactory.Make(Gattaca.Application.Tools.Enumerations.CoreDbType)">
+	<summary>
+ Construir la cada de acceso de acuerdo a la definicion de datos hecha en el registro de la aplicacion.
+ </summary>
+	<param name="DbType">Tipo de base de datos</param>
+	<returns></returns>
+	<remarks></remarks>
+	<history>
+ Diego Armando Gomez    23/02/2007 
+ </history>
+</member><member name="M:Gattaca.Factory.eSecurity.SettingsFactory.Make(Gattaca.Application.Tools.Enumerations.CoreDbType)">
+	<summary>
+ Construir la cada de acceso de acuerdo a la definicion de datos hecha en el registro de la aplicacion.
+ </summary>
+	<param name="DbType">Tipo de base de datos</param>
+	<returns></returns>
+	<remarks></remarks>
+	<history>
+ Diego Armando Gomez    23/02/2007 
+ </history>
+</member><member name="T:Gattaca.Factory.eSecurity.SettingsFactory">
+	<summary>
+ Descripcion: Clase que representa la capa de acceso a datos.
+ Elaborado: Diego Armando Gomez.
+ Fecha: 23/02/2007
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Factory.eSecurity.ApplicationTransactionFactory.Make(Gattaca.Application.Tools.Enumerations.CoreDbType)">
+	<summary>
+ Descripcion: Construir la cada de acceso de acuerdo a la definicion de datos hecha en el registro de la aplicacion.
+ Elaborado: Diego Armando Gomez.
+ Fecha: 20/02/2007
+ </summary>
+	<param name="DbType">Tipo de base de datos</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Gattaca.Factory.eSecurity.ApplicationTransactionFactory">
+	<summary>
+ Descripcion: Clase que representa la capa de acceso a datos.
+ Elaborado: Diego Armando Gomez.
+ Fecha: 20/02/2007
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Factory.eSecurity.LocalityTypeFactory.Make(Gattaca.Application.Tools.Enumerations.CoreDbType)">
+	<summary>
+ Descripcion: Construir la cada de acceso de acuerdo a la definicion de datos hecha en el registro de la aplicacion.
+ Elaborado: Diego Armando Gomez.
+ Fecha: 20/02/2007
+ </summary>
+	<param name="DbType">Tipo de base de datos</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Gattaca.Factory.eSecurity.LocalityTypeFactory">
+	<summary>
+ Clase que representa la capa de acceso a datos.
+ Elaborado: Diego Armando Gomez.
+ Fecha: 20/02/2007
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Factory.eSecurity.CountryFactory.Make(Gattaca.Application.Tools.Enumerations.CoreDbType)">
+	<summary>
+	</summary>
+	<param name="DbType">Tipo de Base de Datos</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Factory.eSecurity.LockIpFactory.Make(Gattaca.Application.Tools.Enumerations.CoreDbType)">
+	<summary>
+ Descripcion: Construir la cada de acceso de acuerdo a la definicion de datos hecha en el registro de la aplicacion.
+ Elaborado: Diego Armando Gomez.
+ Fecha: 20/02/2007
+ </summary>
+	<param name="DbType">Tipo de base de datos</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Gattaca.Factory.eSecurity.LockIpFactory">
+	<summary>
+ Clase que representa la capa de acceso a datos.
+ Elaborado: Diego Armando Gomez.
+ Fecha: 23/02/2007
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Factory.eSecurity.ModuleFactory.Make(Gattaca.Application.Tools.Enumerations.CoreDbType)">
+	<summary>
+ Descripcion: Construir la cadena de acceso de acuerdo a la definicion de datos hecha en el registro de la aplicacion.
+ Elaborado: Daniel Morales.
+ Fecha: 22/05/2009
+ </summary>
+	<param name="DbType">Tipo de base de datos</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Gattaca.Factory.eSecurity.ModuleFactory">
+	<summary>
+ Descripcion: Clase que representa la capa de acceso a datos.
+ Elaborado: Daniel Morales.
+ Fecha: 22/05/2009
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Factory.eSecurity.UserGroupFactory.Make(Gattaca.Application.Tools.Enumerations.CoreDbType)">
+	<summary>
+ Construir la cada de acceso de acuerdo a la definicion de datos hecha en el registro de la aplicacion.
+ </summary>
+	<param name="DbType">Tipo de base de datos</param>
+	<returns></returns>
+	<remarks></remarks>
+	<history>
+ Diego Armando Gomez    23/02/2007 
+ </history>
+</member><member name="M:Gattaca.Factory.eSecurity.ApplicationUserFactory.Make(Gattaca.Application.Tools.Enumerations.CoreDbType)">
+	<summary>
+ Descripcion: Construir la cada de acceso de acuerdo a la definicion de datos hecha en el registro de la aplicacion.
+ Elaborado: Diego Armando Gomez.
+ Fecha: 20/02/2007
+ </summary>
+	<param name="DbType">Tipo de base de datos</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Gattaca.Factory.eSecurity.ApplicationUserFactory">
+	<summary>
+ Descripcion: Clase que representa la capa de acceso a datos.
+ Elaborado: Diego Armando Gomez.
+ Fecha: 20/02/2007
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Factory.eSecurity.CityFactory.Make(Gattaca.Application.Tools.Enumerations.CoreDbType)">
+	<summary>
+	</summary>
+	<param name="DbType">Tipo de Base de Datos</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Factory.eSecurity.DeptoFactory.Make(Gattaca.Application.Tools.Enumerations.CoreDbType)">
+	<summary>
+ Construir la cada de acceso de acuerdo a la definicion de datos hecha en el registro de la aplicacion.
+ </summary>
+	<param name="DbType">Tipo de base de datos</param>
+	<returns></returns>
+	<remarks></remarks>
+	<history>
+ Diego Armando Gomez    23/02/2007 
+ </history>
+</member><member name="M:Gattaca.Factory.eSecurity.CompanyFactory.Make(Gattaca.Application.Tools.Enumerations.CoreDbType)">
+	<summary>
+	</summary>
+	<param name="DbType">Tipo de Base de Datos</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Factory.eSecurity.MessageFactory.Make(Gattaca.Application.Tools.Enumerations.CoreDbType)">
+	<summary>
+ Construir cada de acceso de acuerdo a la definicion de datos hecha en el registro de la aplicacion.
+ </summary>
+	<param name="DbType">Tipo de base de datos</param>
+	<returns></returns>
+	<remarks></remarks>
+	<Author>Jaime Mora</Author>
+	<Date>29/05/09</Date>
+</member><member name="M:Gattaca.Factory.eSecurity.AttributeFactory.Make(Gattaca.Application.Tools.Enumerations.CoreDbType)">
+	<summary>
+ Construir la cada de acceso de acuerdo a la definicion de datos hecha en el registro de la aplicacion.
+ </summary>
+	<param name="DbType">Tipo de base de datos</param>
+	<returns></returns>
+	<remarks></remarks>
+	<history>
+ Diego Armando Gomez    23/02/2007 
+ </history>
+</member><member name="M:Gattaca.Factory.eSecurity.LocalityFactory.Make(Gattaca.Application.Tools.Enumerations.CoreDbType)">
+	<summary>
+ Descripcion: Construir la cada de acceso de acuerdo a la definicion de datos hecha en el registro de la aplicacion.
+ Elaborado: Diego Armando Gomez.
+ Fecha: 20/02/2007
+ </summary>
+	<param name="DbType">Tipo de base de datos</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Gattaca.Factory.eSecurity.LocalityFactory">
+	<summary>
+ Descripcion: Clase que representa la capa de acceso a datos.
+ Elaborado: Diego Armando Gomez.
+ Fecha: 20/02/2007
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Factory.eSecurity.StatsFactory.Make(Gattaca.Application.Tools.Enumerations.CoreDbType)">
+	<summary>
+ Construir la cada de acceso de acuerdo a la definicion de datos hecha en el registro de la aplicacion.
+ </summary>
+	<param name="DbType">Tipo de base de datos</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Gattaca.Factory.eSecurity.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Gattaca.Factory.eSecurity.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Gattaca.Factory.eSecurity.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

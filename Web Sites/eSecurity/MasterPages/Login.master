@@ -1,0 +1,142 @@
+<%@ master language="VB" inherits="MasterPages_Security, App_Web_gb1tyktw" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Gattaca S.A. - eSecurity - Menú Principal</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta name="keywords" content="Keywords here" />
+    <meta name="Author" content="Alejandro Chaparro M." />
+    <meta name="robots" content="index, follow, All" />
+    <meta name="revisit-after" content="30 days" />
+    <meta name="distribution" content="global" />
+    <meta name="rating" content="general" />
+    <meta name="Content-Language" content="english" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" />
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td class="cssBgLeft">
+                &nbsp;
+            </td>
+            <td style="margin: auto; width: 1000px;">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td>
+                            <asp:Image ID="img_titulo" AlternateText="cabeza" runat="server" ImageUrl="~/App_Themes/SoftManagement/Images/Template/cabeza.jpg" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table width="100%" border="0" cellpadding="0" cellspacing="0" class="cssHeaderBg">
+                                <tr>
+                                    <td style="width: 100%;">
+                                        &nbsp;
+                                    </td>
+                                    <td align="right" class="cssHeaderRight">
+                                        <asp:Label ID="lblUsername" runat="server" Font-Bold="True" Font-Size="10pt" ForeColor="#01377D"></asp:Label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="cssBgMenuTop">
+		                                            <asp:Menu ID="Menu1" runat="server" DataSourceID="xmlds" DynamicHorizontalOffset="2"
+                                                Orientation="Horizontal" CssClass="cssGeneral">
+                                                <StaticMenuItemStyle CssClass="cssStaticMenuItem" />
+                                                <DynamicHoverStyle CssClass="cssDynamicHover" />
+                                                <DynamicMenuStyle CssClass="cssDynamicMenu" />
+                                                <StaticSelectedStyle CssClass="cssStaticSelected" />
+                                                <DynamicSelectedStyle CssClass="cssDynamicSelected" />
+                                                <DynamicMenuItemStyle CssClass="cssDynamicMenuItem" />
+                                                <DataBindings>
+                                                    <asp:MenuItemBinding DataMember="menuItem" NavigateUrlField="NavigateUrlField" TextField="TextField"
+                                                        ValueField="ValueField" />
+                                                </DataBindings>
+                                                <Items>
+                                                    <asp:MenuItem Text="New Item" Value="New Item"></asp:MenuItem>
+                                                    <asp:MenuItem Text="New Item" Value="New Item"></asp:MenuItem>
+                                                    <asp:MenuItem Text="New Item" Value="New Item"></asp:MenuItem>
+                                                </Items>
+                                                <StaticHoverStyle CssClass="cssStaticHover" />
+                                                <StaticMenuStyle CssClass="cssStaticMenu" />
+                                            </asp:Menu>
+                                        <asp:XmlDataSource ID="xmlds" runat="server" XPath="/*/*" DataFile="~/Menu/Admin.xml">
+                                            </asp:XmlDataSource>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cssBkgPageLeft">
+                            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td width="34">
+                                        &nbsp;
+                                    </td>
+                                    <td>
+                                        <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+                                            <tr>
+                                                <td>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td class="cssTitleCategory">
+                                                                <asp:Label ID="lblTitle" runat="server" SkinID="LabelTitle"></asp:Label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="cssBkgWorkItem">
+                                                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                            </asp:ContentPlaceHolder>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">
+                                                    &nbsp;
+                                                    <asp:XmlDataSource ID="InternalParticipantMenuDataSource" runat="server" DataFile="~/Include/Server/InternalParticipantMenu.xml"
+                                                        XPath="/*/*"></asp:XmlDataSource>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="10">
+                                        &nbsp;
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" align="right">
+                            <table width="100%" border="0" cellpadding="0" cellspacing="0" class="cssFooterBg">
+                                <tr>
+                                    <td class="cssTxtFooter">
+                                        Copyright © 2009 Ministerio de Ambiente, Vivienda y Desarrollo Territorial
+                                        <br>
+                                        Dirección: Calle 37 No. 8-40 - Conmutador: (57-1) 3323434 - 3323400 Líneas gratuitas
+                                        018000915060 - 018000919301 - Horario: Lunes a Viernes de 08:00 a.m. - 5:00 p.m
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td class="cssBgRight">
+                &nbsp;
+            </td>
+        </tr>
+    </table>
+		
+		
+		
+		
+    </form>
+</body>
+</html>

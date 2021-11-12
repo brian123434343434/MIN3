@@ -1,0 +1,12 @@
+<asp:Menu  runat="server">
+	<StaticMenuStyle cssClass="cssMenuStaticMenuStyle" />
+	<StaticMenuItemStyle cssClass="cssMenuStaticMenuItemStyle" />
+	<DynamicHoverStyle cssClass="cssMenuDynamicHoverStyle" />
+	<DynamicMenuStyle cssClass="cssMenuDynamicMenuStyle" />
+	<StaticSelectedStyle cssClass="cssMenuStaticSelectedStyle" />
+	<DynamicSelectedStyle cssClass="cssMenuDynamicSelectedStyle" />
+	<DynamicMenuItemStyle cssClass="cssMenuDynamicMenuItemStyle" />
+	<StaticHoverStyle cssClass="cssMenuStaticHoverStyle" />
+	
+	
+</asp:Menu>

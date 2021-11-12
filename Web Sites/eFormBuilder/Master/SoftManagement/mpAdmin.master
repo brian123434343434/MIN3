@@ -1,0 +1,450 @@
+<%@ master language="VB" inherits="Master_mpAdmin, App_Web_u0z9p1sa" %>
+
+<%@ Register Src="../../Controls/User.ascx" TagName="User" TagPrefix="uc1" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxtoolkit" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Gattaca eFormBuilder - ClientForm</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta name="Author" content="Gattaca S.A." />
+    <meta name="robots" content="noindex,nofollow,noarchive,noodp,nosnippet" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="SoftManagement/fontawesome.min.css">
+    <link rel="stylesheet" type="text/css" href="SoftManagement/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="SoftManagement/styles-vital.css">    
+</head>
+<body id="imgLogo">
+    <form id="frmInternalParticipant" runat="server">
+    <ajaxtoolkit:ToolkitScriptManager ID="smPrincipal" runat="server">
+    </ajaxtoolkit:ToolkitScriptManager>
+    <asp:UpdateProgress ID="upPrincipal" runat="server" DisplayAfter="0">
+        <ProgressTemplate>
+            <div id="MODAL_DIV_AJAX" style="width: 172px; height: 52px; position: absolute; z-index: 9999;">
+                <asp:Image ID="ProgressIndicator" SkinID="ProgressIndicator" runat="server" />
+            </div>
+            <div id="MODAL_DIV_AJAX_TOTAL" style="filter: alpha(opacity=60); background: #444;
+                position: absolute; z-index: 9998;">
+            </div>
+        </ProgressTemplate>
+    </asp:UpdateProgress>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td class="cssBgLeft">
+                &nbsp;
+            </td>
+            <td style="margin: auto; width: 1000px;">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td>
+                            <asp:Image ID="img_titulo" alt="cabeza" runat="server" src="../App_Themes/SoftManagement/Images/Template/cabeza.jpg" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table width="100%" border="0" cellpadding="0" cellspacing="0" class="cssHeaderBg">
+                                <tr>
+                                    <td style="width: 100%;">
+                                        &nbsp;
+                                    </td>
+                                    <td align="right" class="cssHeaderRight">
+                                        <uc1:User ID="ucUserData" runat="server" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="cssBgMenuTop">
+                                        <asp:Menu ID="mMenu" runat="server" DataSourceID="xdsMenu" Orientation="Horizontal"
+                                            CssClass="mMenu">
+                                            <DynamicHoverStyle CssClass="DynamicHoverStyle" />
+                                            <StaticHoverStyle CssClass="StaticHoverStyle" />
+                                            <DynamicMenuItemStyle CssClass="DynamicMenuItemStyle"/>
+                                            <DataBindings>
+                                                <asp:MenuItemBinding DataMember="menuItem" NavigateUrlField="NavigateUrlField" TextField="TextField"
+                                                    ValueField="ValueField" />
+                                            </DataBindings>
+                                        </asp:Menu>
+                                        <asp:XmlDataSource ID="xdsMenu" runat="server" DataFile="mMenu.xml" XPath="/*/*">
+                                        </asp:XmlDataSource>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cssBkgPageLeft">
+                            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td width="34">
+                                        &nbsp;
+                                    </td>
+                                    <td>
+                                        <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+                                            <tr>
+                                                <td>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td class="cssTitleCategory">
+                                                                <asp:Label ID="lblTitle" runat="server" SkinID="LabelTitle"></asp:Label>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="cssBkgWorkItem">
+                                                                <asp:ContentPlaceHolder ID="cphPrincipal" runat="server">
+                                                                </asp:ContentPlaceHolder>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">
+                                                    &nbsp;
+                                                    <asp:XmlDataSource ID="InternalParticipantMenuDataSource" runat="server" DataFile="~/Include/Server/InternalParticipantMenu.xml"
+                                                        XPath="/*/*"></asp:XmlDataSource>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="10">
+                                        &nbsp;
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" align="right">
+                            <table width="100%" border="0" cellpadding="0" cellspacing="0" class="cssFooterBg">
+                                <tr>
+                                    <td class="cssTxtFooter">
+                                        Copyright © 2009 Ministerio de Ambiente, Vivienda y Desarrollo Territorial
+                                        <br>
+                                        Dirección: Calle 37 No. 8-40 - Conmutador: (57-1) 3323434 - 3323400 Líneas gratuitas
+                                        018000915060 - 018000919301 - Horario: Lunes a Viernes de 08:00 a.m. - 5:00 p.m
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td class="cssBgRight">
+                &nbsp;
+            </td>
+        </tr>
+    </table>
+    </form>
+    <!-- CUSTOM VITAL ************************************-->
+
+<!-- Scripts VITAL-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/popper.min.js"></script>
+
+<script type="text/javascript">
+
+var $header = '<header class="he_header">'
+    + '<div class="container">'
+    + '<div class="row">'
+    + '<div class="col-md-12 he_logo">'
+    + '<a target="_blank" href="https://www.gov.co">'
+    + '<img src="img/logo_header.png" alt="logo">'
+    + '</a>'
+    + '</div>'
+    + '</div>'
+    + '</div>'
+    + '</header>'
+    + '<div class="container logos-h">'
+    + '<div class="row">'
+    + '<div class="col-md-8 text-left">'
+    + '<div>'
+    + '<a href="/"><img src="img/Logo-Vital.png" alt="logo vital"></a>'
+    + '</div>'
+    + '</div>'
+    + '<div class="col-md-4 text-right">'
+    + '<div>'
+    + '<a href="/"><img src="img/Logo-MADS.png" alt="logo mads"></a>'
+    + '</div>'
+    + '</div>'       
+    + '</div>'
+    + '</div>'
+;
+
+
+var $footer = '<footer class="he_footer">'
+    + '<div class="container">'
+    + '<div class="row">'
+    + '<div class="col-xl-2 col-lg-3 split screen-lg logos">'
+    + '<div class="logo">'
+    + '<a target="_blank" href="https://www.gov.co/">'
+    + '<img src="img/logo_footer.png">'
+    + '</a>'
+    + '</div>'
+    + '<div class="logo_co">'
+    + '<a target="_blank" href="https://www.gov.co/">'
+    + '<img src="img/logo_co_footer.png">'
+    + '</a>'
+    + '</div>'
+    + '</div>'
+    + '<div class="col-xl-6 col-lg-5 split">'
+    + '<h4>Ventanilla Integral del Trámite Ambiental</h4>'
+    + '<p>Dirección: Calle 37 No. 8-40 Bogotá D.C.<br>'
+    + 'Horario de atención: Lunes a Viernes de 8:00 a.m. a 4:30 p.m.</p>'
+    + '<ul class="he_footer_redes text-center">'
+    + '<a target="_blank" href="https://twitter.com/insor_colombia">'
+    + '<li>'
+    + '<i class="fab fa-twitter fa-circulo"></i>'
+    + '<div class="fa_text">@MINAMBIENTE</div>'
+    + '</li>'
+    + '</a>'
+    + '<a target="_blank" href="#">'
+    + '<li>'
+    + '<i class="fab fa-instagram fa-circulo"></i>'
+    + '<div class="fa_text">@MINAMBIENTE</div>'
+    + '</li>'
+    + '</a>'
+    + '<a target="_blank" href="#">'
+    + '<li>'
+    + '<i class="fab fa-facebook-f fa-circulo"></i>'
+    + '<div class="fa_text">@MINAMBIENTE</div>'
+    + '</li>'
+    + '</a>'
+    + '</ul>'
+    + '</div>'
+    + '<div class="col-lg-4 no-split">'
+    + '<h4><i class="fa fa-phone" aria-hidden="true"></i> Contacto</h4>'
+    + '<p>Teléfono conmutador: (57-1) 3323400<br>'
+    + 'Línea gratuita nacional: 01 8000 919 301<br>'
+    + 'Whatsapp empresarial: +57 310-221 3891<br>'
+    + 'Correo: servicioalciudadano@minambiente.gov.co</p>'
+    + '</div>'
+    + '<div class="col-lg-2 no-split split-top screen-md-sm logos_movil">'
+    + '<div class="logo">'
+    + '<a target="_blank" href="https://www.gov.co/">'
+    + '<img src="img/logo_footer.png">'
+    + '</a>'
+    + '</div>'
+    + '<div class="logo_co">'
+    + '<a target="_blank" href="https://www.gov.co/">'
+    + '<img src="img/logo_co_footer.png">'
+    + '</a>'
+    + '</div>'
+    + '</div>'
+    + '</div>'
+    + '</div>'
+    + '</footer>'
+;
+
+
+
+
+$('#ctl00_img_titulo').each(function(i, obj) {
+    var $id = $( this ).attr('id');
+    $( this ).replaceWith( '<div id="'+$id+'">' + $( this ).html() + '</div>' );
+});
+
+$('#ctl00_img_titulo').html( $header );
+
+$('.cssBkgPageLeft').each(function(i, obj) {
+    var $class = $( this ).attr('class');
+    $( this ).replaceWith( '<div class="'+$class+'">' + $( this ).html() + '</div>' );
+});
+
+$('table').each(function(i, obj) {
+    var $anchotable = $( this ).width();
+    if( $anchotable == '1000' ){
+        $(this).attr('style','');
+
+    }
+
+});
+
+$('td').each(function(i, obj) {
+    var $anchotd = $( this ).width();
+    if( $anchotd == '1000' ){
+        $(this).attr('style','');
+
+    }
+
+});
+
+$('td').each(function(i, obj) {
+    var $anchotd = $( this ).width();
+    if( $anchotd == '34' ){
+        $(this).attr('width','');
+
+    }
+
+});
+
+
+$('.cssBkgPageLeft').addClass('container');
+
+$('.cssTxtFooter').html( $footer );
+
+/**********Ajustes de elementos de formularios**********/
+
+$('input[type!="button"]').addClass('form-control');
+
+$('input[type="submit"]').removeClass('form-control');
+$('input[type="file"]').removeClass('form-control');
+$('input[type="submit"]').addClass('btn-high btn-gov-mads');
+$('input[type="button"]').addClass('btn-high btn-gov-mads');
+
+$('select').addClass('form-control');
+$('textarea').addClass('form-control');
+$('checkbox').addClass('form-control');
+
+/**********Ajustes de tabs o pestañas**********/
+
+$('.ajax__tab_header').replaceWith(function () {
+    return $('<ul/>', {
+        html: $(this).html()
+    });
+});
+
+$('.ajax__tab_xp ul').addClass('nav nav-tabs');
+$('.ajax__tab_xp ul').attr('role','tablist');
+
+
+
+
+$('.ajax__tab_xp ul > span').each(function(i, obj) {
+    var $herf = $( this ).attr('id');
+    $( this ).replaceWith( '<li go="#'+$herf+'">' + $( this ).html() + '</li>' );
+});
+
+
+
+$('.ajax__tab_xp ul li > span').replaceWith(function () {
+    return $('<a/>', {
+        html: $(this).html()
+    });
+});
+
+$('.ajax__tab_xp ul > li').each(function(i, obj) {
+    $( this ).addClass('nav-item');
+    $( this ).find('a').addClass('nav-link');
+    $( this ).find('a').attr('data-toggle','tab');
+    $( this ).find('a').attr('role','tab');
+    var $herf2 = $( this).attr('go');
+    $( this ).find('a').attr('href', $herf2);
+});
+
+$('.ajax__tab_body').addClass('tab-content');
+
+$('.ajax__tab_body > div').addClass('tab-pane');
+$('.ajax__tab_body > div').attr('role','tabpanel');
+
+
+$('.tab-content div').each(function(i, obj) {
+    var $herf3 = $( this).attr('id');
+    $( this ).attr('id', $herf3+'_tab');
+});
+
+
+
+//Inicializar tabs o pestañas
+$('.tab-content div').attr('style','');
+$('.ajax__tab_xp ul li:first-child').find('a').addClass('active');
+$('.tab-content div:first-child').addClass('active');
+
+
+//Contraste descargar contrast.css y agregarlo en producción
+var isContrast = false;
+
+jQuery(document).ready(function () {
+
+    jQuery('.contrast-ref').click(function (event) {
+        event.preventDefault();
+
+        if (isContrast == false) {
+            jQuery('head').append('<link rel="stylesheet" href="contrast.css" type="text/css" />');
+            isContrast = true;
+        }
+        else {
+
+            jQuery("LINK[href*='contrast.css']").remove();
+            isContrast = false;
+        }
+    });
+
+
+    jQuery('.min-fontsize').click(function (event) {
+        event.preventDefault();
+
+        var size = parseInt(jQuery('html').css('font-size'));
+
+        if (size > 8) {
+
+            var currentSize = parseFloat(size) * 0.8;
+            jQuery('div').css('font-size', currentSize);
+            jQuery('html').css('font-size', currentSize);
+
+        }
+    });
+
+    jQuery('.max-fontsize').click(function (event) {
+        event.preventDefault();
+
+        var size = parseInt(jQuery('html').css('font-size'));
+
+        if (size < 30) {
+            var currentSize = parseFloat(size) * 1.2;
+            jQuery('div').css('font-size', currentSize);
+            jQuery('html').css('font-size', currentSize);
+
+        }
+
+    });
+
+    jQuery('.normal-fontsize').click(function (event) {
+        event.preventDefault();
+
+        var size = parseInt(jQuery('html').css('font-size'));
+
+        if (size !== 16) {
+            var currentSize = 16;
+            jQuery('div').css('font-size', currentSize);
+            jQuery('html').css('font-size', currentSize);
+
+        }
+
+    });
+
+    // }
+    // }
+});
+
+
+
+</script>
+
+<!-- FIN CUSTOM VITAL ************************************-->
+<div class="block block--gov-accessibility">
+<div class="block-options">
+<a class="contrast-ref" rel="noopener">
+<span class="govco-icon govco-icon-contrast-n"></span>
+<label> Contraste </label>
+</a>
+<a class="min-fontsize" rel="noopener">
+<span class="govco-icon govco-icon-less-size-n">
+</span>
+<label class="align-middle"> Reducir letra </label>
+</a>
+<a class="max-fontsize" rel="noopener">
+<span class="govco-icon govco-icon-more-size-n">
+</span>
+<label class="align-middle"> Aumentar letra </label>
+</a>
+<a class="centro-relevo" href="https://centroderelevo.gov.co/632/w3-channel.html" target="_blank">
+<span class="govco-icon govco-icon-relief-n">
+</span>
+<label class="align-middle"> Centro de relevo </label>
+</a>
+</div>
+</div>
+</body>
+</html>

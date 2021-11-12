@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Clients >
+  <Client Name="SoftManagement" Value="SoftManagement"></Client>
+  <Client Name="Leasing" Value="Lo"></Client>
+  <Client Name="Gattaca" Value="Gattaca"></Client>
+  <Client Name="GattacaInternos" Value="GattacaInternos"></Client>
+  <Client Name="Silpa" Value="Silpa"></Client>
+  <Client Name="BPO" Value="PWC"></Client>
+  <Client Name="Janssen" Value="Janssen"></Client>
+  <Client Name="IQ" Value="IQ"></Client>
+  <Client Name="Demo" Value="Productos"></Client>
+	<Client Name="Environmental" Value="Environmental"></Client>
+	<Client Name="Demo eFormBuilder" Value="DemoFB"></Client>
+	<Client Name="Gattaca WorkFlow V8" Value="Local_NET"></Client>
+	<Client Name="Local" Value="Local"></Client>
+	<Client Name="Lebon" Value="Lebon"></Client>
+	<Client Name="Lebon Remoto" Value="Lebon_Remoto"></Client>
+	<Client Name="Prosperar" Value="Prosperar"></Client>
+	<Client Name="MinComercio" Value="MinComercio"></Client>
+	<Client Name="Sefner" Value="Sefner"></Client>
+	<Client Name="sigpad" Value="sigpad"></Client>
+	<Client Name="Test" Value="Test"></Client>
+</Clients>

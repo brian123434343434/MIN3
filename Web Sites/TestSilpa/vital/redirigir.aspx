@@ -1,0 +1,1 @@
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="redirigir.aspx.vb" Inherits="vital_redirigir" %>

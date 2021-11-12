@@ -1,0 +1,36 @@
+<%@ master language="VB" inherits="Master_mpClientPlain, App_Web_id3u40ch" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxtoolkit" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Gattaca eFormBuilder - ClientForm</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />    
+    <meta name="Author" content="Gattaca S.A." />
+    <meta name="robots" content="noindex,nofollow,noarchive,noodp,nosnippet" />
+</head>
+<body id="imgLogo">
+    <form id="frmInternalParticipant" runat="server">
+    <ajaxtoolkit:ToolkitScriptManager ID="smClient" runat="server" EnablePartialRendering="True" EnableScriptGlobalization="True" EnableScriptLocalization="True">
+    </ajaxtoolkit:ToolkitScriptManager>
+    <asp:UpdateProgress ID="upPrincipal" runat="server" DisplayAfter="0">
+        <ProgressTemplate>
+            <div class="modalPopup">
+                <asp:Image ID="ProgressIndicator" SkinID="ProgressIndicator" runat="server" />
+                <br />
+                <br />
+                Cargando sus datos. Un momento por favor.
+            </div>
+        </ProgressTemplate>
+    </asp:UpdateProgress>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td class="cssBkgWorkItem">
+                <asp:ContentPlaceHolder ID="cphClient" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

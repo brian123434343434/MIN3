@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "eSecurity 9.0.0.0", "D:\Gattaca\BPO\DMorales\eSecurity 9.0.0.0", "{AC77591C-15BB-41FF-81B0-4CC7A008418F}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = ""$/trunk/source/Site", XJCAAAAA"
+		SccAuxPath = ""
+		SccLocalPath = "."
+		SccProvider = "MSSCCI:Microsoft Visual SourceSafe"
+		TargetFramework = "3.5"
+		ProjectReferences = ""
+		Debug.AspNetCompiler.VirtualPath = "/eSecurity 9.0.0.0"
+		Debug.AspNetCompiler.PhysicalPath = "..\eSecurity 9.0.0.0\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\eSecurity 9.0.0.0\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/eSecurity 9.0.0.0"
+		Release.AspNetCompiler.PhysicalPath = "..\eSecurity 9.0.0.0\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\eSecurity 9.0.0.0\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1625"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 1
+		SccWebProject0 = true
+		SccProjectUniqueName0 = .
+		SccProjectName0 = \u0022$/trunk/source/Site\u0022,\u0020XJCAAAAA
+		SccLocalPath0 = D:\\Gattaca\\BPO\\DMorales\\eSecurity\u00209.0.0.0
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		SccProjectEnlistmentChoice0 = 2
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC77591C-15BB-41FF-81B0-4CC7A008418F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC77591C-15BB-41FF-81B0-4CC7A008418F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC77591C-15BB-41FF-81B0-4CC7A008418F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC77591C-15BB-41FF-81B0-4CC7A008418F}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

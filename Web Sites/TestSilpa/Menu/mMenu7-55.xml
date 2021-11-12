@@ -1,0 +1,8 @@
+<?xml version="1.0" standalone="yes"?>
+<menu>
+  <MenuItem ValueField="Inicio" TextField="Inicio" NavigateUrlField="http://licencias.anla.gov.co/xcars/silpa/TestSilpa/security/Default.aspx" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="" />
+  <MenuItem ValueField="" TextField="Registros Mineros" NavigateUrlField="" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="">
+    <MenuItem ValueField="" TextField="Consulta" NavigateUrlField="http://licencias.anla.gov.co/xcars/silpa_UT_PRE/RegistroMinero/listadoRegistroMInero.aspx" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="blank" ToolTipField="" />
+  </MenuItem>
+  <MenuItem ValueField="" TextField="Salir" NavigateUrlField="http://licencias.anla.gov.co/xcars/silpa_UT_PRE/Salir.aspx" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="" />
+</menu>

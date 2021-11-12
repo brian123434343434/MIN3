@@ -1,0 +1,252 @@
+BODY {
+	FONT-SIZE: 12px;
+	FONT-FAMILY:Trebuchet MS;
+	TEXT-DECORATION: none;
+}
+HTML {
+	HEIGHT: 100%
+}
+BODY {
+	HEIGHT: 100%;
+	background-repeat: no-repeat;
+}
+.cssMainMainTable {
+	BORDER-RIGHT: #ccc 1px  solid; BORDER-TOP: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid; background-color:#fff
+}
+.cssFooterText {
+	PADDING-LEFT: 11px; FONT-WEIGHT: normal; FONT-SIZE: 9px; COLOR: #03037D; PADDING-TOP: 18px; FONT-FAMILY: Verdana
+	}
+#_ctl1_lblTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY:Trebuchet MS;
+
+}
+A {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #003366; FONT-FAMILY:Trebuchet MS;
+ TEXT-DECORATION: none
+}
+.cssLabelTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px;  COLOR: #000; FONT-FAMILY:Trebuchet MS;
+
+}
+.cssLabelForm {
+	FONT-WEIGHT: bold; COLOR: #333; FONT-SIZE: 12px;
+	FONT-FAMILY:Trebuchet MS;
+}
+.cssLabelHeader {
+FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #fff; FONT-FAMILY:Trebuchet MS;
+
+}
+.cssLabelHelp {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #333333; FONT-FAMILY:Trebuchet MS;
+
+}
+.cssTextBoxForm {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #333333; FONT-FAMILY:Trebuchet MS;
+ border: 1px solid #ccc;
+}
+.cssGrid {
+	BORDER-RIGHT: #B2B2B3 1px solid; BORDER-TOP: #e5e9f0 1px solid; BORDER-LEFT: #e5e9f0 1px solid; BORDER-BOTTOM: #e5e9f0 1px solid
+}
+.cssTable {
+	WIDTH: 100%;
+	background-image: url(../Images/bg_grilla.jpg);
+	background-repeat: repeat-x;
+	background-color: #999;
+	background-position: top;
+	border-top: 1px dotted #333;
+	border-bottom: 1px dotted #333; 
+}
+.cssButton {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000;FONT-FAMILY:Trebuchet MS;
+    BACKGROUND-COLOR: #FBD746; height: 30px;
+}
+.cssDDL {
+	MIN-WIDTH: 130px; FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #333333; FONT-FAMILY:Trebuchet MS;
+
+}
+.cssAlternatingItemStyle {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #000; FONT-FAMILY:Trebuchet MS;
+ BACKGROUND-COLOR: #ffffff; height: 25px;	text-align:left;
+
+}
+.cssAlternatingItemStyle A {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #003366; FONT-FAMILY:Trebuchet MS;
+ TEXT-DECORATION: none
+}
+.cssItemStyle {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 12px;
+	COLOR: #000;
+	FONT-FAMILY:Trebuchet MS;
+
+	height: 25px;
+	background-color: #FEF1BC;
+	text-align:left;
+}
+.cssItemStyle A {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #003366; FONT-FAMILY:Trebuchet MS;
+ TEXT-DECORATION: none;
+
+}
+.cssHeaderStyle {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 13px;
+	COLOR: #fff;
+	FONT-FAMILY:Trebuchet MS;
+	BACKGROUND-COLOR: #999999;
+	background-image: url(../Images/bg_grilla.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	height: 35px;
+border-bottom:1ps solid #000;
+text-align:left;
+}
+.cssFooterStyle {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: blue; FONT-FAMILY:Trebuchet MS;
+ 
+}
+.cssBgFooter {
+	background-image: url(../PETROBRAS - Hoja de Control de Tiempos_files/footer_bg.jpg);
+	background-repeat: repeat;
+}
+
+.cssPager {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #cc0000; FONT-FAMILY: Verdana; TEXT-DECORATION: none; background-color: #F8C705; height: 25px;
+}
+cssPager A {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #000; FONT-FAMILY:Trebuchet MS;
+ TEXT-DECORATION: none
+}
+.cssRequired {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #cc0000; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+.cssActivityTable {
+	BORDER-RIGHT: #a8b7c1 1px solid; BORDER-TOP: #a8b7c1 1px solid; BORDER-LEFT: #a8b7c1 1px solid; BORDER-BOTTOM: #a8b7c1 1px solid; BACKGROUND-COLOR: #e4effd
+}
+.cssActivityTable TD {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #cccccc 1px solid; PADDING-TOP: 3px
+}
+.cssActivityTable TD TD {
+	BORDER-LEFT: transparent 0px
+}
+.cssActivityTableLabelTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; TEXT-TRANSFORM: uppercase; COLOR: #36578c; FONT-FAMILY:Trebuchet MS;
+ BACKGROUND-COLOR: #e8e8e8
+}
+.cssActivityLabelTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; BACKGROUND: #8ca7b9; WIDTH: 100%; COLOR: #ffffff
+}
+.cssActivityLabelTitleDiv {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 10px; BACKGROUND: #8ca7b9; PADDING-BOTTOM: 3px; MARGIN: 2px; WIDTH: 100%; COLOR: #ffffff; PADDING-TOP: 3px
+}
+.cssActivityLabelContent TD {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px;FONT-FAMILY:Trebuchet MS;
+
+}
+.cssActivityButtonRow {
+	BORDER-TOP: #a8b7c1 1px solid; BACKGROUND-COLOR: #edf4f8
+}
+
+
+/* Menu */
+
+.mMenu_0 {
+	DISPLAY: none; LEFT: 0px; VISIBILITY: hidden; POSITION: absolute; TOP: 0px; BACKGROUND-COLOR: white; padding: 5px; 
+}
+.mMenu_1 {
+	FONT-SIZE: 12px; COLOR: #000;FONT-FAMILY:Trebuchet MS;
+ TEXT-DECORATION: none;BACKGROUND-COLOR: #FDE88F;  padding-left: 20px; text-align: left;
+}
+.mMenu_2 {
+	FONT-SIZE: 10px; COLOR: #7c6f57; FONT-FAMILY:Trebuchet MS;
+ BACKGROUND-COLOR: #FDE88F;
+}
+.mMenu_3 {
+	
+}
+.mMenu_4 {
+	PADDING-RIGHT: 10px; PADDING-LEFT:6px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; height: 30px; width: 100%;
+}
+.mMenu_5 {
+	
+}
+.mMenu_6 {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.mMenu_7 td{
+	BACKGROUND-COLOR: #FDE88F;  padding-left: 10px; text-align: left; COLOR: #276CA3;
+}
+.mMenu_8 {
+	
+}
+.mMenu_9 {
+	BACKGROUND-COLOR: #5d7b9d
+}
+.mMenu_10 {
+	
+}
+.mMenu_11 {
+	BACKGROUND-COLOR: #5d7b9d
+}
+.mMenu_12 {
+	COLOR: #000
+}
+.mMenu_13 {
+	COLOR: #000; BACKGROUND-COLOR: #FDE88F
+}
+.mMenu_14 {
+	COLOR: #000
+}
+.mMenu_15 {
+	COLOR: #276CA3; BACKGROUND-COLOR: #FAD01C; padding-left:0px; text-align: left;
+}
+
+.mMenu {
+	BACKGROUND-COLOR: #FDE88F;  padding-left: 10px; text-align: left; COLOR: #276CA3;
+}
+
+.DynamicHoverStyle {
+	COLOR: #276CA3; BACKGROUND-COLOR: #FAD01C; padding-left:0px; text-align: left;
+}
+
+.StaticHoverStyle {
+	COLOR: #276CA3; BACKGROUND-COLOR: #FAD01C; padding-left:0px; text-align:  left ; /*ForeColor="#000";*/
+}
+
+.DynamicMenuItemStyle td{
+	BACKGROUND-COLOR: #FDE88F;  padding-left: 10px; text-align: left; COLOR: #276CA3; /*HorizontalPadding="5px";VerticalPadding="3px"; ForeColor="#000";*/
+}
+
+.atlas__delta {
+	FONT-FAMILY: Lucida Console
+}
+.cssBgTablaLeft {
+	background-image: url(../Images/bg_Left.jpg);
+	background-repeat: repeat-y;
+}
+.cssBgTablaRight {
+	background-image: url(../Images/bg_Right.jpg);
+	background-repeat: repeat-y;
+}
+.cssBgTablaUp {
+	background-image: url(../Images/bg_up.jpg);
+	background-repeat: repeat-x;
+}
+.cssBgTablaDown {
+	background-image: url(../Images/bg_down.jpg);
+	background-repeat: repeat-x;
+}
+.cssBgTabla {
+	background-color: #F4F4F4;
+}
+.cssBgImage {
+	background-image: url(../Images/bg_image.jpg);
+	background-repeat: repeat-x;
+}
+.cssFormInputLabel {
+	PADDING-RIGHT: 10px; FONT-WEIGHT: bolder; FONT-SIZE: 11px; COLOR: #003366; FONT-FAMILY:Trebuchet MS;
+ TEXT-ALIGN: right
+}
+.cssSesion {
+	FONT-WEIGHT: bold; FONT-SIZE: 30px; COLOR: #000; FONT-FAMILY:Trebuchet MS; text-align:center;
+}

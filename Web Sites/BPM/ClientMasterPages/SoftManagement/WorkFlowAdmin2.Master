@@ -1,0 +1,130 @@
+<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="~/MasterPages/WorkFlowAdmin.master.vb"
+    Inherits="BPMWebSite.WorkFlowAdmin" %>
+
+<%@ Register Assembly="AjaxControls Namespace="AjaxControls" TagPrefix="cc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Gattaca eFormBuilder - ClientForm</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta name="robots" content="noindex,nofollow,noarchive,noodp,nosnippet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <cc1:ModalUpdateProgress ID="ModalUpdateProgress1" runat="server" BackgroundCssClass="modalProgressGreyBackground">
+        <ProgressTemplate>
+            <div class="modalPopup">
+                <asp:Image ID="ProgressIndicator" SkinID="ProgressIndicator" runat="server" />
+                <br />
+                <br />
+                Cargando sus datos. Un momento por favor.
+            </div>
+        </ProgressTemplate>
+    </cc1:ModalUpdateProgress>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td class="cssBgLeft">
+                &nbsp;
+            </td>
+            <td style="margin: auto; width: 1000px;">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td>
+                          <asp:Image ID="img_titulo" alt="cabeza" runat="server" src="../App_Themes/SoftManagement/Images/Template/cabeza.jpg" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table width="100%" border="0" cellpadding="0" cellspacing="0" class="cssHeaderBg">
+                                <tr>
+                                    <td style="width: 100%;">
+                                        &nbsp;
+                                    </td>
+                                    <td align="right" class="cssHeaderRight">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" class="cssBgMenuTop">
+    							<asp:Menu ID="mnWorKFlowAdmin" runat="server" DataSourceID="WorkFlowMenuData" Orientation="Horizontal" CssClass="mMenu" >
+								<StaticHoverStyle CssClass="StaticHoverStyle" />
+								<DynamicHoverStyle CssClass="DynamicHoverStyle" />
+								<DynamicMenuItemStyle CssClass="DynamicMenuItemStyle" />
+								<DataBindings>
+									<asp:MenuItemBinding DataMember="MenuItem" EnabledField="EnabledField" NavigateUrlField="NavigateUrlField"
+										TextField="TextField" ToolTipField="ToolTipField" ValueField="ValueField" />
+								</DataBindings>
+							</asp:Menu>                    <asp:XmlDataSource ID="WorkFlowMenuData" runat="server" DataFile="~/Include/Server/AdministratorMenu.xml"
+                        XPath="/*/*"></asp:XmlDataSource>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="cssBkgPageLeft">
+                            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td width="34">
+                                        &nbsp;
+                                    </td>
+                                    <td>
+                                        <table border="0" cellpadding="0" cellspacing="0" style="width: 100%">
+                                            <tr>
+                                                <td>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td class="cssTitleCategory">
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="cssBkgWorkItem">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        &nbsp;</asp:ContentPlaceHolder>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="10">
+                                        &nbsp;
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" align="right">
+                            <table width="100%" border="0" cellpadding="0" cellspacing="0" class="cssFooterBg">
+                                <tr>
+                                    <td class="cssTxtFooter">
+                                        Copyright © 2009 Ministerio de Ambiente, Vivienda y Desarrollo Territorial
+                                        <br>
+                                        Dirección: Calle 37 No. 8-40 - Conmutador: (57-1) 3323434 - 3323400 Líneas gratuitas
+                                        018000915060 - 018000919301 - Horario: Lunes a Viernes de 08:00 a.m. - 5:00 p.m
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td class="cssBgRight">
+                &nbsp;
+            </td>
+        </tr>
+    </table>
+						
+						
+						
+
+    </form>
+</body>
+</html>

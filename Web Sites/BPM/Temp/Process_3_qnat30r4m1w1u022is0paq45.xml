@@ -1,0 +1,1129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WF_Process Version="8.3">
+  <Process Id="3" Code="PSLA">
+    <Id>3</Id>
+    <Code>PSLA</Code>
+    <Name>Solicitud de Licencia Ambiental</Name>
+    <Description>Solicitud de Licencia Ambiental</Description>
+    <Created>7/2/2009 2:15:48 PM</Created>
+    <Version />
+    <Author>1</Author>
+    <Responsible />
+    <Documentation />
+    <DurationUnit>4</DurationUnit>
+    <Duration>1</Duration>
+    <InitialActivity>45</InitialActivity>
+    <Enabled>T</Enabled>
+  </Process>
+  <Packages>
+    <Package Id="2" Code="PQ01-LICENCIAS AMBIENTALES">
+      <Id>2</Id>
+      <Code>PQ01-LICENCIAS AMBIENTALES</Code>
+      <Name>LICENCIAS AMBIENTALES</Name>
+      <Creator />
+      <Created />
+      <Description>LICENCIAS AMBIENTALES</Description>
+      <Documentation />
+      <Enabled>T</Enabled>
+    </Package>
+  </Packages>
+  <Activities>
+    <Activity Id="45" Code="LAAC01-Validaci?n DAA">
+      <Id>45</Id>
+      <Code>LAAC01-Validaci?n DAA</Code>
+      <Name>Validaci?n DAA</Name>
+      <Description>Actividad Manual en la que el usuario usar? la herramienta (...) </Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>4</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>4</ActivityType>
+      <EntryDataType>VBFormBuilderCOM</EntryDataType>
+      <EntryData>3</EntryData>
+      <strJoin>2</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView>http://bog05devnet/BPMSuite/eFormBuilder/Public/buildFormInstance.aspx?</URLDataView>
+      <Tool Id="11" Code="Validaci?n DAA">
+        <Id>11</Id>
+        <IDActivity>45</IDActivity>
+        <Code>Validaci?n DAA</Code>
+        <Name>Validaci?n DAA</Name>
+        <Type>4</Type>
+        <MainName>http://www.gattacademos.com/BPMSuite/eFormBuilder/Public/buildFormInstance.aspx?</MainName>
+        <Agent>VBFormBuilderCOM</Agent>
+        <Method>3</Method>
+        <Description>Validaci?n DAA</Description>
+        <SecurityMode>0</SecurityMode>
+        <UserDomain />
+        <UserID />
+        <UserPassword />
+        <Enabled>T</Enabled>
+        <Application />
+      </Tool>
+    </Activity>
+    <Activity Id="46" Code="LAAC02-Formulario FUS">
+      <Id>46</Id>
+      <Code>LAAC02-Formulario FUS</Code>
+      <Name>Formulario FUS</Name>
+      <Description>Actividad Manual en la que el usuario usar? la herramienta (...)</Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>4</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>4</ActivityType>
+      <EntryDataType>VBFormBuilderCOM</EntryDataType>
+      <EntryData>5</EntryData>
+      <strJoin>2</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView>http://bog05devnet/BPMSuite/eFormBuilder/Public/buildFormInstance.aspx?</URLDataView>
+      <Tool Id="12" Code="Formulario FUS">
+        <Id>12</Id>
+        <IDActivity>46</IDActivity>
+        <Code>Formulario FUS</Code>
+        <Name>Formulario FUS</Name>
+        <Type>4</Type>
+        <MainName>http://www.gattacademos.com/BPMSuite/eFormBuilder/Public/buildFormInstance.aspx?</MainName>
+        <Agent>VBFormBuilderCOM</Agent>
+        <Method>5</Method>
+        <Description>Formulario FUS</Description>
+        <SecurityMode>0</SecurityMode>
+        <UserDomain />
+        <UserID />
+        <UserPassword />
+        <Enabled>T</Enabled>
+        <Application />
+      </Tool>
+    </Activity>
+    <Activity Id="47" Code="LAAC03-No. Radicado">
+      <Id>47</Id>
+      <Code>LAAC03-No. Radicado</Code>
+      <Name>No. Radicado</Name>
+      <Description>Actividad Manual en la que el usuario usar? la herramienta (...)</Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>4</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>4</ActivityType>
+      <EntryDataType>VBFormBuilderCOM</EntryDataType>
+      <EntryData>2</EntryData>
+      <strJoin>2</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView>http://www.gattacademos.com/BPMSuite/eFormBuilder/Public/buildFormInstance.aspx?</URLDataView>
+      <Tool Id="13" Code="No. Radicado">
+        <Id>13</Id>
+        <IDActivity>47</IDActivity>
+        <Code>No. Radicado</Code>
+        <Name>No. Radicado</Name>
+        <Type>4</Type>
+        <MainName>http://www.gattacademos.com/BPMSuite/eFormBuilder/Public/buildFormInstance.aspx?</MainName>
+        <Agent>VBFormBuilderCOM</Agent>
+        <Method>2</Method>
+        <Description>No. Radicado</Description>
+        <SecurityMode>0</SecurityMode>
+        <UserDomain />
+        <UserID />
+        <UserPassword />
+        <Enabled>T</Enabled>
+        <Application />
+      </Tool>
+    </Activity>
+    <Activity Id="48" Code="LAAC04-Verificaci?n de Pago">
+      <Id>48</Id>
+      <Code>LAAC04-Verificaci?n de Pago</Code>
+      <Name>Verificaci?n de Pago</Name>
+      <Description>Actividad Manual en la que el usuario usar? la herramienta (...) </Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>4</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>4</ActivityType>
+      <EntryDataType>VBFormBuilderCOM</EntryDataType>
+      <EntryData>4</EntryData>
+      <strJoin>2</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView>http://bog05devnet/BPMSuite/eFormBuilder/Public/buildFormInstance.aspx?</URLDataView>
+      <Tool Id="14" Code="Verificaci?n de Pago">
+        <Id>14</Id>
+        <IDActivity>48</IDActivity>
+        <Code>Verificaci?n de Pago</Code>
+        <Name>Verificaci?n de Pago</Name>
+        <Type>4</Type>
+        <MainName>http://www.gattacademos.com/BPMSuite/eFormBuilder/Public/buildFormInstance.aspx?</MainName>
+        <Agent>VBFormBuilderCOM</Agent>
+        <Method>4</Method>
+        <Description>Verificaci?n de Pago</Description>
+        <SecurityMode>0</SecurityMode>
+        <UserDomain />
+        <UserID />
+        <UserPassword />
+        <Enabled>T</Enabled>
+        <Application />
+      </Tool>
+    </Activity>
+    <Activity Id="49" Code="LAAC05-Verificaci?n de Informaci?n">
+      <Id>49</Id>
+      <Code>LAAC05-Verificaci?n de Informaci?n</Code>
+      <Name>Verificaci?n de Informaci?n</Name>
+      <Description>Actividad Manual - </Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>4</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>0</ActivityType>
+      <EntryDataType />
+      <EntryData />
+      <strJoin>2</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView />
+      <Tool />
+    </Activity>
+    <Activity Id="50" Code="LAAC06-Notificaci?n de inicio LA">
+      <Id>50</Id>
+      <Code>LAAC06-Notificaci?n de inicio LA</Code>
+      <Name>Notificaci?n de inicio LA</Name>
+      <Description>Actividad Manual - </Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>4</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>0</ActivityType>
+      <EntryDataType />
+      <EntryData />
+      <strJoin>1</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView />
+      <Tool />
+    </Activity>
+    <Activity Id="51" Code="LAAC07-Reporte Visita Tecnica">
+      <Id>51</Id>
+      <Code>LAAC07-Reporte Visita Tecnica</Code>
+      <Name>Reporte Visita Tecnica</Name>
+      <Description>Actividad Manual - </Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>4</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>0</ActivityType>
+      <EntryDataType />
+      <EntryData />
+      <strJoin>2</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView />
+      <Tool />
+    </Activity>
+    <Activity Id="52" Code="LAAC08-Verificaci?n Info Visita Tecnica">
+      <Id>52</Id>
+      <Code>LAAC08-Verificaci?n Info Visita Tecnica</Code>
+      <Name>Verificaci?n Info Visita Tecnica</Name>
+      <Description>Actividad Manual - </Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>4</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>0</ActivityType>
+      <EntryDataType />
+      <EntryData />
+      <strJoin>2</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView />
+      <Tool />
+    </Activity>
+    <Activity Id="53" Code="LAAC09-Resoluci?n">
+      <Id>53</Id>
+      <Code>LAAC09-Resoluci?n</Code>
+      <Name>Resoluci?n</Name>
+      <Description>Actividad Manual - </Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>4</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>0</ActivityType>
+      <EntryDataType />
+      <EntryData />
+      <strJoin>2</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView />
+      <Tool />
+    </Activity>
+    <Activity Id="54" Code="LAAC11-Notificaci?n Solicitante">
+      <Id>54</Id>
+      <Code>LAAC11-Notificaci?n Solicitante</Code>
+      <Name>Notificaci?n Solicitante</Name>
+      <Description>Actividad Manual - </Description>
+      <Documentation />
+      <Icon />
+      <Cost>0</Cost>
+      <DurationUnit>4</DurationUnit>
+      <Duration>1</Duration>
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime>0</WaitingTime>
+      <WorkingTime>0</WorkingTime>
+      <ActivityType>0</ActivityType>
+      <EntryDataType />
+      <EntryData />
+      <strJoin>2</strJoin>
+      <strSplit>2</strSplit>
+      <StartMode>0</StartMode>
+      <FinishMode>0</FinishMode>
+      <Priority>1</Priority>
+      <DistributionMode>1</DistributionMode>
+      <AddFile>F</AddFile>
+      <ModifyEntryData>F</ModifyEntryData>
+      <Enabled>T</Enabled>
+      <IDMessagePolicy>7</IDMessagePolicy>
+      <URLDataView />
+      <Tool />
+    </Activity>
+  </Activities>
+  <Conditions>
+    <Condition Id="14" Code="CD09-No. Radicado1 AA1">
+      <Id>14</Id>
+      <Code>CD09-No. Radicado1 AA1</Code>
+      <Name>No. Radicado1 AA1</Name>
+      <Description>http://www.gattacademos.com/bpmsuite/eFormBuilder/Services/eFormBuilderServices.asmx</Description>
+      <Weight>0</Weight>
+      <Type>3</Type>
+      <Enabled>T</Enabled>
+      <ConditionRule>2,&lt;&gt;,0</ConditionRule>
+      <IDTool>0</IDTool>
+      <DB>0</DB>
+      <IsToolRequiered>F</IsToolRequiered>
+      <FormActivity>4</FormActivity>
+    </Condition>
+    <Condition Id="15" Code="CD10-Pedir No. Radicaci?n">
+      <Id>15</Id>
+      <Code>CD10-Pedir No. Radicaci?n</Code>
+      <Name>Pedir No. Radicaci?n</Name>
+      <Description>Pedir No. Radicaci?n</Description>
+      <Weight>0</Weight>
+      <Type>0</Type>
+      <Enabled>T</Enabled>
+      <ConditionRule />
+      <IDTool>0</IDTool>
+      <DB />
+      <IsToolRequiered>F</IsToolRequiered>
+      <FormActivity />
+    </Condition>
+    <Condition Id="24" Code="CD19-Final ">
+      <Id>24</Id>
+      <Code>CD19-Final </Code>
+      <Name>Final </Name>
+      <Description>Final </Description>
+      <Weight>0</Weight>
+      <Type>0</Type>
+      <Enabled>T</Enabled>
+      <ConditionRule />
+      <IDTool>0</IDTool>
+      <DB />
+      <IsToolRequiered>F</IsToolRequiered>
+      <FormActivity />
+    </Condition>
+    <Condition Id="29" Code="CD25-Informaci?n incompleta">
+      <Id>29</Id>
+      <Code>CD25-Informaci?n incompleta</Code>
+      <Name>Informaci?n incompleta</Name>
+      <Description>Informaci?n incompleta</Description>
+      <Weight>0</Weight>
+      <Type>0</Type>
+      <Enabled>T</Enabled>
+      <ConditionRule />
+      <IDTool>0</IDTool>
+      <DB />
+      <IsToolRequiered>F</IsToolRequiered>
+      <FormActivity />
+    </Condition>
+    <Condition Id="30" Code="CD26-Envio a Verificacion de DAA">
+      <Id>30</Id>
+      <Code>CD26-Envio a Verificacion de DAA</Code>
+      <Name>Envio a Verificacion de DAA</Name>
+      <Description>Envio a Verificacion de DAA</Description>
+      <Weight>0</Weight>
+      <Type>0</Type>
+      <Enabled>T</Enabled>
+      <ConditionRule />
+      <IDTool>0</IDTool>
+      <DB />
+      <IsToolRequiered>F</IsToolRequiered>
+      <FormActivity />
+    </Condition>
+    <Condition Id="33" Code="CD28-Enviar a visita tecnica">
+      <Id>33</Id>
+      <Code>CD28-Enviar a visita tecnica</Code>
+      <Name>Enviar a visita tecnica</Name>
+      <Description>Enviar a visita tecnica</Description>
+      <Weight>0</Weight>
+      <Type>0</Type>
+      <Enabled>T</Enabled>
+      <ConditionRule />
+      <IDTool>0</IDTool>
+      <DB />
+      <IsToolRequiered>F</IsToolRequiered>
+      <FormActivity />
+    </Condition>
+    <Condition Id="34" Code="CD29-Visita y reporte Finalizados">
+      <Id>34</Id>
+      <Code>CD29-Visita y reporte Finalizados</Code>
+      <Name>Visita y reporte Finalizados</Name>
+      <Description>Visita y reporte Finalizados</Description>
+      <Weight>0</Weight>
+      <Type>0</Type>
+      <Enabled>T</Enabled>
+      <ConditionRule />
+      <IDTool>0</IDTool>
+      <DB />
+      <IsToolRequiered>F</IsToolRequiered>
+      <FormActivity />
+    </Condition>
+    <Condition Id="36" Code="CD31-Envio a Notificaci?n">
+      <Id>36</Id>
+      <Code>CD31-Envio a Notificaci?n</Code>
+      <Name>Envio a Notificaci?n</Name>
+      <Description>Envio a Notificaci?n</Description>
+      <Weight>0</Weight>
+      <Type>0</Type>
+      <Enabled>T</Enabled>
+      <ConditionRule />
+      <IDTool>0</IDTool>
+      <DB />
+      <IsToolRequiered>F</IsToolRequiered>
+      <FormActivity />
+    </Condition>
+    <Condition Id="38" Code="CD32-Envio a FUS">
+      <Id>38</Id>
+      <Code>CD32-Envio a FUS</Code>
+      <Name>Envio a FUS</Name>
+      <Description>http://www.gattacademos.com/bpmsuite/eFormBuilder/Services/eFormBuilderServices.asmx</Description>
+      <Weight>0</Weight>
+      <Type>3</Type>
+      <Enabled>T</Enabled>
+      <ConditionRule>5,=,1</ConditionRule>
+      <IDTool />
+      <DB>0</DB>
+      <IsToolRequiered />
+      <FormActivity>4</FormActivity>
+    </Condition>
+  </Conditions>
+  <ConditionsByActivity>
+    <ConditionByActivity IdCondition="14" IdActivity="47" />
+    <ConditionByActivity IdCondition="15" IdActivity="46" />
+    <ConditionByActivity IdCondition="24" IdActivity="52" />
+    <ConditionByActivity IdCondition="24" IdActivity="54" />
+    <ConditionByActivity IdCondition="29" IdActivity="49" />
+    <ConditionByActivity IdCondition="30" IdActivity="48" />
+    <ConditionByActivity IdCondition="30" IdActivity="49" />
+    <ConditionByActivity IdCondition="33" IdActivity="50" />
+    <ConditionByActivity IdCondition="34" IdActivity="51" />
+    <ConditionByActivity IdCondition="36" IdActivity="52" />
+    <ConditionByActivity IdCondition="36" IdActivity="53" />
+    <ConditionByActivity IdCondition="38" IdActivity="45" />
+  </ConditionsByActivity>
+  <Transitions>
+    <Transition Id="65" Code="T:LAAC01_LAAC02">
+      <Id>65</Id>
+      <Code>T:LAAC01_LAAC02</Code>
+      <Name>T:LAAC01_LAAC02</Name>
+      <IdFromActivity>45</IdFromActivity>
+      <IdToActivity>46</IdToActivity>
+      <Description>
+De Validaci?n DAA  A Formulario FUS </Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Validaci?n DAA </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="66" Code="T:LAAC02_LAAC03">
+      <Id>66</Id>
+      <Code>T:LAAC02_LAAC03</Code>
+      <Name>T:LAAC02_LAAC03</Name>
+      <IdFromActivity>46</IdFromActivity>
+      <IdToActivity>47</IdToActivity>
+      <Description>
+De Formulario FUS  A No. Radicado </Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Formulario FUS </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="67" Code="T:LAAC03_LAAC04">
+      <Id>67</Id>
+      <Code>T:LAAC03_LAAC04</Code>
+      <Name>T:LAAC03_LAAC04</Name>
+      <IdFromActivity>47</IdFromActivity>
+      <IdToActivity>48</IdToActivity>
+      <Description>
+De No. Radicado  A Verificaci?n de Pago </Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? No. Radicado </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="68" Code="T:LAAC03_LAAC05">
+      <Id>68</Id>
+      <Code>T:LAAC03_LAAC05</Code>
+      <Name>T:LAAC03_LAAC05</Name>
+      <IdFromActivity>47</IdFromActivity>
+      <IdToActivity>49</IdToActivity>
+      <Description>
+De No. Radicado  A Verificaci?n de Informaci?n </Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? No. Radicado </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="69" Code="T:LAAC04_LAAC06">
+      <Id>69</Id>
+      <Code>T:LAAC04_LAAC06</Code>
+      <Name>T:LAAC04_LAAC06</Name>
+      <IdFromActivity>48</IdFromActivity>
+      <IdToActivity>50</IdToActivity>
+      <Description>
+De Verificaci?n de Pago  A Notificaci?n de inicio LA </Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Verificaci?n de Pago </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="70" Code="T:LAAC05_LAAC06">
+      <Id>70</Id>
+      <Code>T:LAAC05_LAAC06</Code>
+      <Name>T:LAAC05_LAAC06</Name>
+      <IdFromActivity>49</IdFromActivity>
+      <IdToActivity>50</IdToActivity>
+      <Description>
+De Verificaci?n de Informaci?n  A Notificaci?n de inicio LA </Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Verificaci?n de Informaci?n </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="71" Code="T:LAAC05_LA ">
+      <Id>71</Id>
+      <Code>T:LAAC05_LA </Code>
+      <Name>T:LAAC05_LA</Name>
+      <IdFromActivity>49</IdFromActivity>
+      <IdToActivity>0</IdToActivity>
+      <Description>
+De Verificaci?n de Informaci?n  A  Actividad final</Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Verificaci?n de Informaci?n </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="72" Code="T:LAAC06_LAAC07">
+      <Id>72</Id>
+      <Code>T:LAAC06_LAAC07</Code>
+      <Name>T:LAAC06_LAAC07</Name>
+      <IdFromActivity>50</IdFromActivity>
+      <IdToActivity>51</IdToActivity>
+      <Description>
+De Notificaci?n de inicio LA  A Reporte Visita Tecnica </Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Notificaci?n de inicio LA </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="73" Code="T:LAAC07_LAAC08">
+      <Id>73</Id>
+      <Code>T:LAAC07_LAAC08</Code>
+      <Name>T:LAAC07_LAAC08</Name>
+      <IdFromActivity>51</IdFromActivity>
+      <IdToActivity>52</IdToActivity>
+      <Description>
+De Reporte Visita Tecnica  A Verificaci?n Info Visita Tecnica </Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Reporte Visita Tecnica </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="74" Code="T:LAAC08_LAAC09">
+      <Id>74</Id>
+      <Code>T:LAAC08_LAAC09</Code>
+      <Name>T:LAAC08_LAAC09</Name>
+      <IdFromActivity>52</IdFromActivity>
+      <IdToActivity>53</IdToActivity>
+      <Description>
+De Verificaci?n Info Visita Tecnica  A Resoluci?n </Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Verificaci?n Info Visita Tecnica </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="75" Code="T:LAAC08_LA ">
+      <Id>75</Id>
+      <Code>T:LAAC08_LA </Code>
+      <Name>T:LAAC08_LA</Name>
+      <IdFromActivity>52</IdFromActivity>
+      <IdToActivity>0</IdToActivity>
+      <Description>
+De Verificaci?n Info Visita Tecnica  A  Actividad final</Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Verificaci?n Info Visita Tecnica </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="76" Code="T:LAAC09_LAAC10">
+      <Id>76</Id>
+      <Code>T:LAAC09_LAAC10</Code>
+      <Name>T:LAAC09_LAAC10</Name>
+      <IdFromActivity>53</IdFromActivity>
+      <IdToActivity>55</IdToActivity>
+      <Description>
+De Resoluci?n  A Notificaci?n </Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Resoluci?n </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+    <Transition Id="78" Code="T:LAAC11_LA ">
+      <Id>78</Id>
+      <Code>T:LAAC11_LA </Code>
+      <Name>T:LAAC11_LA</Name>
+      <IdFromActivity>54</IdFromActivity>
+      <IdToActivity>0</IdToActivity>
+      <Description>
+De Notificaci?n Solicitante  A  Actividad final</Description>
+      <Threshold>0</Threshold>
+      <Priority>1</Priority>
+      <Message>Se realiz? Notificaci?n Solicitante </Message>
+      <Enabled>T</Enabled>
+    </Transition>
+  </Transitions>
+  <TransitionsRule>
+    <TransitionRule IdTransition="65" IdCondition="38" />
+    <TransitionRule IdTransition="66" IdCondition="15" />
+    <TransitionRule IdTransition="67" IdCondition="14" />
+    <TransitionRule IdTransition="68" IdCondition="14" />
+    <TransitionRule IdTransition="69" IdCondition="30" />
+    <TransitionRule IdTransition="70" IdCondition="30" />
+    <TransitionRule IdTransition="71" IdCondition="29" />
+    <TransitionRule IdTransition="72" IdCondition="33" />
+    <TransitionRule IdTransition="73" IdCondition="34" />
+    <TransitionRule IdTransition="74" IdCondition="36" />
+    <TransitionRule IdTransition="75" IdCondition="24" />
+    <TransitionRule IdTransition="76" IdCondition="36" />
+    <TransitionRule IdTransition="78" IdCondition="24" />
+  </TransitionsRule>
+  <ProcessCases>
+    <ProcessCase Id="4" Code="PC - PSLA">
+      <Id>4</Id>
+      <Code>PC - PSLA</Code>
+      <Name>PC - Solicitud de Licencia Ambiental</Name>
+      <Description>PC -Solicitud de Licencia Ambiental</Description>
+      <Documentation />
+      <Author>1</Author>
+      <FromDate>7/2/2009 12:00:00 AM</FromDate>
+      <ToDate>7/28/2019 12:00:00 AM</ToDate>
+      <DurationUnit>4</DurationUnit>
+      <Duration>1</Duration>
+      <Limit />
+      <CalendarType>0</CalendarType>
+      <IDUserCalendar>0</IDUserCalendar>
+      <WaitingTime />
+      <WorkingTime />
+      <EntryDataType>Gattaca FormBuilder</EntryDataType>
+      <EntryData>3</EntryData>
+      <email>proceso_PSLA@procesos.com</email>
+      <cost />
+      <Priority>1</Priority>
+      <URLHelp>#</URLHelp>
+      <URLService>#</URLService>
+      <URLDataView>http://www.gattacademos.com/bpmsuite/eFormbuilder/security/applicationLogin.aspx?type=startprocess&amp;</URLDataView>
+      <IDMessagePolicy>3</IDMessagePolicy>
+      <Enabled>T</Enabled>
+      <Status>T</Status>
+    </ProcessCase>
+  </ProcessCases>
+  <MailSettings>
+    <MailSetting />
+  </MailSettings>
+  <History>
+    <ProcessInstances>
+      <ProcessInstance Id="86" IdProcessCase="4">
+        <Id>86</Id>
+        <IdProcess>4</IdProcess>
+        <EntryDataType>VBFormBuilder</EntryDataType>
+        <EntryData>3</EntryData>
+        <IdEntryData>101</IdEntryData>
+        <IdApplicationUser>1</IdApplicationUser>
+        <InternalCode />
+        <NSequence>0</NSequence>
+        <Status>2</Status>
+        <CreateTime>7/2/2009 2:25:16 PM</CreateTime>
+        <StartTime>7/2/2009 2:25:16 PM</StartTime>
+        <EndTime />
+        <Comment> </Comment>
+      </ProcessInstance>
+      <ProcessInstance Id="87" IdProcessCase="4">
+        <Id>87</Id>
+        <IdProcess>4</IdProcess>
+        <EntryDataType>VBFormBuilder</EntryDataType>
+        <EntryData>3</EntryData>
+        <IdEntryData>102</IdEntryData>
+        <IdApplicationUser>1</IdApplicationUser>
+        <InternalCode />
+        <NSequence>0</NSequence>
+        <Status>2</Status>
+        <CreateTime>7/2/2009 2:25:48 PM</CreateTime>
+        <StartTime>7/2/2009 2:25:49 PM</StartTime>
+        <EndTime />
+        <Comment> </Comment>
+      </ProcessInstance>
+      <ProcessInstance Id="89" IdProcessCase="4">
+        <Id>89</Id>
+        <IdProcess>4</IdProcess>
+        <EntryDataType>VBFormBuilder</EntryDataType>
+        <EntryData>3</EntryData>
+        <IdEntryData>109</IdEntryData>
+        <IdApplicationUser>1</IdApplicationUser>
+        <InternalCode />
+        <NSequence>0</NSequence>
+        <Status>2</Status>
+        <CreateTime>7/2/2009 3:38:19 PM</CreateTime>
+        <StartTime>7/2/2009 3:38:19 PM</StartTime>
+        <EndTime />
+        <Comment> </Comment>
+      </ProcessInstance>
+      <ProcessInstance Id="90" IdProcessCase="4">
+        <Id>90</Id>
+        <IdProcess>4</IdProcess>
+        <EntryDataType>VBFormBuilder</EntryDataType>
+        <EntryData>3</EntryData>
+        <IdEntryData>111</IdEntryData>
+        <IdApplicationUser>1</IdApplicationUser>
+        <InternalCode />
+        <NSequence>0</NSequence>
+        <Status>248</Status>
+        <CreateTime>7/2/2009 3:58:08 PM</CreateTime>
+        <StartTime>7/2/2009 3:58:08 PM</StartTime>
+        <EndTime>7/2/2009 4:03:28 PM</EndTime>
+        <Comment> </Comment>
+      </ProcessInstance>
+    </ProcessInstances>
+    <ActivityInstances>
+      <ActivityInstance Id="246" IdActivity="45">
+        <Id>246</Id>
+        <IdActivity>45</IdActivity>
+        <IdProcessInstance>86</IdProcessInstance>
+        <IdParticipant />
+        <EntryDataType />
+        <EntryData />
+        <IdEntryData />
+        <Status>4</Status>
+        <CreateTime>7/2/2009 2:25:17 PM</CreateTime>
+        <StartTime />
+        <EndTime />
+        <Comments />
+        <OutComments />
+        <FileName />
+        <ExpectedEndTime>7/2/2009 2:25:17 PM</ExpectedEndTime>
+        <IdCauseTransition>0</IdCauseTransition>
+      </ActivityInstance>
+      <ActivityInstance Id="247" IdActivity="45">
+        <Id>247</Id>
+        <IdActivity>45</IdActivity>
+        <IdProcessInstance>87</IdProcessInstance>
+        <IdParticipant>1</IdParticipant>
+        <EntryDataType>VBFormBuilder</EntryDataType>
+        <EntryData>3</EntryData>
+        <IdEntryData>103</IdEntryData>
+        <Status>248</Status>
+        <CreateTime>7/2/2009 2:25:50 PM</CreateTime>
+        <StartTime>7/2/2009 2:26:00 PM</StartTime>
+        <EndTime>7/2/2009 2:26:13 PM</EndTime>
+        <Comments />
+        <OutComments />
+        <FileName />
+        <ExpectedEndTime>7/2/2009 2:25:50 PM</ExpectedEndTime>
+        <IdCauseTransition>0</IdCauseTransition>
+      </ActivityInstance>
+      <ActivityInstance Id="248" IdActivity="46">
+        <Id>248</Id>
+        <IdActivity>46</IdActivity>
+        <IdProcessInstance>87</IdProcessInstance>
+        <IdParticipant>0</IdParticipant>
+        <EntryDataType />
+        <EntryData />
+        <IdEntryData />
+        <Status>4</Status>
+        <CreateTime>7/2/2009 2:26:14 PM</CreateTime>
+        <StartTime>7/2/2009 2:26:17 PM</StartTime>
+        <EndTime />
+        <Comments />
+        <OutComments />
+        <FileName />
+        <ExpectedEndTime>7/2/2009 2:26:14 PM</ExpectedEndTime>
+        <IdCauseTransition>65</IdCauseTransition>
+      </ActivityInstance>
+      <ActivityInstance Id="260" IdActivity="45">
+        <Id>260</Id>
+        <IdActivity>45</IdActivity>
+        <IdProcessInstance>89</IdProcessInstance>
+        <IdParticipant>1</IdParticipant>
+        <EntryDataType />
+        <EntryData />
+        <IdEntryData />
+        <Status>248</Status>
+        <CreateTime>7/2/2009 3:38:20 PM</CreateTime>
+        <StartTime>7/2/2009 3:38:41 PM</StartTime>
+        <EndTime>7/2/2009 3:40:29 PM</EndTime>
+        <Comments />
+        <OutComments />
+        <FileName />
+        <ExpectedEndTime>7/2/2009 3:38:20 PM</ExpectedEndTime>
+        <IdCauseTransition>0</IdCauseTransition>
+      </ActivityInstance>
+      <ActivityInstance Id="261" IdActivity="46">
+        <Id>261</Id>
+        <IdActivity>46</IdActivity>
+        <IdProcessInstance>89</IdProcessInstance>
+        <IdParticipant>1</IdParticipant>
+        <EntryDataType />
+        <EntryData />
+        <IdEntryData />
+        <Status>248</Status>
+        <CreateTime>7/2/2009 3:40:30 PM</CreateTime>
+        <StartTime>7/2/2009 3:40:53 PM</StartTime>
+        <EndTime>7/2/2009 3:53:49 PM</EndTime>
+        <Comments />
+        <OutComments />
+        <FileName />
+        <ExpectedEndTime>7/2/2009 3:40:30 PM</ExpectedEndTime>
+        <IdCauseTransition>65</IdCauseTransition>
+      </ActivityInstance>
+      <ActivityInstance Id="262" IdActivity="47">
+        <Id>262</Id>
+        <IdActivity>47</IdActivity>
+        <IdProcessInstance>89</IdProcessInstance>
+        <IdParticipant>0</IdParticipant>
+        <EntryDataType />
+        <EntryData />
+        <IdEntryData />
+        <Status>4</Status>
+        <CreateTime>7/2/2009 3:53:51 PM</CreateTime>
+        <StartTime>7/2/2009 3:54:18 PM</StartTime>
+        <EndTime />
+        <Comments />
+        <OutComments />
+        <FileName />
+        <ExpectedEndTime>7/2/2009 3:53:51 PM</ExpectedEndTime>
+        <IdCauseTransition>66</IdCauseTransition>
+      </ActivityInstance>
+      <ActivityInstance Id="263" IdActivity="45">
+        <Id>263</Id>
+        <IdActivity>45</IdActivity>
+        <IdProcessInstance>90</IdProcessInstance>
+        <IdParticipant>1</IdParticipant>
+        <EntryDataType />
+        <EntryData />
+        <IdEntryData />
+        <Status>248</Status>
+        <CreateTime>7/2/2009 3:58:09 PM</CreateTime>
+        <StartTime>7/2/2009 3:58:24 PM</StartTime>
+        <EndTime>7/2/2009 3:58:35 PM</EndTime>
+        <Comments />
+        <OutComments />
+        <FileName />
+        <ExpectedEndTime>7/2/2009 3:58:09 PM</ExpectedEndTime>
+        <IdCauseTransition>0</IdCauseTransition>
+      </ActivityInstance>
+      <ActivityInstance Id="264" IdActivity="46">
+        <Id>264</Id>
+        <IdActivity>46</IdActivity>
+        <IdProcessInstance>90</IdProcessInstance>
+        <IdParticipant>1</IdParticipant>
+        <EntryDataType />
+        <EntryData />
+        <IdEntryData />
+        <Status>248</Status>
+        <CreateTime>7/2/2009 3:58:37 PM</CreateTime>
+        <StartTime>7/2/2009 3:58:42 PM</StartTime>
+        <EndTime>7/2/2009 3:58:51 PM</EndTime>
+        <Comments />
+        <OutComments />
+        <FileName />
+        <ExpectedEndTime>7/2/2009 3:58:37 PM</ExpectedEndTime>
+        <IdCauseTransition>65</IdCauseTransition>
+      </ActivityInstance>
+      <ActivityInstance Id="265" IdActivity="47">
+        <Id>265</Id>
+        <IdActivity>47</IdActivity>
+        <IdProcessInstance>90</IdProcessInstance>
+        <IdParticipant>1</IdParticipant>
+        <EntryDataType>VBFormBuilder</EntryDataType>
+        <EntryData>2</EntryData>
+        <IdEntryData>112</IdEntryData>
+        <Status>248</Status>
+        <CreateTime>7/2/2009 3:58:52 PM</CreateTime>
+        <StartTime>7/2/2009 3:58:57 PM</StartTime>
+        <EndTime>7/2/2009 3:59:23 PM</EndTime>
+        <Comments />
+        <OutComments />
+        <FileName />
+        <ExpectedEndTime>7/2/2009 3:58:52 PM</ExpectedEndTime>
+        <IdCauseTransition>66</IdCauseTransition>
+      </ActivityInstance>
+      <ActivityInstance Id="266" IdActivity="48">
+        <Id>266</Id>
+        <IdActivity>48</IdActivity>
+        <IdProcessInstance>90</IdProcessInstance>
+        <IdParticipant>1</IdParticipant>
+        <EntryDataType />
+        <EntryData />
+        <IdEntryData />
+        <Status>248</Status>
+        <CreateTime>7/2/2009 3:59:24 PM</CreateTime>
+        <StartTime>7/2/2009 3:59:38 PM</StartTime>
+        <EndTime>7/2/2009 3:59:51 PM</EndTime>
+        <Comments />
+        <OutComments />
+        <FileName />
+        <ExpectedEndTime>7/2/2009 3:59:24 PM</ExpectedEndTime>
+        <IdCauseTransition>67</IdCauseTransition>
+      </ActivityInstance>
+      <ActivityInstance Id="267" IdActivity="49">
+        <Id>267</Id>
+        <IdActivity>49</IdActivity>
+        <IdProcessInstance>90</IdProcessInstance>
+        <IdParticipant>1</IdParticipant>
+        <EntryDataType />
+        <EntryData />
+        <IdEntryData />
+        <Status>248</Status>
+        <CreateTime>7/2/2009 3:59:25 PM</CreateTime>
+        <StartTime>7/2/2009 4:00:10 PM</StartTime>
+        <EndTime>7/2/2009 4:00:21 PM</EndTime>
+        <Comments />
+        <OutComments />
+        <FileName />
+        <ExpectedEndTime>7/2/2009 3:59:25 PM</ExpectedEndTime>
+        <IdCauseTransition>68</IdCauseTransition>
+      </ActivityInstance>
+      <ActivityInstance Id="268" IdActivity="50">
+        <Id>268</Id>
+        <IdActivity>50</IdActivity>
+        <IdProcessInstance>90</IdProcessInstance>
+        <IdParticipant>1</IdParticipant>
+        <EntryDataType />
+        <EntryData />
+        <IdEntryData />
+        <Status>248</Status>
+        <CreateTime>7/2/2009 3:59:52 PM</CreateTime>
+        <StartTime>7/2/2009 4:00:44 PM</StartTime>
+        <EndTime>7/2/2009 4:01:04 PM</EndTime>
+        <Comments />
+        <OutComments />
+        <FileName />
+        <ExpectedEndTime>7/2/2009 3:59:52 PM</ExpectedEndTime>
+        <IdCauseTransition>69</IdCauseTransition>
+      </ActivityInstance>
+      <ActivityInstance Id="269" IdActivity="51">
+        <Id>269</Id>
+        <IdActivity>51</IdActivity>
+        <IdProcessInstance>90</IdProcessInstance>
+        <IdParticipant>1</IdParticipant>
+        <EntryDataType />
+        <EntryData />
+        <IdEntryData />
+        <Status>248</Status>
+        <CreateTime>7/2/2009 4:01:05 PM</CreateTime>
+        <StartTime>7/2/2009 4:01:23 PM</StartTime>
+        <EndTime>7/2/2009 4:01:52 PM</EndTime>
+        <Comments />
+        <OutComments />
+        <FileName />
+        <ExpectedEndTime>7/2/2009 4:01:05 PM</ExpectedEndTime>
+        <IdCauseTransition>72</IdCauseTransition>
+      </ActivityInstance>
+      <ActivityInstance Id="270" IdActivity="52">
+        <Id>270</Id>
+        <IdActivity>52</IdActivity>
+        <IdProcessInstance>90</IdProcessInstance>
+        <IdParticipant>1</IdParticipant>
+        <EntryDataType />
+        <EntryData />
+        <IdEntryData />
+        <Status>248</Status>
+        <CreateTime>7/2/2009 4:01:53 PM</CreateTime>
+        <StartTime>7/2/2009 4:01:59 PM</StartTime>
+        <EndTime>7/2/2009 4:02:22 PM</EndTime>
+        <Comments />
+        <OutComments />
+        <FileName />
+        <ExpectedEndTime>7/2/2009 4:01:53 PM</ExpectedEndTime>
+        <IdCauseTransition>73</IdCauseTransition>
+      </ActivityInstance>
+      <ActivityInstance Id="271" IdActivity="53">
+        <Id>271</Id>
+        <IdActivity>53</IdActivity>
+        <IdProcessInstance>90</IdProcessInstance>
+        <IdParticipant>1</IdParticipant>
+        <EntryDataType />
+        <EntryData />
+        <IdEntryData />
+        <Status>248</Status>
+        <CreateTime>7/2/2009 4:02:23 PM</CreateTime>
+        <StartTime>7/2/2009 4:02:32 PM</StartTime>
+        <EndTime>7/2/2009 4:02:51 PM</EndTime>
+        <Comments />
+        <OutComments />
+        <FileName />
+        <ExpectedEndTime>7/2/2009 4:02:23 PM</ExpectedEndTime>
+        <IdCauseTransition>74</IdCauseTransition>
+      </ActivityInstance>
+      <ActivityInstance Id="272" IdActivity="55">
+        <Id>272</Id>
+        <IdActivity>55</IdActivity>
+        <IdProcessInstance>90</IdProcessInstance>
+        <IdParticipant>1</IdParticipant>
+        <EntryDataType />
+        <EntryData />
+        <IdEntryData />
+        <Status>248</Status>
+        <CreateTime>7/2/2009 4:02:52 PM</CreateTime>
+        <StartTime>7/2/2009 4:02:59 PM</StartTime>
+        <EndTime>7/2/2009 4:03:10 PM</EndTime>
+        <Comments />
+        <OutComments />
+        <FileName />
+        <ExpectedEndTime>7/2/2009 4:02:53 PM</ExpectedEndTime>
+        <IdCauseTransition>76</IdCauseTransition>
+      </ActivityInstance>
+      <ActivityInstance Id="273" IdActivity="54">
+        <Id>273</Id>
+        <IdActivity>54</IdActivity>
+        <IdProcessInstance>90</IdProcessInstance>
+        <IdParticipant>1</IdParticipant>
+        <EntryDataType />
+        <EntryData />
+        <IdEntryData />
+        <Status>248</Status>
+        <CreateTime>7/2/2009 4:03:11 PM</CreateTime>
+        <StartTime>7/2/2009 4:03:18 PM</StartTime>
+        <EndTime>7/2/2009 4:03:27 PM</EndTime>
+        <Comments />
+        <OutComments />
+        <FileName />
+        <ExpectedEndTime>7/2/2009 4:03:11 PM</ExpectedEndTime>
+        <IdCauseTransition>77</IdCauseTransition>
+      </ActivityInstance>
+    </ActivityInstances>
+  </History>
+</WF_Process>

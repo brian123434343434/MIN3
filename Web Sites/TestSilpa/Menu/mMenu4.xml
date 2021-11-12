@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<menu >
+  <MenuItem ValueField="MAVDT" TextField="Inicio" NavigateUrlField="" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+  <MenuItem ValueField="Tareas" TextField="Tareas" NavigateUrlField="" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField="">
+    <MenuItem ValueField="Lista de Tareas" TextField="Mis Tareas" NavigateUrlField="~/security/goto.aspx?app=BPM&amp;op=TL" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+  </MenuItem>
+  <MenuItem TextField="Salir" ValueField="Salir" NavigateUrlField="~/Security/logout.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+</menu>

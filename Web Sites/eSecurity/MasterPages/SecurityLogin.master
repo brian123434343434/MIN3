@@ -1,0 +1,42 @@
+﻿<%@ master language="VB" inherits="MasterPages_SecurityLogin, App_Web_o9oiykqi" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Gattaca Security - Security System</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td align="right" class="cssBgBPM">
+                    <table width="100%" border="0" cellpadding="0" cellspacing="0" class="cssLoginTable">
+                        <tr>
+                            <td valign="bottom" align="center">
+                                <div class="cssTitleLogin">
+                                    Sistema Administrador de Seguridad
+                                </div>
+                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                </asp:ContentPlaceHolder>
+                                <table width="100%" height="0" border="0" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td class="cssTxtFooterLogin">
+                                            Derechos Reservados de Autor<br />
+                                            Gattaca S.A. © 2000 -
+                                            <%=Year(Now) %>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

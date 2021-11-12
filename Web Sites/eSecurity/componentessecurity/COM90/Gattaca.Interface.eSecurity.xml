@@ -1,0 +1,84 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Gattaca.Interfaces.eSecurity
+</name>
+</assembly>
+<members>
+<member name="M:Gattaca.Interfaces.eSecurity.IApplicationTransaction.GetAllApplicationTransactions(Gattaca.Application.Credentials.ApplicationCredentials)">
+	<Author>Jaime Mora</Author>
+	<Date>28/05/09</Date>
+</member><member name="T:Gattaca.Interfaces.eSecurity.IApplicationTransaction">
+	<summary>
+      Lista de operaciones que debe cumplir la capa de datos.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Gattaca.Interfaces.eSecurity.ILockIp">
+	<summary>
+      Lista de operaciones que debe cumplir la capa de datos.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Gattaca.Interfaces.eSecurity.ILocalityType">
+	<summary>
+      Lista de operaciones que debe cumplir la capa de datos.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Interfaces.eSecurity.IJournal.GetJournals(Gattaca.Application.Credentials.ApplicationCredentials,System.Collections.Generic.List{Gattaca.Application.Tools.SearchCriteriaEntity},System.String,System.Int32,System.Int32)">
+	<Author>Jaime Mora</Author>
+	<Date>01/06/09</Date>
+</member><member name="M:Gattaca.Interfaces.eSecurity.IJournal.GetJournal(Gattaca.Application.Credentials.ApplicationCredentials,System.Int64)">
+	<Author>Jaime Mora</Author>
+	<Date>01/06/09</Date>
+</member><member name="M:Gattaca.Interfaces.eSecurity.IJournal.JournalStatistics(Gattaca.Application.Credentials.ApplicationCredentials,System.Int32,System.Int32,System.String,System.String)">
+	<Author>Jaime Mora</Author>
+	<Date>01/06/09</Date>
+</member><member name="T:Gattaca.Interfaces.eSecurity.IJournal">
+	<summary>
+	</summary>
+	<remarks></remarks>
+</member><member name="T:Gattaca.Interfaces.eSecurity.IModuleSecurity">
+	<summary>
+	</summary>
+	<remarks></remarks>
+</member><member name="T:Gattaca.Interfaces.eSecurity.ISettings">
+	<summary>
+	</summary>
+	<remarks></remarks>
+</member><member name="P:Gattaca.Interfaces.eSecurity.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Gattaca.Interfaces.eSecurity.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Gattaca.Interfaces.eSecurity.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:Gattaca.Interfaces.eSecurity.IMessage.GetAllMessages(Gattaca.Application.Credentials.ApplicationCredentials)">
+	<Author>Jaime Mora</Author>
+	<Date>29/05/09</Date>
+</member><member name="T:Gattaca.Interfaces.eSecurity.IApplicationUser">
+	<summary>
+      Lista de operaciones que debe cumplir la capa de datos.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Gattaca.Interfaces.eSecurity.ILocality">
+	<summary>
+      Lista de operaciones que debe cumplir la capa de datos.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Gattaca.Interfaces.eSecurity.ICountry.UpdateCountry(Gattaca.Application.Credentials.ApplicationCredentials,Gattaca.Entity.eSecurity.CountryEntity)">
+	<Author>Jaime Mora</Author>
+	<Date>03/06/09</Date>
+</member><member name="T:Gattaca.Interfaces.eSecurity.IFailureTry">
+	<summary>
+      Lista de operaciones que debe cumplir la capa de datos.
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FormList
+</name>
+</assembly>
+<members>
+<member name="M:FormList.FormList.CreateChildControls">
+	<summary>
+	</summary>
+	<remarks></remarks>
+</member><member name="M:FormList.FormList.addRow(System.Data.DataTable)">
+	<summary>
+ Añade una nueva fila a la tabla de formularios hijos.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:FormList.FormList.setDataTableStructure(System.Data.DataTable)">
+	<summary>
+	</summary>
+	<param name="data"></param>
+	<remarks></remarks>
+</member><member name="M:FormList.FormList.setGridStructure">
+	<summary>
+	</summary>
+	<remarks></remarks>
+</member><member name="M:FormList.FormList.getMaxId">
+	<summary>
+ Obtiene el siguiente indice que se le debe asignar a una formulario hijo para ser agregado en la grilla. 
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:FormList.FormList.Refresh">
+	<summary>
+     Vuelve a enlazar los datos de los formularios hijos, con la grilla.
+ </summary>
+</member>
+</members>
+</doc>

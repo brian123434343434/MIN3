@@ -1,0 +1,13 @@
+<asp:Image SkinID="Espanol" ImageUrl="Images/Template/flag_SP.jpg" runat="server" AlternateText="Espa&ntilde;ol" width="17" height="17"  BorderWidth ="0"/>
+<asp:Image SkinID="English" ImageUrl="Images/Template/flag_EN.jpg" runat="server" AlternateText="English" width="17" height="17"  BorderWidth="0"/>
+<asp:Image SkinID="titleLeft" ImageUrl="Images/Template/title_left.jpg" runat="server" AlternateText="" width="35" height="39"  BorderWidth="0"/>
+<asp:Image SkinID="titleRight" ImageUrl="Images/Template/title_right.jpg" runat="server" AlternateText="" width="38" height="39"  BorderWidth="0"/>
+<asp:Image SkinID="footerRight" ImageUrl="Images/Template/footer_right.jpg" runat="server" AlternateText="" BorderWidth="0"/>
+<asp:Image SkinID="footerLeft" ImageUrl="Images/Template/footer_left.jpg" runat="server" AlternateText="" width="40" height="73"  BorderWidth="0"/>
+<asp:Image SkinID="headerLeft" ImageUrl="Images/Template/header_left.jpg" runat="server" AlternateText="Volver al Inicio" BorderWidth="0"/>
+<asp:Image SkinID="headerLeftInternalProcess" ImageUrl="Images/Template/header_left_InternalProcess.jpg" runat="server" AlternateText="Volver al Inicio" width="261" height="104"  BorderWidth="0"/>
+<asp:Image SkinID="headerRight" ImageUrl="Images/Template/header_right.jpg" runat="server" AlternateText="Desarrollado por Gattaca" BorderWidth="0"/>
+<asp:Image SkinID="InsideFlagSP" ImageUrl="Images/Template/flag_SP.jpg" runat="server" AlternateText="Español" width="17" height="17"  BorderWidth="0"/>
+<asp:Image SkinID="ProgressIndicator" ImageUrl="Images/Template/indicator.gif"  runat="server" AlternateText="ProgressIndicator"/>
+<asp:image SkinID="ErrorTop" ImageURL="Images/Template/error_top.jpg" runat="server" AlternateText="" width="530" height="40" />
+<asp:image SkinID="ErrorLeft" ImageURL="Images/Template/error_left.jpg" runat="server" AlternateText="" width="178" height="118" />

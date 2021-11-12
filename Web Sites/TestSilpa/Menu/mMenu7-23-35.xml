@@ -1,0 +1,4 @@
+<?xml version="1.0" standalone="yes"?>
+<menu>
+  <MenuItem ValueField="" TextField="Prueba" NavigateUrlField="http://licencias.anla.gov.co/xcars/silpa/TestSilpa/security/goto2.aspx?app=FBApp&amp;type=startprocess&amp;Case=59&amp;op=1" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="_Blank" ToolTipField="" />
+</menu>

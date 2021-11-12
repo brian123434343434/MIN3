@@ -1,0 +1,694 @@
+/* CSS Document */
+
+#header {
+	padding: 10px;
+	margin: 10px;
+	background-color: #000099;
+	color:	white;
+}
+
+#header a {
+	color: white;
+}
+
+#backlinks {
+	float: right
+}
+
+#content {
+	margin: 10px;
+}
+
+pre {
+	display: inline;	
+}
+
+.class {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+
+#keys {
+	vertical-align: top;
+	text-align: left;
+	padding: 0px;	
+}
+
+#descriptions {
+	vertical-align: top;
+	text-align: left;
+	padding: 10px;
+}
+
+#keys_div {
+	padding: 10px 10px 10px 0px;
+	background-color: #f7f6c4;
+	border-right: 1px solid #000000;	
+}
+
+.public_link {
+	color: blue;
+	font-weight: normal;
+}
+
+.protected_link {
+	color: green;	
+	font-weight: normal;
+}
+
+.private_link {
+	color: red;	
+	font-weight: normal;
+}
+
+.class_title {
+	color: black;
+	font-size: 16px;
+	background-color: #EFEFEF;
+	padding: 10px;
+	border-bottom: 1px solid black;
+	clear: both;
+}
+
+.constructor {
+	color: green;
+	font-weight: bold;	
+}
+
+.member {
+	border-bottom: 1px dashed #EFEFEF;
+	padding: 10px;
+	clear: both;
+}
+
+.topAnchor {
+	float: right;
+	font-size: 11px;
+}
+
+code {
+	background-color: #EFEFEF;
+	display: block;
+	padding: 5px;
+	margin: 5px;
+}
+
+.code {
+	font-family: Courier, console, system;
+	font-size: 12px;
+	font-weight: normal;
+	color: black;	
+}
+
+.type {
+	color: #0000FF;	
+}
+
+#copyright {
+	font-size: 11px;
+	border-top: 1px solid black;
+	padding: 5px 15px;
+	text-align: center;	
+}
+
+.example {
+	padding: 10px;
+	margin: 10px;	
+}
+
+.right {
+	float: right; margin: 20px;
+}
+
+.left {
+	float: left; margin: 20px;
+}
+
+
+
+body, html, head
+{
+	height: 100%;
+	font-family: "Trebuchet MS" , Tahoma, Arial;
+	font-size: 12px;
+	color: #666666;
+	text-align: left;
+	margin: 0px;
+}
+body
+{
+	background-color: #C7C7C7;
+}
+img
+{
+	border: none;
+}
+a {
+	text-decoration: underline;
+	color: #01579E;
+}
+a:hover
+{
+	text-decoration: none;
+	color: #333333;
+}
+input, select
+{
+	background: url(Images/Template/bg_input.jpg) top repeat-x #FFFFFF;
+	font-family: "Trebuchet MS" , Tahoma, Arial;
+	color: #666666;
+	font-size: 12px;
+}
+
+input
+{
+	border: none;
+}
+
+
+.cssLoginTableUser
+{
+	background: url(Images/Template/bg_login_InternalProcess.jpg) no-repeat;
+}
+.cssLeftBg
+{
+	background: url(Images/Template/left_bg.jpg) right repeat-y;
+	width: 13px;
+}
+.cssRightBg
+{
+	background: url(Images/Template/right_bg.jpg) left repeat-y;
+	width: 13px;
+}
+.cssMenuBg {
+	background:#FFFFFF;
+	height: 28px;
+}
+.cssHeaderBg {
+	background: url(Images/Template/header_bg.jpg) top repeat-x #FFFFFF;
+}
+.cssHeaderRight {
+    text-align:left;
+    width:175px;
+    color:#FFF;
+    font-weight:bold;
+    font-size:11px;
+    background: url(Images/Template/header_right.jpg) no-repeat;
+    line-height:12px;
+    padding:25px 4px 0px 0px;
+}
+.cssHeaderBgInternalProcess
+{
+	background: url(Images/Template/header_bg_InternalProcess.jpg) top repeat-x #FFFFFF;
+}
+.cssTitleBg {
+	background: url(Images/Template/title_bg.jpg) no-repeat #FFF;
+}
+.cssFooterBg{
+	background: url(Images/Template/footer_bg.jpg) repeat-x;
+}
+.cssBkgPageLeft{ 
+background:url(Images/Template/BkgPageLeft.jpg) repeat-y #FFFFFF;
+}
+.cssScreenTitle{
+    padding:0px 0px 0px 10px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFF;
+}
+.cssTxtFooter{
+	font-size: 11px;
+	color: #999999;
+	text-align: right;
+}
+.cssTxtFooterLogin {
+	font-size: 11px;
+	color: #666;
+	text-align: left;
+	font-weight:normal;
+	line-height:85%;
+	padding:10px 0 0 0;
+}
+
+.cssCentralPanel
+{
+	padding-left: 4px;
+	padding-top: 0px;
+}
+
+/***************
+ Redefine parámetros visuales de los elementos en cada control .NET
+ ***************/
+
+/* Paneles de Tabla */
+
+.cssLeftPanel {
+	
+}
+
+/* Controles Sencillos */
+
+.cssLabel {
+}
+.cssPanel {
+background:url(Images/Template/paneBkg.jpg) repeat-x #FFF;
+}
+.cssTextBox
+{
+	border: 1px solid #CCCCCC;
+	background: url(Images/Template/BgRow.jpg) top left repeat-x #FFF;
+}
+.cssButton {
+	background: #00579C repeat-x left top;
+	border: 1px solid transparent;
+	color: #FFF;
+	font-weight: bold;
+	vertical-align: middle;
+	padding-left: 0px;
+}
+.cssFileUpload
+{
+}
+
+/* Control de Árbol */
+
+.cssTreeViewLeafNode
+{
+	color: #666666;
+}
+.cssTreeViewRootNode
+{
+	font-weight: bold;
+}
+.cssTreeViewSelectedNode
+{
+	color: #333333;
+	font-weight: bold;
+}
+.cssTreeViewHoverNode a:hover
+{
+	color: #333333;
+}
+#ctl00_phDefault_upDefault {
+	width: 100%;
+	padding: 0px;
+}
+#ctl00_phDefault_upDefault table
+{
+	border-collapse: collapse;
+}
+
+
+/* Control de Menú */
+
+.cssMenuStaticMenuStyle
+{
+	border-left: 1px solid #CCCCCC;
+	border-top: 1px solid #CCCCCC;
+	margin-right: 15px;
+}
+.cssMenuStaticMenuItemStyle
+{
+	padding-top: 3px;
+	font-size: 14px;
+	font-weight: normal;
+	padding-left: 5px;
+	border-right: 1px solid #CCCCCC;
+	background: url(Images/Template/BgRow.jpg) top left repeat-x #FFF;
+}
+.cssMenuDynamicHoverStyle
+{
+}
+.cssMenuDynamicMenuStyle
+{
+	border: 1px solid #ccc;
+	margin-left: -1px;
+	margin-top: 0px;
+	border-bottom: none;
+}
+.cssMenuDynamicMenuItemStyle
+{
+	background: url(Images/Template/BgRow.jpg) top left repeat-x;
+	padding: 2px;
+	padding-left: 5px;
+	border-bottom: 1px solid #ccc;
+	padding-right: 5px;
+}
+.cssMenuStaticSelectedStyle
+{
+	color: #009999;
+}
+.cssMenuDynamicSelectedStyle
+{
+}
+.cssMenuStaticHoverStyle
+{
+}
+
+/* Control de Grilla */
+
+.cssGridTitle
+{
+	background: url(Images/Template/BgRow.jpg) top #FFFFFF repeat-x;
+	padding: 10px;
+	border-top: solid 1px #CCCCCC;
+	border-bottom: solid 1px #CCCCCC;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+.cssGridViewHeader {
+	height: 32px;
+	vertical-align: middle;
+	text-align: center;
+	background: url(Images/Template/GridHeaderBg.jpg) bottom #FFFFFF repeat-x;
+	font-weight: normal;
+	color: #1F5978;
+}
+.cssGridViewHeader th
+{
+	border-top: solid 1px #CCCCCC;
+	border-bottom: solid 1px #CCCCCC;
+}
+.cssGridViewFooter
+{
+}
+.cssGridViewRow
+{
+	color: #666666;
+	background: url(Images/Template/BgRow.jpg) top #FFFFFF repeat-x;
+	vertical-align: top;
+}
+.cssGridViewRow td
+{
+	padding: 5px;
+}
+.cssGridViewRowP1
+{
+	background: #FFA4A4;
+}
+.cssGridViewRowP2
+{
+	background: #FECBCB;
+}
+.cssGridViewRowP3
+{
+	background: #FFCFA4;
+}
+.cssGridViewRowP4
+{
+	background: #FEFDCB;
+}
+.cssGridViewRowP5
+{
+	background: #D1FEC3;
+}
+.cssGridViewRowP6
+{
+	background: #CBFEFD;
+}
+.cssGridViewRowP7
+{
+	background: #EBFEFD;
+}
+.cssGridViewAlternatingRow
+{
+	color: #666666;
+	background: url(Images/Template/BgAlternatingRow.jpg) top #F9F9F9 repeat-x;
+	vertical-align: top;
+}
+.cssGridViewAlternatingRow td
+{
+	padding: 5px;
+}
+
+/* Control Data List*/
+.cssDataListAlternatingItem
+{
+	color: #666666;
+	background: url(Images/Template/BgAlternatingRow.jpg) top #F9F9F9 repeat-x;
+	vertical-align: top;
+}
+.cssDataListEditItem
+{
+}
+.cssDataListFooter
+{
+}
+.cssDataListHeader
+{
+	height: 32px;
+	vertical-align: middle;
+	text-align: center;
+	background: url(Images/Template/GridHeaderBg.jpg) bottom #FFFFFF repeat-x;
+	font-weight: normal;
+	color: #009999;
+}
+.cssDataListItem
+{
+	color: #666666;
+	background: url(Images/Template/BgRow.jpg) top #FFFFFF repeat-x;
+	vertical-align: top;
+}
+.cssDataListSelectedItem
+{
+}
+.cssDataListSeparator
+{
+}
+
+/* Menu */
+
+.cssDynamicMenu
+{
+	border-top: solid 1px #999999;
+	border-left: solid 1px #999999;
+	border-right: solid 1px #999999;
+}
+.cssDynamicMenuItem
+{
+	background: url(Images/Template/BgRow.jpg) top #FFFFFF repeat-x;
+	border-bottom: solid 1px #999999;
+	padding: 2px;
+}
+
+
+/************************************
+ Estilos para la página de Error
+/************************************/
+
+.cssErrorTitle
+{
+	font-size: 33px;
+	font-weight: bold;
+	color: #003366;
+}
+.cssErrorBox
+{
+	background: #F5F5F5;
+	border-left: solid 1px #C4C4C4;
+	border-right: solid 1px #C4C4C4;
+	border-bottom: solid 1px #C4C4C4;
+}
+.cssLabelForm
+{
+	font-size: 14pt;
+	font-family: Calibri;
+}
+
+.cssLabelTitle
+{
+	font-size: 14pt;
+	font-family: Verdana;
+	font-weight: bold;
+}
+.cssHyperLink
+{
+	cursor: hand;
+}
+
+.cssLinkSpecial
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10px;
+    COLOR: #313484;
+    FONT-FAMILY: Verdana
+}
+.cssLinkSpecial A
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10px;
+    COLOR: #313484;
+    FONT-FAMILY: Verdana
+}
+
+
+.cssLinkSpecialActual
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10px;
+    COLOR: #FF0000;
+    FONT-FAMILY: Verdana
+}
+.cssLinkSpecialActual A
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10px;
+    COLOR: #FF0000;
+    FONT-FAMILY: Verdana
+}
+
+.modalProgressGreyBackground 
+{
+    background:#CCCCCC;
+	filter:alpha(opacity=60);
+	opacity:0.6;
+}
+
+.modalProgressRedBackground 
+{
+    background:Red;
+	filter:alpha(opacity=60);
+	opacity:0.6;
+}
+
+.modalPopup
+{
+    text-align:center;
+    padding-top: 30px; 
+    border-style:solid; 
+    border-width:1px; 
+    background-color:White; 
+    width:300px; 
+    height:100px;
+}
+
+
+/*Modal Popup*/
+.modalBackground {
+	background-color:Gray;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+}
+
+.sampleStyleA {
+	background-color:#FFF;
+}
+
+.sampleStyleB {
+	background-color:#FFF;
+	font-family:monospace;
+	font-size:10pt;
+	font-weight:bold;
+}
+
+.sampleStyleC {
+	background-color:#ddffdd;
+	font-family:sans-serif;
+	font-size:10pt;
+	font-style:italic;
+}
+
+.sampleStyleD {
+	background-color:Blue;
+	color:White;
+	font-family:Arial;
+	font-size:10pt;
+}
+
+.cssAssignTaskTitle
+{
+	color: #FF0000;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/*Nuevos Bpm*/
+
+.cssBgBPM
+{
+	background: url(Images/Template/V9/bgSecurity.jpg) top right no-repeat #C7C7C7;
+	padding: 285px 80px 0 0;
+	vertical-align: top;
+}
+
+table.cssLoginTable{
+	width:300px;
+}
+.cssLoginTable table{
+	width:301px;
+}
+.FormularioLogin {
+	border:1px solid #CCCCCC;
+	color:#666666;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:11px;
+	padding:2px;
+	width:190px;
+}
+
+.inputLoginUser .cssTextBox {
+	background:none;
+	border:none;
+	color:#FFFFFF;
+	font-size:20px;
+	margin:43px 0 0;
+	width:205px;	
+}
+
+.inputLoginUser{
+	height:91px;
+	vertical-align:top;
+	text-align:right;
+}
+
+.inputLoginPass .cssTextBox {
+	background:none;
+	border:none;
+	color:#FFFFFF;
+	font-size:20px;
+	margin:20px 0 0;
+	width:205px;
+}
+
+.inputLoginPass{
+	height:70px;
+	vertical-align:top;
+	text-align:right;
+}
+
+.cssNone .cssLabel{
+	display:none;
+}
+
+div.cssTitleLogin{
+	color:#00579C;
+	display:block;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	padding:0 0 50px 15px;
+	text-align:left;
+}
+
+.cssBtnLogin .cssButton{
+	background:url(Images/Template/V9/btnLogin.jpg);
+	height:72px;
+	width:69px;
+	border:none;
+	text-indent:-1000px;
+	cursor:pointer;
+}
+
+.cssBtnLogin{
+	width:69px;
+	text-align:right;
+}
+.cssBkgWorkItem {
+background:#FFF;
+padding:7px;
+border:6px solid #CCC;
+}
+#ctl00_phDefault_gvTaskList {
+border:1px solid #ccc;
+}

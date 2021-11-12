@@ -1,0 +1,227 @@
+/* CSS Document */
+
+body, html, head
+{
+	height: 100%;
+	font-family: "Trebuchet MS" , Tahoma, Arial;
+	font-size: 12px;
+	color: #666666;
+	text-align: left;
+	margin: 0px;
+}
+body
+{
+	background-color: #EFEFEF;
+}
+img
+{
+	border: none;
+}
+a
+{
+	text-decoration: underline;
+	color: #009999;
+}
+a:hover
+{
+	text-decoration: none;
+	color: #333333;
+}
+
+input, select
+{
+	font-family: "Trebuchet MS" , Tahoma, Arial;
+	color: #666666;
+	font-size: 12px;
+}
+
+input
+{
+	border: none;
+}
+
+
+
+
+
+
+.cssLeftBg
+{
+	background: url( 'Images/Template/L.jpg' ) repeat-y right;
+}
+.cssRightBg
+{
+	background: url( 'Images/Template/R.jpg' ) left repeat-y;
+}
+.cssFooterBg
+{
+	background: url( 'Images/Template/BM.jpg' ) top repeat-x #FFFFFF;
+}
+.cssTxtFooter
+{
+	font-size: 10px;
+	color: #999999;
+	padding-top: 16px;
+}
+.cssLabelTitle
+{
+	font-family: "Trebuchet MS" , Tahoma, Arial;
+	font-size: 14px;
+	font-weight: bold;
+	color: #00377C;
+}
+
+
+
+.cssLabelForm
+{
+	font-family: "Trebuchet MS" , Tahoma, Arial;
+	font-size: 11px;
+	font-weight: bold;
+	color: #666666;
+}
+.cssGrid
+{
+	border: solid 1px #999999;
+}
+.cssSubGrid
+{
+	border: solid 1px #999999;
+	background: url(' Images/Interface/bg_box.jpg') top repeat-x;
+}
+.cssHeaderStyle, .cssHeaderStyle a
+{
+	font-family: 'Trebuchet MS' , Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #00377C;
+	background: #F0F0F0;
+	border-bottom: 1px solid #666666;
+}
+.cssFooterStyle, .cssFooterStyle a, .cssFooterStyle td
+{
+	font-family: 'Trebuchet MS' , Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #666666;
+	background-color: #F5F5F5;
+	border-top: 1px solid #666666;
+}
+.cssItemStyle, .cssItemStyle a
+{
+	font-family: 'Trebuchet MS' , Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	background-color: #FFFFFF;
+}
+.cssItemStyle td
+{
+	border-top: solid 1px #CCCCCC;
+}
+.cssAlternatingItemStyle, .cssAlternatingItemStyle a
+{
+	font-family: 'Trebuchet MS' , Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	background-color: #F7F7F7;
+}
+.cssAlternatingItemStyle td
+{
+	border-top: solid 1px #CCCCCC;
+}
+.cssPager, .cssPager td
+{
+	border: none;
+}
+.cssPager a
+{
+	border: none;
+	color: #666666;
+	text-decoration: none;
+}
+.cssConfigTitle
+{
+	font-size: 14px;
+	font-weight: bold;
+	color: #003366;
+	padding-bottom: 3px;
+}
+.cssErrorTitle
+{
+	font-size: 33px;
+	font-weight: bold;
+	color: #003366;
+}
+.cssErrorBox
+{
+	background: #F5F5F5;
+	border-left: solid 1px #C4C4C4;
+	border-right: solid 1px #C4C4C4;
+	border-bottom: solid 1px #C4C4C4;
+}
+.cssButton
+{
+}
+.cssFormFieldName {}
+
+/* Menus */
+
+.cssGeneral
+{
+	background: #F3F3F3;
+	text-decoration: none;
+}
+.cssStaticMenu
+{
+}
+.cssStaticMenuItem
+{
+	background: #F3F3F3;
+	font-weight: bold;
+	padding-left: 3px;
+	padding-right: 3px;
+	color: #003366;
+	border-bottom: 1px solid #666666;
+	border-right: 1px solid #666666;
+}
+.cssStaticHover
+{
+	background: #003366;
+}
+.cssStaticHover a:hover
+{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+.cssStaticSelected
+{
+	background: #ff0000;
+}
+.cssDynamicMenu
+{
+}
+.cssDynamicMenuItem
+{
+	background: #F7F7F7;
+	width: 100%;
+	padding-left: 3px;
+	padding-right: 3px;
+	border-bottom: 1px solid #666666;
+}
+.cssDynamicHover
+{
+	text-decoration: none;
+	background: #003366;
+	color: #ffffff;
+}
+.cssDynamicHover a:hover
+{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: normal;
+}
+.cssDynamicSelected
+{
+	background: #ff0000;
+}

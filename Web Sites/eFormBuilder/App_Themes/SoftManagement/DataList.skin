@@ -1,0 +1,8 @@
+<asp:DataList runat="server" 
+AlternatingItemStyle-CssClass="cssDataListAlternatingItem" 
+EditItemStyle-CssClass="cssDataListEditItem" 
+FooterStyle-CssClass="cssDataListFooter" 
+HeaderStyle-CssClass ="cssDataListHeader" 
+ItemStyle-CssClass="cssDataListItem" 
+SelectedItemStyle-CssClass="cssDataListSelectedItem" 
+SeparatorStyle-CssClass="cssDataListSeparator"      />

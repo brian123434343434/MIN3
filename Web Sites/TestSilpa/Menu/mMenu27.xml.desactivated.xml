@@ -1,0 +1,6 @@
+<?xml version="1.0" standalone="yes"?>
+<menu>
+  <MenuItem ValueField="" TextField="prueba Configuración y perfiles Sirlys" NavigateUrlField="" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="" ToolTipField="">
+    <MenuItem ValueField="Configuración" TextField="Configuración" NavigateUrlField="http://www.google.com" EnabledField="" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField="" TargetField="_blank" ToolTipField="" />
+  </MenuItem>
+</menu>

@@ -1,0 +1,205 @@
+<%@ Master Language="VB" CodeFile="mpAdmin.master.vb" Inherits="Master_mpAdmin" %>
+
+<%@ Register Src="../Controls/User.ascx" TagName="User" TagPrefix="uc1" %>
+
+<!DOCTYPE html">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head id="Head1" runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VITAL - Gattaca</title>
+    <link href="../jquery/EstiloGris/jquery-ui.css" rel="stylesheet" />
+
+    <style>
+        body {
+             background-color: #FFFFFF !important;
+        }
+        .ContentPlaceHolder_Master {
+            width:100%;
+            border: 2px solid #86847F;
+            padding-top:10px;
+            padding-bottom:10px;
+            background-color: #FFFFFF;
+            border-radius: 12px 12px 12px 12px;
+            -moz-border-radius: 12px 12px 12px 12px;
+            -webkit-border-radius: 12px 12px 12px 12px;
+            /*display:block;*/
+            position: relative;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            /*padding-left: 15px;
+            padding-right: 15px;*/
+        }
+
+       
+
+        
+    </style>
+</head>
+<body id="body" style="background-color: #FFFFFF !important;">
+	<form id="frmInternalParticipant" runat="server">
+		<div id="sitewrapper">
+			<div id="topHeader" style="color: gainsboro !important; padding: 0px !important; margin: 0px !important;">
+				<div class="container" style="padding-top: 15px !important; padding-bottom: 15px !important; vertical-align: middle; font-size: 8.5pt!important; font-family: Arial, sans-serif, Tahoma, Verdana;">
+					<div class="col-md-12">
+						<div class="col-md-4 text-left">
+							<asp:Label ID="lblFecha"  runat="server" EnableTheming="false" Font-Size="8.5pt" Font-Names="Arial, sans-serif, Tahoma, Verdana" ForeColor="#EAEAEA"></asp:Label>
+						</div>
+						<div class="col-md-4 text-center">
+							<asp:Label ID="lblInfoImpers" runat="server" Font-Size="8.5pt" Font-Names="Arial, sans-serif, Tahoma, Verdana" ForeColor="#EAEAEA"></asp:Label>
+							<asp:LinkButton ID="lnkFinalizarImpersonalizacion" runat="server" Visible="False"
+								 Font-Size="8.5pt" Font-Names="Arial, sans-serif, Tahoma, Verdana" ForeColor="#EAEAEA" 
+								 Font-Bold="true" Font-Underline="true">Finalizar Modo Funcionario</asp:LinkButton>
+						</div>
+						<div class="col-md-4 text-right">
+							<uc1:User ID="User1" runat="server" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<header role="banner">
+				<div id="mainHeader-inner" class="container-fluid" style="padding-top: 5px !important; padding-bottom: 5px !important; margin-top: 5px !important; margin-bottom: 5px !important;">
+					<div class="clearfix"></div>
+					<div class="navbar navbar-default" role="navigation">
+						<div id="navbar-top-wrapper">
+							<div id="logo">
+								<span class="brand">
+									<!-- <a id="dnn_dnnLOGO_hypLogo" title="Dnn-VITAL" href="http://dnn-vital.azurewebsites.net/"><img id="dnn_dnnLOGO_imgLogo" src="../App_Themes/Softmanagement/Images/logovitalgris1.jpg?ver=2017-06-23-212203-097" alt="Dnn-VITAL"></a> -->
+									<a id="dnn_dnnLOGO_hypLogo" title="VITAL" href="javascript:;"><img id="dnn_dnnLOGO_imgLogo" src="../App_Themes/Img/iconos/logoAnla.png?ver=2017-06-23-212203-097" alt="VITAL" /></a>
+								</span>
+							</div>
+						</div>
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<div id="navbar" class="collapse navbar-collapse pull-right">
+							<div id="dnnMenu">
+
+								<!--menu-->
+								<asp:Menu ID="mMenu" runat="server" DataSourceID="xdsMenu" Orientation="Horizontal" CssClass="mMenu">
+									<DynamicHoverStyle CssClass="DynamicHoverStyle" />
+									<StaticHoverStyle CssClass="StaticHoverStyle" />
+									<DynamicMenuItemStyle CssClass="DynamicMenuItemStyle" />
+									<DataBindings>
+										<asp:MenuItemBinding DataMember="menuItem" NavigateUrlField="NavigateUrlField" TextField="TextField"
+											ValueField="ValueField" TargetField="TargetField" />
+									</DataBindings>
+								</asp:Menu>
+								<asp:XmlDataSource ID="xdsMenu" runat="server" XPath="/*/*" EnableCaching="false">
+								</asp:XmlDataSource>
+								<!--fin menu-->
+								
+								<%--<ul class="nav navbar-nav topLevel sm" data-smartmenus-id="14994465171975579">
+								   <li><a href='http://licencias.anla.gov.co/xcars/ventanillasilpa' class="has-submenu"><span>Inicio</span></a></li>
+									<li><a href='http://licencias.anla.gov.co/xcars/ventanillasilpa/Inicio/MapadelSitio/tabid/59/language/es-ES/Default.aspx'><span>Mapa del Sitio</span></a></li>
+									<li><a href='#'><span>Solicitudes</span></a></li>
+								   <li class="dropdown"><a href='#'><span>Consultas</span><span class="caret"></span></a>
+									   <ul class="dropdown-menu subLevel sm-nowrap">
+										   <li><a href='http://licencias.anla.gov.co/xcars/SILPA/TestSilpa/security/default.aspx'><span>Estado de su tramite</span></a></li>
+										   <li><a href="../RUIA/ConsultarSancion.aspx?Ubic=ext"><span>Consultar RUIA</span></a></li>
+											<li><a href="../PDV/ConsultaCertificado.aspx?Ubic=ext"><span>Consultar Certificados</span></a></li>
+											<li><a href="../NotificacionElectronica/PublicacionEstados.aspx?Ubic=ext"><span>Consulta estados de publicidad Actos Administrativos</span></a></li>
+									   </ul>
+								   </li>
+								   <li class="dropdown"><a href='#'><span>Sobre el Aplicativo</span><span class="caret"></span></a>
+									   <ul class="dropdown-menu subLevel sm-nowrap">
+										   <li><a href='http://licencias.anla.gov.co/xcars/ventanillasilpa/Inicio/SobreelAplicativo/tabid/66/language/es-ES/Default.aspx'><span>Sobre el Aplicativo</span></a></li>
+										   <li><a href='http://licencias.anla.gov.co/xcars/ventanillasilpa/Inicio/Orientacionalsolicitante/tabid/70/language/es-ES/Default.aspx'><span>Orientacion al Solicitante</span></a></li>
+											<li><a href='http://licencias.anla.gov.co/xcars/ventanillasilpa/Inicio/Indicadores/tabid/68/language/es-ES/Default.aspx'><span>Indicadores</span></a></li>
+											<li><a href='http://licencias.anla.gov.co/xcars/ventanillasilpa/Inicio/Normativida/tabid/67/language/es-ES/Default.aspx'><span>Normativa</span></a></li>
+										   <li><a href='http://licencias.anla.gov.co/xcars/ventanillasilpa/Inicio/Politicasycondicionesdeuso/tabid/71/language/es-ES/Default.aspx'><span>Políticas y condiciones de uso</span></a></li>
+										   <li><a href='http://licencias.anla.gov.co/xcars/ventanillasilpa/Inicio/DirectoriodeAutoridadesAmbientales/tabid/58/language/es-ES/Default.aspx'><span>Directorio autoridades</span></a></li>
+									   </ul>
+								   </li>
+									<li><a href="../Informacion/Publicaciones.aspx"><span>Publicaciones</span></a></li>
+									<li><a href="../DatosPersonalesNuevo.aspx?reg=registro"><span>Registrese</span></a></li>
+									<li><a href='http://licencias.anla.gov.co/xcars/ventanillasilpa/Inicio/Ayuda/tabid/60/language/es-ES/Default.aspx'><span>Ayuda</span></a></li>
+									<li><a href="../QuejasDenuncias/QuejasDenuncias.aspx?Ubic=Ext"><span>Presentar denuncias ambientales</span></a></li>
+									<li><a href="../AudienciaPublica/MenuAudienciaPublica.aspx?Ubic=Ext"><span>Audiencia publica</span></a></li>
+									<li><a href='#'><span>Notificacion Electronica</span></a></li>
+								</ul>--%>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<div class="container">
+				<asp:ScriptManager ID="smPrincipal" runat="server"></asp:ScriptManager>
+				<asp:UpdateProgress ID="upPrincipal" runat="server" DisplayAfter="0">
+					<ProgressTemplate>
+						<div id="MODAL_DIV_AJAX" style="width: 172px; height: 52px; position: absolute; z-index: 9999;">
+							<asp:Image ID="ProgressIndicator" SkinID="ProgressIndicator" runat="server" />
+						</div>
+						<div id="MODAL_DIV_AJAX_TOTAL" style="filter: alpha(opacity=60); background: #444; position: absolute; z-index: 9998;"></div>
+					</ProgressTemplate>
+				</asp:UpdateProgress>
+				<div class="ContentPlaceHolder_Master col-md-12">
+					<asp:Label ID="lblTitle" runat="server" SkinID="LabelTitle"></asp:Label>
+					<asp:ContentPlaceHolder ID="cphPrincipal" runat="server"></asp:ContentPlaceHolder>
+					<asp:XmlDataSource ID="InternalParticipantMenuDataSource" runat="server" 
+						DataFile="~/Include/Server/InternalParticipantMenu.xml"
+						XPath="/*/*"></asp:XmlDataSource>
+				</div>
+				<div class="col-md-12">
+					<asp:Label ID="lblMensaje" SkinID="etiqueta_roja_error" runat="server"></asp:Label>
+				</div>
+			</div>
+			<footer role="contentinfo" style="padding-left: 0 !important; padding-right: 0 !important; margin-left: 0 !important; margin-right: 0 !important;">
+				<%--<div class="footer-above">
+					<div class="container">
+						<div class="dnnpane">
+							<div id="dnn_footer_25_1" class="footer-col col-md-3 col-sm-6 DNNEmptyPane"></div>
+							<div id="dnn_footer_25_2" class="footer-col col-md-3 col-sm-6 DNNEmptyPane"></div>
+							<div class="clearfix visible-sm"></div>
+							<div id="dnn_footer_25_3" class="footer-col col-md-3 col-sm-6 DNNEmptyPane"></div>
+							<div id="dnn_footer_25_4" class="footer-col col-md-3 col-sm-6 DNNEmptyPane"></div>
+						</div>
+					</div>
+				</div>--%>
+				<div class="footer-below" style="border-top: 10px solid #151515;">
+					<div class="container">
+						<div class="dnnpane">
+							<div class="col-md-12">
+								<div class="copyright">
+									<!-- <span id="dnn_dnnCopyright_lblCopyright" class="SkinObject">Copyright 2017 DNN Corp</span> -->
+									<span id="dnn_dnnCopyright_lblCopyright" class="SkinObject" style="color: #d2d2d2 !important; font-family: Arial, sans-serif, Tahoma, Verdana !important; font-size: 9pt !important;">Copyright &copy; <%= DateTime.Now.Year %> Autoridad Nacional de Licencias Ambientales - ANLA</span>
+								</div>
+								<!-- <div class="terms-priv">
+									<a id="dnn_dnnTerms_hypTerms" class="SkinObject" rel="nofollow" href="http://dnn-vital.azurewebsites.net/Terms">Términos de uso</a>
+									|
+									<a id="dnn_dnnPrivacy_hypPrivacy" class="SkinObject" rel="nofollow" href="http://dnn-vital.azurewebsites.net/Privacy">Política de privacidad</a>
+								</div> -->
+								<div class="terms-priv">
+									<a id="dnn_dnnTerms_hypTerms" class="SkinObject" rel="nofollow" 
+										href="http://licencias.anla.gov.co/xcars/ventanillasilpa/Inicio/Politicasycondicionesdeuso/tabid/71/language/es-ES/Default.aspx"
+										title="Condiciones y Términos de Uso" target="_blank" 
+										style="color: white !important; text-decoration: none !important;">Condiciones y Términos de Uso</a>
+									|
+									<a id="dnn_dnnPrivacy_hypPrivacy" class="SkinObject" rel="nofollow" 
+										href="http://www.anla.gov.co/sites/default/files/gt-po-3_politica_proteccion_datos_personales_v1.pdf" 
+										title="Política de Privacidad" target="_blank" 
+										style="color: white !important; text-decoration: none !important;">Política de Privacidad</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<script src='<%= ResolveClientUrl("~/js/jquery.js") %>' type="text/javascript"></script>
+		<script src='<%= ResolveClientUrl("~/js/EstiloGris/jquery-ui.js") %>' type="text/javascript"></script>
+		<script src='<%= ResolveClientUrl("~/js/jquery.numeric.js") %>' type="text/javascript"></script>
+		<script src='<%= ResolveClientUrl("~/js/jquery.datetimepicker.js") %>' type="text/javascript"></script>
+		<script src='<%= ResolveClientUrl("~/App_Themes/Softmanagement/Xcillion/Bootstrap/js/bootstrap.min.js?cdv=51") %>' type="text/javascript"></script>
+		<script src='<%= ResolveClientUrl("~/js/Xcillion/Js/jquery.smartmenus.js?cdv=51") %>' type="text/javascript"></script>
+		<script src='<%= ResolveClientUrl("~/js/Xcillion/Js/jquery.smartmenus.bootstrap.js?cdv=51") %>' type="text/javascript"></script>
+		<script src='<%= ResolveClientUrl("~/js/Xcillion/Js/scripts.js?cdv=51") %>' type="text/javascript"></script>
+    </form>
+</body>
+</html>

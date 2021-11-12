@@ -1,0 +1,49 @@
+<asp:TreeView SkinID="TreeViewFuncionario" runat="server" ShowLines="True">
+	<Nodes>
+		<asp:TreeNode Text="Estado de su Trámite" Value="Tareas del Sistema de Procesos">
+			<asp:TreeNode Text="Actividades sin Iniciar" Value="4"></asp:TreeNode>
+			<asp:TreeNode Text="Actividades en Atenci&#243;n" Value="2"></asp:TreeNode>
+			<asp:TreeNode Text="Actividades Suspendidas" Value="8"></asp:TreeNode>
+			<asp:TreeNode Text="Actividades Abortadas" Value="242"></asp:TreeNode>
+			<asp:TreeNode Text="Actividades Terminadas" Value="244"></asp:TreeNode>
+			<asp:TreeNode Text="Actividades Completas" Value="248"></asp:TreeNode>
+		</asp:TreeNode>
+						<asp:TreeNode Text="Inicio" Value="Opciones" Expanded="false">
+    		<asp:TreeNode Text="Ir al Inicio" Value=""></asp:TreeNode>
+		</asp:TreeNode>
+		<asp:TreeNode Text="Reportes" Value="Reportes">
+			<asp:TreeNode Text="Trámites" Value="PI"></asp:TreeNode>
+			<asp:TreeNode Text="Actividades" Value="AI"></asp:TreeNode>
+			<asp:TreeNode Text="Consolidado Actividades" Value="CAI"></asp:TreeNode>
+		</asp:TreeNode>
+		<asp:TreeNode Text="Opciones" Value="Opciones">
+    		<asp:TreeNode Text="Iniciar Trámite" Value="User"></asp:TreeNode>
+			<asp:TreeNode Text="Cambiar Contraseña" Value="ChangePassword"></asp:TreeNode>
+			<asp:TreeNode Text="Salir" Value="LogOut"></asp:TreeNode>
+		</asp:TreeNode>
+	</Nodes>
+	<HoverNodeStyle CssClass="cssTreeViewHoverNode" />
+	<SelectedNodeStyle CssClass="cssTreeViewSelectedNode" />
+	<RootNodeStyle CssClass="cssTreeViewRootNode" />
+	<LeafNodeStyle CssClass="cssTreeViewLeafNode" />
+	<NodeStyle CssClass="cssTreeViewNode" />
+</asp:TreeView>
+
+<asp:TreeView SkinID="TreeViewUser" runat="server" ShowLines="True">
+	<Nodes>
+		<asp:TreeNode Text="Trámites" Value="Consulte el estado de los procesos creados anteriormente">
+			<asp:TreeNode Text="Trámites disponibles" Value="1"></asp:TreeNode>
+			<asp:TreeNode Text="Trámites en curso" Value="2"></asp:TreeNode>
+		</asp:TreeNode>
+		<asp:TreeNode Text="Opciones" Value="Opciones">
+    		<asp:TreeNode Text="Seguimiento de Actividades" Value="3"></asp:TreeNode>
+			<asp:TreeNode Text="Cambiar contraseña" Value="ChangePassword"></asp:TreeNode>
+			<asp:TreeNode Text="Salir" Value="LogOut"></asp:TreeNode>
+		</asp:TreeNode>
+	</Nodes>
+	<HoverNodeStyle CssClass="cssTreeViewHoverNode" />
+	<SelectedNodeStyle CssClass="cssTreeViewSelectedNode" />
+	<RootNodeStyle CssClass="cssTreeViewRootNode" />
+	<LeafNodeStyle CssClass="cssTreeViewLeafNode" />
+	<NodeStyle CssClass="cssTreeViewNode" />
+</asp:TreeView>

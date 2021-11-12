@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WF_Process Version="8.3">
+  <Process Id="3" Code="Solicitud DAA">
+    <Id>3</Id>
+    <Code>Solicitud DAA</Code>
+    <Name>Solicitud DAA</Name>
+    <Description>Solicitud DAA</Description>
+    <Created>7/21/2009 5:12:00 PM</Created>
+    <Version>1</Version>
+    <Author>1</Author>
+    <Responsible />
+    <Documentation />
+    <DurationUnit>4</DurationUnit>
+    <Duration>1</Duration>
+    <InitialActivity>24</InitialActivity>
+    <Enabled>T</Enabled>
+  </Process>
+  <Packages>
+    <Package Id="1" Code="PQ01-ALKOSTO">
+      <Id>1</Id>
+      <Code>PQ01-ALKOSTO</Code>
+      <Name>ALKOSTO</Name>
+      <Creator />
+      <Created>1/1/1900 12:00:00 AM</Created>
+      <Description>ALKOSTO</Description>
+      <Documentation />
+      <Enabled>T</Enabled>
+    </Package>
+  </Packages>
+  <Activities>
+    <Activity />
+  </Activities>
+  <Conditions>
+    <Condition />
+  </Conditions>
+  <ConditionsByActivity>
+    <ConditionByActivity />
+  </ConditionsByActivity>
+  <Transitions>
+    <Transition />
+  </Transitions>
+  <TransitionsRule>
+    <TransitionRule />
+  </TransitionsRule>
+  <ProcessCases>
+    <ProcessCase />
+  </ProcessCases>
+  <MailSettings>
+    <MailSetting />
+  </MailSettings>
+  <History>
+    <ProcessInstances>
+      <ProcessInstance />
+    </ProcessInstances>
+    <ActivityInstances>
+      <ActivityInstance />
+    </ActivityInstances>
+  </History>
+</WF_Process>

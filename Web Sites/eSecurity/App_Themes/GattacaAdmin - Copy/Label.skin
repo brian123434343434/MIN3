@@ -1,0 +1,2 @@
+<asp:Label runat="server" CssClass="cssLabel"/>
+<asp:Label runat="server" CssClass="cssLabel" SkinID="Lebon" Text=""/>

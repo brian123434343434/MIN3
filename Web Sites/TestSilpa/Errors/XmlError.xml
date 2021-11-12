@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<errores>
+<error codigo="1" mensajeGattaca ="El Usuario no existe. Verifique el Login." mensajeSilpa="El usuario no existe, por favor ingrese por la opción de registro para solicitar un usuario y contraseña validos" />
+<error codigo="2" mensajeGattaca ="Contraseña incorrecta. Verifique." mensajeSilpa=" Contraseña incorrecta. Verifique." />
+<error codigo="3" mensajeGattaca ="Su usuario ha sido deshabilitado o su contraseña se ha vencido.186" mensajeSilpa="El usuario se encuentra inactivo  contáctese con el administrador del sistema" />
+<error codigo="4" mensajeGattaca ="El usuario se encuentra inactivo, contactese con el administrador del sistema." mensajeSilpa="xxx" />
+</errores>

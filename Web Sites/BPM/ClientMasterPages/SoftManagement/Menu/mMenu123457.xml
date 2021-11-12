@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!--Administrador-->
+<menu >
+  <MenuItem ValueField="MAVDT" TextField="Inicio" NavigateUrlField="" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+  <MenuItem ValueField="Administrador" TextField="Administrador" NavigateUrlField="" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField="">
+    <MenuItem ValueField="eSecurity" TextField="Usuarios y Seguridad" NavigateUrlField="~/security/goto.aspx?app=SEC" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+    <MenuItem ValueField="BPM" TextField="Parametrización de Flujos" NavigateUrlField="~/security/goto.aspx?app=BPM&amp;op=ADMIN" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+    <MenuItem ValueField="eFormBuilder" TextField="Diseñador de Formularios" NavigateUrlField="~/security/goto.aspx?app=FB" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+    <MenuItem ValueField="eReportBuilder" TextField="Reportes" NavigateUrlField="~/security/goto.aspx?app=RB" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+    <MenuItem ValueField="tablasbasicas" TextField="Tablas Básicas" NavigateUrlField="http://192.168.1.30/SilpaTablasBasicas/adm_parametros/tablas_basicas.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+  </MenuItem>
+  <MenuItem ValueField="Tareas" TextField="Tareas" NavigateUrlField="" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField="">
+    <MenuItem ValueField="Lista de Tareas" TextField="Mis Tareas" NavigateUrlField="~/security/goto.aspx?app=BPM&amp;op=TL" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+  </MenuItem>
+  <MenuItem TextField="Salir" ValueField="Salir" NavigateUrlField="~/Security/logout.aspx" EnabledField="True" FormatString="" ImageUrlField="" PopOutImageUrlField="" SelectableField="" SeparatorImageUrlField=""  TargetField="" ToolTipField=""></MenuItem>
+</menu>
